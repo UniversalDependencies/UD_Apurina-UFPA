@@ -240,18 +240,21 @@ NB	.	.	_	_	_	_	_	_	_
 # text_pt = ‘Ele tinha motor, tinha batedeira de açaí e um batelão.’Q
 # text_en = 
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Msc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
-2	apaka	apaka	ADV	XPOS=também	_	_	_	_	gloss[pt]=também
-3	awa	awa	VERB	XPOS=ter	_	_	_	_	gloss[pt]=ter
-4	muture	muture	_	XPOS=motor	_	_	_	_	gloss[pt]=motor
+2	apaka	apaka	ADV	Adv	_	_	_	_	gloss[pt]=também
+3	awa	awa	VERB	V	_	_	_	_	gloss[pt]=ter
+4	muture	muture	_	N	_	_	_	_	gloss[pt]=motor
 5	,	,	PUNCT	_	_	_	punct	_	gloss[pt]=3SG.M
-6	Ywa	Ywa	_	XPOS=também	_	_	_	_	gloss[pt]=também
-7	apaka	apaka	VERB	XPOS=ter	_	_	_	_	gloss[pt]=ter
-8	awa	awa	VERB	XPOS=açaí	_	_	_	_	gloss[pt]=açaí
-9	tsapyryky	tsapyryky	VERB	XPOS=fazer-REL.O.M.	_	_	_	_	gloss[pt]=fazer-REL.O.M.
-	kamakyty	kamakyty	PRON	XPOS=3SG.M	_	_	_	_	gloss[pt]=3SG.M|SpaceAfter=No
-NB	,	,	_	_	_	_	_	_	_
-NB	Ywa	Ywa	_	XPOS=?	_	_	_	_	gloss[pt]=?
-NB	pekana	pekana	VERB	XPOS=ter	_	_	_	_	gloss[pt]=ter
+6	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
+7	apaka	apaka	VERB	Adv	_	_	_	_	gloss[pt]=também
+8	awa	awa	VERB	V	_	_	_	_	gloss[pt]=ter
+9	tsapyryky	tsapyryky	NOUN	N	_	_	_	_	gloss[pt]=açaí
+	kamakyty	kama	VERB	XPOS=fazer-REL.O.M.	_	_	_	_	gloss[pt]=fazer-REL.O.M.|SpaceAfter=No
+10	,	,	PUNCT	_	_	_	punct	_	_
+11	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
+12	pekana	pekana	_	_	_	_	_	_	gloss[pt]=?
+13	awa	awa	VERB	V	_	_	_	_	gloss[pt]=ter
+14	mapurupuwapekana	mapuru	NOUN	_	_	_	punct	_	gloss[pt]=barco-AUM-PFTV-PRED-?|SpaceAfter=No
+15	.	.	PUNCT	_	_	_	punct	_	_
 #apu=awa mapurupuwapekana#pt=barco-AUM-PFTV-PRED-?
 
 <€/># sent_id = FernandaM2017:Texto-6-17
