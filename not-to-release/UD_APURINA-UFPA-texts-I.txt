@@ -1,36 +1,9 @@
 # -*- coding : UTF-8 -*-
-# sent_id = FernandaM2017:Texto-2-10
-# text_orig = Kaiãa-puku-ry tiwi-txi,
-# text = Kaiãapukury tiwitxi,
-# gloss_pt = existir.muito-DISTR-3SG.M.O coisa.de-N.POSSD
-# text_pt = ‘Tinha muita panela,’Q
-# text_en = 
-1	Kaiãapukury	Kaiãa	VERB	XPOS=existir.muito-DISTR-3SG.M.O	_	_	_	_	gloss[pt]=existir.muito-DISTR-3SG.M.O
-2	tiwitxi	tiwitxi	NOUN	XPOS=coisa.de-N.POSSD	_	1	nsubj	_	gloss[pt]=coisa.de-N.POSSD|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
-
 
 Texto 3 (colaboradores: alunos da escola da Comunidade Vila Nova)
 
 Texto 4 (colaborador: Alf)
 
-# sent_id = FernandaM2017:Texto-4-3
-# text_orig = Ĩ-kanapyryã-ka-saaky aapuku-munhi, Ywa awa-ry i-nha-kytu selula; i-nha-kytu kũputado awa 
-# text = Ĩkanapyryãkasaaky aapukumunhi, Ywa awary inhakytu selula; inhakytu kũputado awa 
-# gloss_pt = 3SG.M-voltar-PRED-TEMP comunidade.de-DAT 3SG.M ter-3SG.M.O 3SG.M-ser-REL.F.O celular 3SG.M-ser-REL.F.O computador ter
-# text_pt = ‘Quando ele voltou pra comunidade, ele tinha o celular dele; tinha o computador dele,’Q
-# text_en = 
-1	Ĩkanapyryãkasaaky	kanapyryã	VERB	XPOS=3SG.M-voltar-PRED-TEMP	_	_	_	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
-2	aapukumunhi	aapuku	_	XPOS=comunidade.de-DAT	_	_	_	_	gloss[pt]=comunidade.de-DAT|SpaceAfter=No
-3	,	,	PUNCT	_	_	_	punct	_	_
-4	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Msc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
-5	awary	awa	VERB	XPOS=ter-3SG.M.O	_	_	_	_	gloss[pt]=ter-3SG.M.O
-6	inhakytu	nha	VERB	XPOS=3SG.M-ser-REL.F.O	_	_	_	_	gloss[pt]=3SG.M-ser-REL.F.O
-7	selula	selula	_	XPOS=celular	_	_	_	_	gloss[pt]=celular|SpaceAfter=No
-8	;	;	PUNCT	_	_	_	punct	_	_
-9	inhakytu	nha	VERB	XPOS=3SG.M-ser-REL.F.O	_	_	_	_	gloss[pt]=3SG.M-ser-REL.F.O
-	kũputado	kũputado	_	XPOS=computador	_	_	_	_	gloss[pt]=computador
-NB	awa	awa	VERB	XPOS=ter	_	_	_	_	gloss[pt]=ter
 
 # sent_id = FernandaM2017:Texto-4-8
 # text_orig = Ykyny-k-aapuku ãki y-nere-ka-kyty amuta.
@@ -215,7 +188,7 @@ NB	.	.	_	_	_	_	_	_	_
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Msc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
 2	matxaka	matxaka	_	XPOS=tirar	_	_	_	_	gloss[pt]=tirar
 3	kaiãapuku	kaiãapuku	_	XPOS=muito-DISTR	_	_	_	_	gloss[pt]=muito-DISTR
-4	maky	maky	_	XPOS=castanha	_	_	_	_	gloss[pt]=castanha|SpaceAfter=No
+4	maky	maky	_	N	Gender=Fem	_	_	_	gloss[pt]=castanha|SpaceAfter=No
 5	.	.	PUNCT	_	_	_	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-15
@@ -226,12 +199,12 @@ NB	.	.	_	_	_	_	_	_	_
 # text_en = 
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Msc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
 2	vĩtxita	vĩtxita	_	XPOS=vender	_	_	_	_	gloss[pt]=vender
-3	maky	maky	_	XPOS=castanha	_	_	_	_	gloss[pt]=castanha|SpaceAfter=No
+3	maky	maky	NOUN	N	Gender=Fem	_	_	_	gloss[pt]=castanha|SpaceAfter=No
 4	,	,	PUNCT	_	_	_	punct	_	_
 5	ywa	ywa	PRON	Pron	Case=Nom|Gender=Msc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
 6	amutary	amutary	_	XPOS=comprar-3SG.M.O	_	_	_	_	gloss[pt]=comprar-3SG.M.O
 7	ykynypuku	ykynypuku	_	XPOS=todo-DISTR	_	_	_	_	gloss[pt]=todo-DISTR
-8	tiitxi	tiitxi	_	XPOS=coisa.de-N.POSSD	_	_	_	_	gloss[pt]=coisa.de-N.POSSD
+8	tiitxi	tiwitxi	_	N	Case=Nom|Gender=Masc|Possessed=No	_	_	_	gloss[pt]=coisa.de-N.POSSD
 
 # sent_id = FernandaM2017:Texto-6-16
 # text_orig = Ywa apaka awa muture , Ywa apaka awa tsapyryky kama-kyty, Ywa pekana awa mapuru-puwa-pe-ka-na
@@ -478,7 +451,7 @@ Texto 8 (colaborador: Zé In)
 # text_pt = ‘Tem muita gente na nossa comunidade.’Q
 # text_en = 
 1	Kuna.kamunyry	Kuna.kamunyry	VERB	XPOS=existir.muito-3SG.M.O	_	_	_	_	gloss[pt]=existir.muito-3SG.M.O
-2	kãkity	kãkity	_	XPOS=gente	_	_	_	_	gloss[pt]=gente
+2	kãkity	kãkity	_	N	Gender=Masc	_	_	_	gloss[pt]=gente
 3	ãawinhipuku	ãawinhipuku	_	XPOS=1PL-comunidade.de-DISTR	_	_	_	_	gloss[pt]=1PL-comunidade.de-DISTR
 4	iãtã	iãtã	_	XPOS=lugar	_	_	_	_	gloss[pt]=lugar|SpaceAfter=No
 5	.	.	PUNCT	_	_	_	punct	_	_
@@ -528,7 +501,7 @@ Texto 8 (colaborador: Zé In)
 # text_pt = ‘Lá a gente tem na comunidade as criações.’Q
 # text_en = 
 1	Ywã	Ywã	_	XPOS=lá	_	_	_	_	gloss[pt]=lá
-2	kãkite	kãkite	_	XPOS=gente	_	_	_	_	gloss[pt]=gente
+2	kãkite	kãkite	_	N	Gender=Masc	_	_	_	gloss[pt]=gente
 3	awa	awa	VERB	XPOS=ter	_	_	_	_	gloss[pt]=ter
 4	ãawinhinhĩã	ãawinhinhĩã	_	XPOS=1PL-comunidade.de-LOC	_	_	_	_	gloss[pt]=1PL-comunidade.de-LOC
 5	ypyrawakury	ypyrawakury	NOUN	XPOS=3SG.M-criação.de-PL-M	_	_	_	_	gloss[pt]=3SG.M-criação.de-PL-M|SpaceAfter=No
@@ -569,7 +542,7 @@ Texto 9 (colaborador: Zé In)
 1	Kyynyrysaaky	Kyynyrysaaky	_	XPOS=xingané-TEMP	_	_	_	_	gloss[pt]=xingané-TEMP
 2	aputurytawana	aputurytawana	_	XPOS=3PL.M-?juntar-VBLZ-REFL-3PL.M	_	_	_	_	gloss[pt]=3PL.M-?juntar-VBLZ-REFL-3PL.M
 3	ithu	ithu	_	XPOS=muito	_	_	_	_	gloss[pt]=muito
-4	kãkity	kãkity	_	XPOS=gente	_	_	_	_	gloss[pt]=gente|SpaceAfter=No
+4	kãkity	kãkity	_	N	Gender=Masc	_	_	_	gloss[pt]=gente|SpaceAfter=No
 5	.	.	PUNCT	_	_	_	punct	_	_
 
 # sent_id = FernandaM2017:Texto-9-3
@@ -591,7 +564,7 @@ Texto 9 (colaborador: Zé In)
 # text_en = 
 1	Ipinanyra	Ipinanyra	_	XPOS=dois-RESTR-FOC	_	_	_	_	gloss[pt]=dois-RESTR-FOC
 2	awa	awa	VERB	XPOS=existir	_	_	_	_	gloss[pt]=existir
-3	kãkity	kãkity	_	XPOS=gente	_	_	_	_	gloss[pt]=gente
+3	kãkity	kãkity	_	N	Gender=Masc	_	_	_	gloss[pt]=gente
 4	serẽka	serẽka	_	XPOS=dança	_	_	_	_	gloss[pt]=dança|SpaceAfter=No
 5	:	:	PUNCT	_	_	_	punct	_	_
 6	katsamarĩẽne	katsamarĩẽne	_	XPOS=ATRIB-NC.longo,fino,	_	_	_	_	gloss[pt]=ATRIB-NC.longo,fino,|SpaceAfter=No
