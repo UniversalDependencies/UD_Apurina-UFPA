@@ -918,7 +918,7 @@
 1	Ywãtãa	Ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl:lmod	_	gloss[pt]=naquele.lugar
 2	ykynypuku	ykynypuku	DET	XPOS=todo-DISTR	_	0	root	_	gloss[pt]=todo-DISTR
 3	awa	awa	AUX	V	_	2	cop	_	gloss[pt]=existir
-4	kaxinhirywakury	kaxinhirywakury	NOUN	XPOS=ATRIB-carne.de-3SG.M.O-PL	_	2	nsubj:cop	_	gloss[pt]=ATRIB-carne.de-3SG.M.O-PL
+4	kaxinhirywakury	kaxinhirywakury	NOUN	XPOS=ATRIB-carne.de-3SG.M.O-PL	_	2	nsubj:cop	_	gloss[pt]=ATRIB-carne.de-3SG.M.O-PL|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-12
@@ -931,7 +931,7 @@
 2	kawãryã	kawãryã	NOUN	XPOS=igarapé-LOC	_	4	obl:lmod	_	gloss[pt]=igarapé-LOC
 3	kuna	kuna	AUX	XPOS=não	_	4	aux:neg	_	gloss[pt]=não
 4	fawtatinhi	fawtatinhi	VERB	XPOS=faltar-VBLZ-GER	_	0	root	_	gloss[pt]=faltar-VBLZ-GER
-5	ximaky	ximaky	NOUN	XPOS=peixe	_	4	obj	_	gloss[pt]=peixe|Possessed=No
+5	ximaky	ximaky	NOUN	XPOS=peixe	_	4	obj	_	gloss[pt]=peixe|Possessed=No|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-13
@@ -959,7 +959,7 @@
 5	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	gloss[pt]=3SG.M
 6	amutary	amuta	VERB	XPOS=comprar-3SG.M.O	_	2	conj	_	gloss[pt]=comprar-3SG.M.O
 7	ykynypuku	ykynypuku	DET	XPOS=todo-DISTR	_	8	det	_	gloss[pt]=todo-DISTR
-8	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	6	obj	_	gloss[pt]=coisa.de-N.POSSD|Possessed=No
+8	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	6	obj	_	gloss[pt]=coisa.de-N.POSSD|Possessed=No|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-15
@@ -971,7 +971,7 @@
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
 2	apaka	apaka	ADV	Adv	_	3	advmod	_	gloss[pt]=também
 3	awa	awa	VERB	V	_	0	root	_	gloss[pt]=ter
-4	muture	muture	NOUN	N	_	3	obj	_	gloss[pt]=motor|Possessed=No
+4	muture	muture	NOUN	N	_	3	obj	_	gloss[pt]=motor|Possessed=No|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	gloss[pt]=3SG.M
 6	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	gloss[pt]=3SG.M
 7	apaka	apaka	ADV	Adv	_	8	advmod	_	gloss[pt]=também
@@ -994,7 +994,7 @@
 1	Kuna	Kuna	AUX	XPOS=não	_	2	aux:neg	_	gloss[pt]=não
 2	faltatinhi	faltata	VERB	XPOS=faltar-GER	_	4	nsubj:cop	_	gloss[pt]=faltar-GER
 3	hãty	hãty	NUM	XPOS=um,outro	_	4	nummod	_	gloss[pt]=um,outro
-4	kananeã	kanane	NOUN	XPOS=ano-LOC	_	0	root	_	gloss[pt]=ano-LOC|Possessed=No
+4	kananeã	kanane	NOUN	XPOS=ano-LOC	_	0	root	_	gloss[pt]=ano-LOC|Possessed=No|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-17
@@ -1004,9 +1004,9 @@
 # text_pt = ‘Tinha tudo lá.’
 # text_en = There was everything there.
 1	Ykynypuku	Ykynypuku	PRON	XPOS=tudo-DISTR	_	4	nsubj:cop	_	gloss[pt]=tudo-DISTR
-2	awa	awa	VERB	XPOS=existir	_	4	cop	_	gloss[pt]=existir
+2	awa	awa	AUX	XPOS=existir	_	4	cop	_	gloss[pt]=existir
 3	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	det	_	gloss[pt]=3SG.M
-4	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	0	root	_	gloss[pt]=naquele.lugar
+4	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	0	root	_	gloss[pt]=naquele.lugar|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-18
