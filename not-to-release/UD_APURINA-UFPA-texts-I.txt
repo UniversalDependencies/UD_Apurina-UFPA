@@ -366,7 +366,7 @@ Texto 10 (colaborador: Gil)
 # text_pt = ‘Nossa casa é pequena’Q
 # text_en = 
 1	Atha	Atha	PRON	XPOS=1PL	_	_	_	_	gloss[pt]=1PL
-2	aapuku	aapuku	_	XPOS=casa.de	_	_	_	_	gloss[pt]=casa.de
+2	aapuku	awapuku	_	XPOS=casa.de	_	_	_	_	gloss[pt]=casa.de
 3	xepitiry	xepitiry	_	XPOS=ser.pequeno-3SG.M.O	_	_	_	_	gloss[pt]=ser.pequeno-3SG.M.O|SpaceAfter=No
 4	.	.	PUNCT	_	_	_	punct	_	_
 
@@ -376,9 +376,9 @@ Texto 10 (colaborador: Gil)
 # gloss_pt = EXORT-fazer-3SG.M.O casa.de-N.POSSD ATRIB.INTENS-?FOC-?corpo.de-3SG.M.O
 # text_pt = ‘Vamos fazer uma casa muito grande’Q
 # text_en = 
-1	Makamary	Makamary	_	XPOS=EXORT-fazer-3SG.M.O	_	_	_	_	gloss[pt]=EXORT-fazer-3SG.M.O
-2	aapukutxi	aapukutxi	_	XPOS=casa.de-N.POSSD	_	_	_	_	gloss[pt]=casa.de-N.POSSD
-3	myramanery	myramanery	_	XPOS=ATRIB.INTENS-?FOC-?corpo.de-3SG.M.O	_	_	_	_	gloss[pt]=ATRIB.INTENS-?FOC-?corpo.de-3SG.M.O|SpaceAfter=No
+1	Makamary	kama	_	XPOS=EXORT-fazer-3SG.M.O	_	_	_	_	gloss[pt]=EXORT-fazer-3SG.M.O
+2	aapukutxi	awapukutxi	_	XPOS=casa.de-N.POSSD	_	_	_	_	gloss[pt]=casa.de-N.POSSD
+3	myramanery	mane	_	XPOS=ATRIB.INTENS-?FOC-?corpo.de-3SG.M.O	_	_	_	_	gloss[pt]=ATRIB.INTENS-?FOC-?corpo.de-3SG.M.O|SpaceAfter=No
 4	.	.	PUNCT	_	_	_	punct	_	_
 
 # sent_id = FernandaM2017:Texto-10-7
@@ -397,7 +397,7 @@ Texto 10 (colaborador: Gil)
 
 Texto 11 (colaborador: Abe)
 
-<€/># sent_id = FernandaM2017:Texto-11-1
+# sent_id = FernandaM2017:Texto-11-1
 # text_orig = Uwa awinhi awa sytu. 
 # text = Uwa awinhi awa sytu. 
 # gloss_pt = 3SG.F casa.de estar.em mulher
@@ -418,31 +418,24 @@ Texto 11 (colaborador: Abe)
 # text_en = 
 1	Na=ãtyru	Na=ãtyru	VERB	XPOS=não=existir.um-3SG.F.O	_	_	_	_	gloss[pt]=não=existir.um-3SG.F.O
 2	sytu	sytu	NOUN	XPOS=mulher	_	_	_	_	gloss[pt]=mulher
-3	anaakury	anaakury	_	XPOS=filho.de-PL	_	_	_	_	gloss[pt]=filho.de-PL|SpaceAfter=No
+3	anaakury	ana	_	XPOS=filho.de-PL	_	_	_	_	gloss[pt]=filho.de-PL|SpaceAfter=No
 4	.	.	PUNCT	_	_	_	punct	_	_
 
 # sent_id = FernandaM2017:Texto-11-3
-# text_orig = U-sãkire-wa-ta: 
-# text = Usãkirewata: 
-# gloss_pt = 3SG.F-falar-REFL-VBLZ
-# text_pt = ‘Ela falou:’Q
-# text_en = 
-NB	Usãkirewata	Usãkirewata	VERB	XPOS=3SG.F-falar-REFL-VBLZ	_	_	_	_	gloss[pt]=3SG.F-falar-REFL-VBLZ|SpaceAfter=No
-NB	:	:	_	_	_	_	_	_	_
+# text_orig = U-sãkire-wa-ta: – Na=ãty-wa atha wai.
+# text = Usãkirewata: – Naãtywa atha wai.
+# gloss_pt = 3SG.F-falar-REFL-VBLZ – não=existir.um-1PL.O 1PL aqui
+# text_pt = ‘Ela falou: Tem muitos de nós aqui’ (Lit.: ‘Nós somos muitos aqui’)
+# text_en = She said:
+1	Usãkirewata	Usãkirewata	VERB	XPOS=3SG.F-falar-REFL-VBLZ	_	_	_	_	gloss[pt]=3SG.F-falar-REFL-VBLZ|SpaceAfter=No
+2	:	:	PUNCT	_	_	_	_	_	_
+3	–	–	PUNCT	_	_	punct	_	_	_
+4	Na=ãtywa	Na=ãtywa	VERB	XPOS=não=existir.um-1PL.O	_	_	_	_	gloss[pt]=não=existir.um-1PL.O
+5	atha	atha	PRON	XPOS=1PL	_	_	_	_	gloss[pt]=1PL
+6	wai	wai	ADV	XPOS=aqui	_	_	_	_	gloss[pt]=aqui|SpaceAfter=No
+7	.	.	PUNCT	_	_	_	punct	_	_
 
 # sent_id = FernandaM2017:Texto-11-4
-# text_orig = – Na=ãty-wa atha wai. 
-# text = – Na=ãtywa atha wai. 
-# gloss_pt = – não=existir.um-1PL.O 1PL aqui
-# text_pt = ‘Tem muitos de nós aqui’ Lit.: ‘Nós somos muitos aqui’Q
-# text_en = 
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	Na=ãtywa	Na=ãtywa	VERB	XPOS=não=existir.um-1PL.O	_	_	_	_	gloss[pt]=não=existir.um-1PL.O
-3	atha	atha	PRON	XPOS=1PL	_	_	_	_	gloss[pt]=1PL
-4	wai	wai	ADV	XPOS=aqui	_	_	_	_	gloss[pt]=aqui|SpaceAfter=No
-5	.	.	PUNCT	_	_	_	punct	_	_
-
-# sent_id = FernandaM2017:Texto-11-5
 # text_orig = Ku-axa-ry atha awinhi. 
 # text = Kuaxary atha awinhi. 
 # gloss_pt = ATRIB-ser.pequeno-3SG.M.O 1PL casa.de
@@ -453,7 +446,7 @@ NB	:	:	_	_	_	_	_	_	_
 3	awinhi	awinhi	NOUN	XPOS=casa.de	_	1	nsubj	_	gloss[pt]=casa.de|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = FernandaM2017:Texto-11-6
+# sent_id = FernandaM2017:Texto-11-5
 # text_orig = Amu a-kama ø-awinhi my-ra-manu 
 # text = Amu akama awinhi myramanu.
 # gloss_pt = EXORT 1PL-fazer 3SG.M-casa.de ATRIB.INTENS-:?foc-?corpo.de
@@ -465,7 +458,7 @@ NB	:	:	_	_	_	_	_	_	_
 4	myramanu	myramanu	_	XPOS=ATRIB.INTENS-:?foc-?corpo.de	_	_	_	_	gloss[pt]=ATRIB.INTENS-:?foc-?corpo.de
 5	.	.	PUNCT	_	_	_	punct	_	_
 
-# sent_id = FernandaM2017:Texto-11-7
+# sent_id = FernandaM2017:Texto-11-6
 # text_orig = Sytu-waku-ru kama-ry ø-awinhi my-ra-mana. 
 # text = Sytuwakuru kamary awinhi myramana. 
 # gloss_pt = mulher-PL-F fazer-3SG.M.O 3SG.M-casa.de ATRIB.INTENS-FOC-corpo.de

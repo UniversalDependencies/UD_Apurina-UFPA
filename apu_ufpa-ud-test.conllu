@@ -125,7 +125,7 @@
 7	nerekary	nere	VERB	XPOS=querer-PRED-3SG.M.O	_	2	advcl	_	gloss[pt]=querer-PRED-3SG.M.O
 8	iia	ie	DET	Det	Gender=Masc	9	det	_	gloss[pt]=esse
 9	ãkiti	ãkiti	NOUN	XPOS=onça	_	11	nsubj	_	gloss[pt]=onça
-10	kene	kuna	AUX	XPOS=não	_	11	aux:neg	_	gloss[pt]=não
+10	kene	kuna	PART	XPOS=não	_	11	advmod:neg	_	gloss[pt]=não
 11	inhinhiãwa	inhinhiãwa	VERB	XPOS=3SG.M-comer-?ser-REFL	_	7	xcomp	_	gloss[pt]=3SG.M-comer-?ser-REFL
 12	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	gloss[pt]=3SG.M|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -303,7 +303,7 @@
 # text_en = 
 1	Txamary	txa	AUX	XPOS=AUX-FRUST-3SG.M.O	_	4	aux	_	gloss[pt]=AUX-FRUST-3SG.M.O
 2	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	gloss[pt]=3PL
-3	kuna	kuna	AUX	XPOS=não	_	4	aux:neg	_	gloss[pt]=não
+3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	kadinhẽrutene	dinhẽru	NOUN	XPOS=ATRIB-dinheiro-POSSD-3PL	_	0	root	_	gloss[pt]=ATRIB-dinheiro-POSSD-3PL|SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	txamary	txa	AUX	XPOS=AUX-FRUSTR-3SG.M.O	_	10	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
@@ -419,7 +419,7 @@
 # text_en = 'The house had no window.'
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
 2	aapukutxi	awapukutxi	NOUN	XPOS=casa.de	Possessed=No	4	nsubj	_	gloss[pt]=casa.de-N.POSSD
-3	kuna	kuna	AUX	XPOS=não	_	4	aux:neg	_	gloss[pt]=não
+3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	awary	awa	VERB	XPOS=ter-3SG.M.O	_	0	root	_	gloss[pt]=ter-3SG.M.O
 5	ithure	thure	NOUN	XPOS=3SG.M-porta.de	_	4	obj	_	gloss[pt]=3SG.M-porta.de|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -506,7 +506,7 @@
 # text_pt = ‘Eles não tinham muito dinheiro, (Lit.: ‘Ele não tinha dinheiro.’) mas eles tinham muita comida.’Q
 # text_en = They did not have money, but they had a lot of food.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
-2	kuna	kuna	AUX	XPOS=não	_	3	aux:neg	_	gloss[pt]=não
+2	kuna	kuna	PART	XPOS=não	_	3	advmod:neg	_	gloss[pt]=não
 3	awary	awa	VERB	XPOS=ter-3SG.M.O	_	0	root	_	gloss[pt]=ter-3SG.M.O
 4	ytsupa	tsupa	NOUN	XPOS=3SG.M-dinhero	_	3	obj	_	gloss[pt]=3SG.M-dinhero|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -722,7 +722,7 @@
 # text_en = 
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
 2	aapukutxi	awapukutxi	NOUN	XPOS=casa.de	Possessed=No	4	nsubj	_	gloss[pt]=casa.de-N.POSSD
-3	kuna	kuna	AUX	XPOS=não	_	4	aux:neg	_	gloss[pt]=não
+3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 5	tirikapikuwana	tirikapikuwana	NOUN	XPOS=lamparina-?girau	_	4	obj	_	gloss[pt]=lamparina-?girau|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -747,7 +747,7 @@
 # text_pt = ‘Ele também comprou roupa e sapato pra mulher dele.’
 # text_en = He also bought some clothes and shoes for his wife.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	gloss[pt]=3sg.m
-2	pekana	pekana	ADV	Adv	_	4	advmod	_	gloss[pt]=?
+2	pekana	pekana	X	X	_	4	dep	_	gloss[pt]=?
 3	apaka	apaka	ADV	Adv	_	4	advmod	_	gloss[pt]=também
 4	amutary	amuta	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=comprar-3SG.M.O
 5	mãkatxi	mãka	NOUN	XPOS=roupa.de	Possessed=No	4	obj	_	gloss[pt]=roupa.de-N.POSSD|SpaceAfter=No
@@ -799,7 +799,7 @@
 11	kananeã	kanane	NOUN	XPOS=ano-LOC	_	9	obl:tmod	_	gloss[pt]=ano-LOC|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	kutxi	kutxi	SCONJ	XPOS=porque	_	15	mark	_	gloss[pt]=porque
-14	kuna	kuna	AUX	XPOS=não	_	15	aux:neg	_	gloss[pt]=não
+14	kuna	kuna	PART	XPOS=não	_	15	advmod:neg	_	gloss[pt]=não
 15	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=existir-3SG.M.O
 16	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	15	nsubj	_	gloss[pt]=naquele.lugar|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
@@ -811,7 +811,7 @@
 # text_pt = ‘O roçado dele não tinha mandioca.’Q
 # text_en = 
 1	Ykikiute	kikiu	NOUN	XPOS=3SG.M-roçado-POSSD	_	3	nsubj	_	gloss[pt]=3SG.M-roçado-POSSD
-2	kuna	kuna	AUX	XPOS=não	_	3	aux:neg	_	gloss[pt]=não
+2	kuna	kuna	PART	XPOS=não	_	3	advmod:neg	_	gloss[pt]=não
 3	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 4	kumyry	kumyry	NOUN	XPOS=mandioca	_	3	obj	_	gloss[pt]=mandioca|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -823,7 +823,7 @@
 # text_pt = ‘A mata não tinha caça.’
 # text_en = The forest has no game to hunt.
 1	Ĩthupa	Ĩthupa	NOUN	XPOS=mata	_	3	nsubj	_	gloss[pt]=mata
-2	kuna	kuna	AUX	XPOS=não	_	3	aux:neg	_	gloss[pt]=não
+2	kuna	kuna	PART	XPOS=não	_	3	advmod:neg	_	gloss[pt]=não
 3	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 4	iia	ie	DET	XPOS=esse	_	5	det	_	gloss[pt]=esse
 5	pixune	pixu	NOUN	XPOS=3SG.M-bicho-POSSD	_	6	obj	_	gloss[pt]=3SG.M-bicho-POSSD
@@ -837,7 +837,7 @@
 # text_pt = ‘O igarapé não tinha peixe.’Q
 # text_en = The stream had no fish.
 1	Kãwary	Kãwary	NOUN	XPOS=igarapé	_	3	nsubj	_	gloss[pt]=igarapé
-2	kuna	kuna	AUX	XPOS=não	_	3	aux:neg	_	gloss[pt]=não
+2	kuna	kuna	PART	XPOS=não	_	3	advmod:neg	_	gloss[pt]=não
 3	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 4	ximaky	ximaky	NOUN	XPOS=peixe	_	3	obj	_	gloss[pt]=peixe|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -849,7 +849,7 @@
 # text_pt = ‘Lá não tinha castanha.’Q
 # text_en = 
 1	Ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	3	nsubj	_	gloss[pt]=naquele.lugar
-2	kuna	kuna	AUX	XPOS=não	_	3	aux:neg	_	gloss[pt]=não
+2	kuna	kuna	PART	XPOS=não	_	3	advmod:neg	_	gloss[pt]=não
 3	awary	awary	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=existir-3SG.M.O
 4	makiã	makiã	NOUN	XPOS=castanha-LOC	_	3	obl:lmod	_	gloss[pt]=castanha-LOC|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -862,7 +862,7 @@
 # text_en = His relatives had no food.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
 2	nyrymany	nyrymany	NOUN	XPOS=parentes.de	_	4	nsubj	_	gloss[pt]=parentes.de
-3	kuna	kuna	AUX	XPOS=não	_	4	aux:neg	_	gloss[pt]=não
+3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 5	nhipukury	nhipukury	NOUN	XPOS=comida	Possessed=No	4	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -915,11 +915,11 @@
 # gloss_pt = naquele.lugar todo-DISTR existir ATRIB-carne.de-3SG.M.O-PL
 # text_pt = ‘Lá tinha todo tipo de carne de caça.’Q
 # text_en = There was all kinds of game meat there.
-1	Ywãtãa	Ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl:lmod	_	gloss[pt]=naquele.lugar
-2	ykynypuku	ykynypuku	DET	XPOS=todo-DISTR	_	0	root	_	gloss[pt]=todo-DISTR
-3	awa	awa	AUX	V	_	2	cop	_	gloss[pt]=existir
-4	kaxinhirywakury	kaxinhirywakury	NOUN	XPOS=ATRIB-carne.de-3SG.M.O-PL	_	2	nsubj:cop	_	gloss[pt]=ATRIB-carne.de-3SG.M.O-PL|SpaceAfter=No
-5	.	.	PUNCT	_	_	2	punct	_	_
+1	Ywãtãa	Ywãtãa	NOUN	XPOS=naquele.lugar	_	3	obl:lmod	_	gloss[pt]=naquele.lugar
+2	ykynypuku	ykynypuku	DET	XPOS=todo-DISTR	_	3	nsubj	_	gloss[pt]=todo-DISTR
+3	awa	awa	VERB	V	_	0	root	_	gloss[pt]=existir
+4	kaxinhirywakury	kaxinhirywakury	NOUN	XPOS=ATRIB-carne.de-3SG.M.O-PL	_	3	obl	_	gloss[pt]=ATRIB-carne.de-3SG.M.O-PL|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-12
 # text_orig = Inhinhiã kawãry-ã kuna fawta-t-inhi ximaky
@@ -929,7 +929,7 @@
 # text_en = So, in the stream there was no lack of fish.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod	_	gloss[pt]=então
 2	kawãryã	kawãryã	NOUN	XPOS=igarapé-LOC	_	4	obl:lmod	_	gloss[pt]=igarapé-LOC
-3	kuna	kuna	AUX	XPOS=não	_	4	aux:neg	_	gloss[pt]=não
+3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	fawtatinhi	fawtatinhi	VERB	XPOS=faltar-VBLZ-GER	_	0	root	_	gloss[pt]=faltar-VBLZ-GER
 5	ximaky	ximaky	NOUN	XPOS=peixe	_	4	obj	_	gloss[pt]=peixe|Possessed=No|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -980,7 +980,7 @@
 10	kamakyty	kama	VERB	XPOS=fazer-REL.O.M.	_	9	acl:relcl	_	gloss[pt]=fazer-REL.O.M.|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	gloss[pt]=3SG.M
-13	pekana	pekana	ADV	_	_	14	advmod	_	gloss[pt]=?
+13	pekana	pekana	X	_	_	14	dep	_	gloss[pt]=?
 14	awa	awa	VERB	V	_	3	conj	_	gloss[pt]=ter
 15	mapurupuwapekana	mapuru	NOUN	_	_	14	obj	_	gloss[pt]=barco-AUM-PFTV-PRED-?|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
@@ -991,7 +991,7 @@
 # gloss_pt = não faltar-GER um,outro ano-LOC
 # text_pt = ‘Não faltava nada nessa nova comunidade.’
 # text_en = Nothing was missing from this new community.
-1	Kuna	Kuna	AUX	XPOS=não	_	2	aux:neg	_	gloss[pt]=não
+1	Kuna	kuna	PART	XPOS=não	_	2	advmod:neg	_	gloss[pt]=não
 2	faltatinhi	faltata	VERB	XPOS=faltar-GER	_	4	nsubj:cop	_	gloss[pt]=faltar-GER
 3	hãty	hãty	NUM	XPOS=um,outro	_	4	nummod	_	gloss[pt]=um,outro
 4	kananeã	kanane	NOUN	XPOS=ano-LOC	_	0	root	_	gloss[pt]=ano-LOC|Possessed=No|SpaceAfter=No
@@ -1003,10 +1003,10 @@
 # gloss_pt = tudo-DISTR existir 3SG.M naquele.lugar
 # text_pt = ‘Tinha tudo lá.’
 # text_en = There was everything there.
-1	Ykynypuku	Ykynypuku	PRON	XPOS=tudo-DISTR	_	4	nsubj:cop	_	gloss[pt]=tudo-DISTR
-2	awa	awa	AUX	XPOS=existir	_	4	cop	_	gloss[pt]=existir
+1	Ykynypuku	Ykynypuku	PRON	XPOS=tudo-DISTR	_	2	nsubj	_	gloss[pt]=tudo-DISTR
+2	awa	awa	AUX	XPOS=existir	_	0	root	_	gloss[pt]=existir
 3	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	det	_	gloss[pt]=3SG.M
-4	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	0	root	_	gloss[pt]=naquele.lugar|SpaceAfter=No
+4	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl	_	gloss[pt]=naquele.lugar|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-18
