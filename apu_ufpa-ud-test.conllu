@@ -47,7 +47,7 @@
 # text_en = But there was still a lot of blood on the ground.
 1	Txamary	txa	AUX	XPOS=AUX-FRUSTR-3SG.M.O	_	2	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	aapanhika	awa	VERB	XPOS=existir-IPFTV-PRED	_	0	root	_	gloss[pt]=existir-IPFTV-PRED
-3	kaiãpukury	kaiã	ADV	XPOS=muito-DISTR-M	_	4	advmod	_	gloss[pt]=muito-DISTR-M
+3	kaiãpukury	kaiãpuku	DET	XPOS=muito-DISTR-M	_	4	det	_	gloss[pt]=muito-DISTR-M
 4	arẽka	herẽka	NOUN	N	Gender=Masc|Gender[psor]=Masc	5	nsubj	_	gloss[pt]=3SG.M-sangue.de
 5	awa	awa	VERB	XPOS=existir	_	2	conj	_	gloss[pt]=existir|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -152,7 +152,7 @@
 # text_en = 'She had many children.'
 1	Uwa	uwa	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.F
 2	awary	awa	VERB	XPOS=ter-3PL.M.O	_	0	root	_	gloss[pt]=ter-3PL.M.O
-3	kaiãapukury	kaiãa	VERB	XPOS=muito-distr-M	_	4	advcl	_	gloss[pt]=muito-distr-M
+3	kaiãapukury	kaiãapuku	DET	XPOS=muito-distr-M	_	4	det	_	gloss[pt]=muito-distr-M
 4	ũimiakury	imi	NOUN	XPOS=3SG.F-filho.de-pl	_	2	obj	_	gloss[pt]=3SG.F-filho.de-pl|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -192,7 +192,7 @@
 # text_en = Their house had a paxiúba floor.
 1	Nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nmod	_	gloss[pt]=3PL
 2	aapuku	awapukutxi	NOUN	XPOS=casa.de	_	4	nmod	_	gloss[pt]=casa.de
-3	iia	iia	DET	XPOS=esse	_	4	det	_	gloss[pt]=esse
+3	iia	ie	DET	Det	Gender=Masc	4	det	_	gloss[pt]=esse
 4	paxiuba	paxiuba	NOUN	XPOS=paxiúba	_	5	nsubj	_	gloss[pt]=paxiúba
 5	paiakapeka	paiaka	VERB	XPOS=?estar.mole-PFTV-PRED	_	0	root	_	gloss[pt]=?estar.mole-PFTV-PRED|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -214,7 +214,7 @@
 # gloss_pt = muito-DISTR-M barata existir também
 # text_pt = Tinha muita barata na casa.
 # text_en = There were a lot of cockroaches in the house.
-1	Kaiãapukury	Kaiãa	DET	XPOS=muito-DISTR-M	_	2	det	_	gloss[pt]=muito-DISTR-M
+1	Kaiãapukury	kaiãapuku	DET	XPOS=muito-DISTR-M	_	2	det	_	gloss[pt]=muito-DISTR-M
 2	tsupata	tsupata	NOUN	XPOS=barata	_	3	nsubj	_	gloss[pt]=barata
 3	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 4	apaka	apaka	ADV	Adv	_	3	advmod	_	gloss[pt]=também|SpaceAfter=No
@@ -226,7 +226,7 @@
 # gloss_pt = muito-DISTR-M coisa.de-N.POSSD existir também 3PL casa.de lugar
 # text_pt = ‘Eles tinham muita coisa também dentro da casa’ Lit.: ‘Tinha muita coisa na casa deles também’Q
 # text_en = 
-1	Kaiãapukury	Kaiãa	DET	XPOS=muito-DISTR-M	_	2	det	_	gloss[pt]=muito-DISTR-M
+1	Kaiãapukury	kaiãapuku	DET	XPOS=muito-DISTR-M	_	2	det	_	gloss[pt]=muito-DISTR-M
 2	tiwitxi	tiwitxi	NOUN	XPOS=coisa.de	Possessed=No	3	nsubj	_	gloss[pt]=coisa.de-N.POSSD
 3	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 4	apaka	apaka	ADV	Adv	_	3	advmod	_	gloss[pt]=também
@@ -263,7 +263,7 @@
 # gloss_pt = muito-DISTR-M resto existir
 # text_pt = ‘Tinha muitas outras coisas.’ Lit.: ‘Tinha muito todo o resto (todas as outras coisas)’Q
 # text_en = 
-1	Kaiãapukury	Kaiãa	VERB	XPOS=muito-DISTR-M	_	2	acl	_	gloss[pt]=muito-DISTR-M
+1	Kaiãapukury	kaiãapuku	DET	Det	_	2	acl	_	gloss[pt]=muito-DISTR-M
 2	apanakyny	apanakyny	NOUN	XPOS=resto	_	3	nsubj	_	gloss[pt]=resto
 3	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -430,7 +430,7 @@
 # gloss_pt = existir.muito-DISTR barata
 # text_pt = ‘Tinha muita barata.’Q
 # text_en = 'There were a lot of cockroaches.'
-1	Kaiãapuku	Kaiãa	VERB	XPOS=existir.muito-DISTR	_	0	root	_	gloss[pt]=existir.muito-DISTR
+1	Kaiãapuku	kaiãa	VERB	XPOS=existir.muito-DISTR	_	0	root	_	gloss[pt]=existir.muito-DISTR
 2	tsupata	tsupata	NOUN	XPOS=barata	_	1	nsubj	_	gloss[pt]=barata|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -452,7 +452,7 @@
 # gloss_pt = existir.muito-DISTR coisa.de-N.POSSD também panela.de.barro
 # text_pt = ‘Tinha muita coisa, panela de barro também.’Q
 # text_en = 
-1	Kaiãapuku	Kaiãa	VERB	XPOS=existir.muito-DISTR	_	0	root	_	gloss[pt]=existir.muito-DISTR
+1	Kaiãapuku	kaiãa	VERB	XPOS=existir.muito-DISTR	_	0	root	_	gloss[pt]=existir.muito-DISTR
 2	tiwitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	1	nsubj	_	gloss[pt]=coisa.de-N.POSSD|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	apaka	apaka	ADV	Adv	_	5	advmod	_	gloss[pt]=também
@@ -642,7 +642,7 @@
 5	inhinhiã	inhinhiã	ADV	Adv	_	6	cc	_	gloss[pt]=então
 6	ysapatune	sapatu	NOUN	XPOS=sapato-possd,	_	3	conj	_	gloss[pt]=sapato-possd,|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	iia	iia	DET	XPOS=esse	_	9	det	_	gloss[pt]=esse
+8	iia	ie	DET	Det	Gender=Masc	9	det	_	gloss[pt]=esse
 9	panerata	panera	NOUN	XPOS=panela-nc.borda.boleada	_	3	conj	_	gloss[pt]=panela-nc.borda.boleada|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -652,7 +652,7 @@
 # gloss_pt = tudo-?PRED-casa.de dentro 3SG.M-querer-PRED-REL.O.M comprar
 # text_pt = ‘Ele comprou tudo que queria pra casa dele.’ (Lit.: ‘Tudo que ele queria dentro da casa ele comprou.’)
 1-2	Ykynykaapuku	_	_	_	_	_	_	_	_
-1	Ykynyk	ykynyk	DET	XPOS=tudo-?PRED	_	2	det	_	gloss[pt]=tudo-?PRED-casa.de
+1	Ykynyk	ykynyk	PRON	XPOS=tudo-?PRED	_	2	det	_	gloss[pt]=tudo-?PRED-casa.de
 2	aapuku	awapukutxi	NOUN	XPOS=casa.de	_	4	obj	_	gloss[pt]=casa.de
 3	ãki	ãki	NOUN	XPOS=dentro	_	2	nmod	_	gloss[pt]=dentro
 4	ynerekakyty	ynerekakyty	VERB	XPOS=3SG.M-querer-PRED-REL.O.M	_	5	nsubj	_	gloss[pt]=3SG.M-querer-PRED-REL.O.M
@@ -825,7 +825,7 @@
 1	Ĩthupa	Ĩthupa	NOUN	XPOS=mata	_	3	nsubj	_	gloss[pt]=mata
 2	kuna	kuna	PART	XPOS=não	_	3	advmod:neg	_	gloss[pt]=não
 3	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
-4	iia	ie	DET	XPOS=esse	_	5	det	_	gloss[pt]=esse
+4	iia	ie	DET	Det	Gender=Masc	5	det	_	gloss[pt]=esse
 5	pixune	pixu	NOUN	XPOS=3SG.M-bicho-POSSD	_	6	obj	_	gloss[pt]=3SG.M-bicho-POSSD
 6	iatinhi	iata	VERB	XPOS=caçar-GER	_	3	obj	_	gloss[pt]=caçar-GER|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -916,7 +916,7 @@
 # text_pt = ‘Lá tinha todo tipo de carne de caça.’Q
 # text_en = There was all kinds of game meat there.
 1	Ywãtãa	Ywãtãa	NOUN	XPOS=naquele.lugar	_	3	obl:lmod	_	gloss[pt]=naquele.lugar
-2	ykynypuku	ykynypuku	DET	XPOS=todo-DISTR	_	3	nsubj	_	gloss[pt]=todo-DISTR
+2	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	nsubj	_	gloss[pt]=todo-DISTR
 3	awa	awa	VERB	V	_	0	root	_	gloss[pt]=existir
 4	kaxinhirywakury	kaxinhirywakury	NOUN	XPOS=ATRIB-carne.de-3SG.M.O-PL	_	3	obl	_	gloss[pt]=ATRIB-carne.de-3SG.M.O-PL|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -958,7 +958,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	gloss[pt]=3SG.M
 6	amutary	amuta	VERB	XPOS=comprar-3SG.M.O	_	2	conj	_	gloss[pt]=comprar-3SG.M.O
-7	ykynypuku	ykynypuku	DET	XPOS=todo-DISTR	_	8	det	_	gloss[pt]=todo-DISTR
+7	ykynypuku	ykynypuku	PRON	Pron	_	8	det	_	gloss[pt]=todo-DISTR
 8	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	6	obj	_	gloss[pt]=coisa.de-N.POSSD|Possessed=No|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
