@@ -73,7 +73,7 @@
 # text = Inhinhiã apikumunhi iãkynytikinhi sããputa araũkytary ãkiti.
 # gloss_pt = então adiante-DAT 3SG.M-rastro.de-atrás ir-ALEAT-VBLZ encontrar-3SG.M.O onça
 # text_pt = ‘Ele andou um pouco mais, seguindo o rastro de sangue, e encontrou uma onça.’Q
-# text_en = 
+# text_en = He walked onward, following the bloodtrack, and encountered a jaguar.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod:tmod	_	gloss[pt]=então
 2	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	_	4	obl:lmod	_	gloss[pt]=adiante-DAT
 3	iãkynytikinhi	iãkyny	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	4	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
@@ -135,7 +135,7 @@
 # text = Awa sytu awa kãkiti awinhi iãtã.
 # gloss_pt = existir mulher existir gente comunidade.de lugar
 # text_pt = ‘Tinha uma mulher que vivia na comunidade.’ Lit.: ‘Tinha uma mulher que vivia na comunidade da gente.’Q
-# text_en = 
+# text_en = There is a woman who lived in the community.
 1	Awa	Awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 2	sytu	sytu	NOUN	XPOS=mulher	_	1	nsubj	_	gloss[pt]=mulher
 3	awa	awa	VERB	XPOS=existir	_	1	conj	_	gloss[pt]=existir
@@ -161,7 +161,7 @@
 # text = Uwa ũtanyrykata awa ũaapuku 'amarekatãĩ.
 # gloss_pt = 3SG.F 3SG.F-esposo.de-ASSOC ter 3SG.F-casa.de ?ser.grande 
 # text_pt = ‘Ela e o marido moravam numa casa muito grande.’ Lit.: ‘Ela com o marido tinham uma casa muito grande’Q
-# text_en = 
+# text_en = She and her husband have a very big house.
 1	Uwa	uwa	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.F
 2	ũtanyrykata	tanyry	NOUN	XPOS=3SG.F-esposo.de-ASSOC	Case=Com|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	gloss[pt]=3SG.F-esposo.de-ASSOC
 3	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
