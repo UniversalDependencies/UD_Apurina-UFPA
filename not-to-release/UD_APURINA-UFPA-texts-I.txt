@@ -62,7 +62,7 @@ Texto 7 (colaborador: Zé In)
 9	uparĩka	uparĩka	NOUN	XPOS=3SG.F-trabalho.de	_	_	_	_	gloss[pt]=3SG.F-trabalho.de|SpaceAfter=No
 10	.	.	PUNCT	_	_	_	punct	_	_
 
-# sent_id = FernandaM2017:Texto-7-11
+# sent_id = FernandaM2017:Texto-7-10
 # text_orig = Kyky ukatsaã-nã-ta ĩsũana. 
 # text = Kyky ukatsaãnãta ĩsũana. 
 # gloss_pt = homem pescar-PROGR-VBLZ rio 
@@ -73,7 +73,7 @@ Texto 7 (colaborador: Zé In)
 3	ĩsũana	ĩsũana	_	XPOS=rio	_	_	_	_	gloss[pt]=rio|SpaceAfter=No
 4	.	.	PUNCT	_	_	_	punct	_	_
 
-# sent_id = FernandaM2017:Texto-7-12
+# sent_id = FernandaM2017:Texto-7-11
 # text_orig = Ĩsũana my-r-ykyny-ty i-txa ximaky. 
 # text = Ĩsũana myrykynyty itxa ximaky. 
 # gloss_pt = rio ATRIB.INTENS-FOC-tudo-3SG.M.O 3SG.M-AUX peixe
@@ -85,7 +85,7 @@ Texto 7 (colaborador: Zé In)
 4	ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	_	_	_	gloss[pt]=peixe|SpaceAfter=No
 5	.	.	PUNCT	_	_	_	punct	_	_
 
-# sent_id = FernandaM2017:Texto-7-13
+# sent_id = FernandaM2017:Texto-7-12
 # text_orig = Ywa kyky awa ykyny-puku ø-awinhi iãtã.
 # text = Ywa kyky awa ykynypuku awinhi iãtã.
 # gloss_pt = 3SG.M homem ter todo-DISTR 3SG.M-comunidade.de lugar
