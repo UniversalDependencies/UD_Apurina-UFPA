@@ -33,7 +33,7 @@
 # text_en = ’He continued to follow the trail of blood and found an eye.’
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod	_	_
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	GTtags=Pers,Sg3,Msc,Nom
-3	apikumunhi	apiku	ADV	Adv	Case=All	4	advmod	_	GTtags=All
+3	apikumunhi	apiku	ADV	Adv	Case=Dat	4	advmod	_	GTtags=Dat
 4	ysa	sa	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	GTtags=ScSg3M
 5	iãkynykata	iãkyny	NOUN	N	Case=Com|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	GTtags=Msc,Sg,PxSg3M,Com
 6	apukary	apuka	VERB	V	Gender[obj]=Masc|Gender[subj]=Masc|Number[obj]=Plur,Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	4	conj	_	GTtags=Pred,ScSg3M,Oc3M
@@ -76,7 +76,7 @@
 # text_pt = ‘Ele andou um pouco mais, seguindo o rastro de sangue, e encontrou uma onça.’Q
 # text_en = He walked onward, following the bloodtrack, and encountered a jaguar.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod:tmod	_	gloss[pt]=então
-2	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	_	4	obl:lmod	_	gloss[pt]=adiante-DAT
+2	apikumunhi	apiku	NOUN	XPOS=adiante	Case=Dat	4	obl:lmod	_	gloss[pt]=adiante-DAT
 3	iãkynytikinhi	iãkyny	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	4	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
 4	sããputa	sa	VERB	XPOS=ir-ALEAT-VBLZ	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
 5	araũkytary	araũkyta	VERB	XPOS=encontrar-3SG.M.O	_	4	conj	_	gloss[pt]=encontrar-3SG.M.O
@@ -332,7 +332,7 @@
 10	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	gloss[pt]=3PL
 11	awary	awa	VERB	XPOS=ter	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	conj	_	gloss[pt]=ter-3SG.M.O
 12	iumyary	iumyary	NOUN	XPOS=macaxeira	_	11	obj	_	gloss[pt]=macaxeira
-13	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	_	12	nmod	_	gloss[pt]=adiante-DAT
+13	apikumunhi	apiku	NOUN	XPOS=adiante	Case=Dat	12	nmod	_	gloss[pt]=adiante-DAT
 14	amãnteere	amãnteere	NOUN	XPOS=fruta	_	12	conj	_	gloss[pt]=fruta|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -601,7 +601,7 @@
 15	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	17	obj	_	gloss[pt]=coisa.de-N.POSSD
 16	amutakita	amuta	VERB	XPOS=comprar-REL.O.M	_	15	acl:relcl	_	gloss[pt]=comprar-REL.O.M
 17	awa	awa	VERB	XPOS=existir	_	5	conj	_	gloss[pt]=existir
-18	ywamunhi	ywa	PRON	XPOS=3SG.M-DAT	_	5	obl	_	gloss[pt]=3SG.M-DAT|SpaceAfter=No
+18	ywamunhi	ywa	PRON	XPOS=3SG.M	Case=Dat	5	obl	_	gloss[pt]=3SG.M-DAT|SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = FernandaM2017:Texto-4-4
@@ -668,7 +668,7 @@
 # text_en = 
 1	Pupũkary	Pupũkary	NOUN	N	Gender=Masc	2	nsubj	_	gloss[pt]=índio
 2	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ir-3SG.M.O
-3	sitatximunhi	sitatxi	NOUN	XPOS=cidade-DAT	_	2	obl:lmod	_	gloss[pt]=cidade-DAT|SpaceAfter=No
+3	sitatximunhi	sitatxi	NOUN	XPOS=cidade	Case=Dat	2	obl:lmod	_	gloss[pt]=cidade-DAT|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-5-2
@@ -676,7 +676,7 @@
 # text = Ywa kaiãapuku maky.
 # gloss_pt = 3SG.M ter.muito-DISTR castanha
 # text_pt = ‘Ele tinha muita castanha.’Q
-# text_en = 
+# text_en = He had a lot of chestnuts.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	kaiãapuku	kaiãa	VERB	XPOS=ter.muito-DISTR	_	0	root	_	gloss[pt]=ter.muito-DISTR
 3	maky	maky	NOUN	N	Gender=Fem	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
@@ -738,7 +738,7 @@
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
 3	amutary	amuta	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=comprar-3SG.M.O
 4	tirikapikuwana	tirikapikuwana	NOUN	XPOS=lamparina	_	3	obj	_	gloss[pt]=lamparina
-5	aapukumunhi	awapukutxi	NOUN	XPOS=casa.de-DAT	_	3	obl	_	gloss[pt]=casa.de-DAT|SpaceAfter=No
+5	aapukumunhi	awapukutxi	NOUN	XPOS=casa.de	Case=Dat	3	obl	_	gloss[pt]=casa.de-DAT|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-5-7
@@ -754,7 +754,7 @@
 5	mãkatxi	mãka	NOUN	XPOS=roupa.de	Possessed=No	4	obj	_	gloss[pt]=roupa.de-N.POSSD|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	ykitimata	kitimata	NOUN	XPOS=3SG.M-pé.de-NC.casca,pele.de	_	5	conj	_	gloss[pt]=3SG.M-pé.de-NC.casca,pele.de
-8	ytanurumunhi	tanuru	NOUN	XPOS=3SG.M-esposa-DAT	_	4	obl	_	gloss[pt]=3SG.M-esposa-DAT|SpaceAfter=No
+8	ytanurumunhi	tanuru	NOUN	XPOS=3SG.M-esposa	Case=Dat	4	obl	_	gloss[pt]=3SG.M-esposa-DAT|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-5-8

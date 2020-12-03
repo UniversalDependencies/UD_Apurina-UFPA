@@ -597,7 +597,7 @@ Texto 11 (colaborador: Abe)
 # text = Ywa kaiãũpuku amarytane
 # gloss_pt = 3SG.M ter.muito-DISTR 3SG.M-filho-POSSD-?PL
 # text_pt = ‘Ele tinha muitos filhos’. 
-# text_en = 
+# text_en = He had many children.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Msc|Number=Sing|Person=3|PronType=Prs	_	_	_	gloss[pt]=3SG.M
 2	kaiãũpuku	kaiãũ	ADV	XPOS=ter.muito-DISTR	_	_	_	_	gloss[pt]=ter.muito-DISTR
 3	amarytane	amarytane	NOUN	XPOS=3SG.M-filho-POSSD-?PL	_	_	_	_	gloss[pt]=3SG.M-filho-POSSD-?PL
@@ -635,7 +635,7 @@ Texto 11 (colaborador: Abe)
 # text = Amaryte ãtukyry kaiapukury. 
 # gloss_pt = 3SG.M-filho-M-POSSD velho ATRIB-caçar-DISTR-3SG.M.O
 # text_pt = ‘O filho mais velho dele era caçador’Q
-# text_en = 
+# text_en = His oldest son was a hunter.
 1	Amaryte	Amaryte	NOUN	XPOS=3SG.M-filho-M-POSSD	_	3	nsubj:cop	_	gloss[pt]=3SG.M-filho-M-POSSD
 2	ãtukyry	ãtukyry	ADJ	XPOS=velho	_	1	acl:relcl	_	gloss[pt]=velho
 3	kaiapukury	kaiapukury	VERB	XPOS=ATRIB-caçar-DISTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB-caçar-DISTR-3SG.M.O|SpaceAfter=No
