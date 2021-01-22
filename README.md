@@ -20,7 +20,8 @@ Finite-State Transistor development:
 
 ## References
 
-* MARÍLIA FERNANDA PEREIRA DE FREITAS, 2017: A POSSE EM APURINÃ: descrição de construções atributivas e predicativas em comparação com outras línguas Aruák. Belém/PA.
+* Sidney da Silva Facundes, 2000: THE LANGUAGE OF THE APURINÃ PEOPLE OF BRAZIL, (MAIPURE/ARAWAK). (A Dissertation submitted to the Faculty of the Graduate School of State University of New York at Buffalo in partial fulfillment of the requirements for the degree of Doctor of Philosophy Department of Linguistics.)
+* Marília Fernanda Pereira de Freitas, 2017: A POSSE EM APURINÃ: descrição de construções atributivas e predicativas em comparação com outras línguas Aruák. Belém/PA.
 
 
 # Changelog

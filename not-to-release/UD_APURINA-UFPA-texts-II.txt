@@ -1468,8 +1468,8 @@ Katana pukatymaryty.
 # text_orig = Mutxaka: Ki-nha-kary-ty-pa nhipuku-ry awa-ta-ku? 
 # text = Mutxaka: Kinhakarytypa nhipukury awataku? 
 # gloss_pt = INTERR-ser-REL.S.M-AUM-INTERR comida-N.POSSD existir-VBLZ-FUT
-# text_pt = ‘Que comida vai ter?’Q
-# text_en = ‘‘
+# text_pt = ‘Que comida vai ter?’
+# text_en = ‘What food will there be?‘
 Kinhakarytypa nhipukury awataku?
 
 # sent_id = FernandaM2017:TextsII-8-12
@@ -1477,7 +1477,7 @@ Kinhakarytypa nhipukury awataku?
 # text = Xirikary: Kuna nhimarutikary. 
 # gloss_pt = não 1SG-saber-VBLZ-não.mais-3SG.M.O
 # text_pt = ‘Eu ainda não sei.’Q
-# text_en = ‘‘
+# text_en = ‘I still don't know it.‘
 Kuna nhimarutikary.
 
 # sent_id = FernandaM2017:TextsII-8-13
@@ -1506,7 +1506,7 @@ Inhinhiã awapytykaku nhipukury.
 
 # sent_id = FernandaM2017:TextsII-8-16
 # text_orig = Mutxaka: Ereka-pyty-ka-ry. Kiri-pa xipuãta-ta-ku? 
-# text = Mutxaka: Erekapytykary. Kiripa xipuãtataku? 
+# text = Erekapytykary. Kiripa xipuãtataku? 
 # gloss_pt = ser.bom-ENF-PRED-3SG.M.O quem-INTERR canto-VBLZ-FUT
 # text_pt = ‘Então, tá muito bom. Quem vai cantar?’Q
 # text_en = ‘‘
@@ -1604,7 +1604,7 @@ Ykynypuku awary.
 # text_orig = Inhinhiã ykyny-mane-pe-ka apu-k-inhi-ã, xipuãta, serena-pirĩka-ta.
 # text = Inhinhiã ykynymanepeka apukinhiã, xipuãta, serenapirĩkata.
 # gloss_pt = então todo-corpo.de-PFTV-ENF chegar-PRED-GER-LOC cantar dançar-coletivo-VBLZ
-# text_pt = ‘Assim chagando todo mundo, cantaram e dançaram.’ 
+# text_pt = ‘Assim chegando todo mundo, cantaram e dançaram.’ 
 Inhinhiã ykynymanepeka apukinhiã, xipuãta, serenapirĩkata.
 
 # sent_id = FernandaM2017:TextsII-8-29
@@ -1821,7 +1821,7 @@ Nuta keku cento e cinquenta reaisnany ĩĩki.
 
 # sent_id = FernandaM2017:TextsII-9-24
 # text_orig = Mutxaka: Ary. Ereka-pyty-ka-ry a-amuta-kyty, kutxi atha nereka-ka-ry.
-# text = Mutxaka: Ary. Erekapytykary aamutakyty, kutxi atha nerekakary.
+# text = Ary. Erekapytykary aamutakyty, kutxi atha nerekakary.
 # gloss_pt = sim ser.bom-ENF-PRED-3SG.M.O 1PL-comprar-REL.O.M porque 1PL querer-PRED-3SG.M.O
 # text_pt = ‘É, tá bom o que nós compramos, porque nós precisamos.
 Ary. Erekapytykary aamutakyty, kutxi atha nerekakary.
@@ -1844,7 +1844,7 @@ Kãkyty amutary erekary.
 
 # sent_id = FernandaM2017:TextsII-9-27
 # text_orig = Puiakaa: Taũ-pyty-ka-ra. Kuna ereka-ry kaxaxaã amut-iku. 
-# text = Puiakaa: Taũpytykara. Kuna erekary kaxaxaã amutiku. 
+# text = Taũpytykara. Kuna erekary kaxaxaã amutiku. 
 # gloss_pt = ser.verdade-ENF-PRED-FOC não ser.bom-3SG.M.O cachaça comprar-NMLZ
 # text_pt = ‘É verdade. Não é bom comprar cachaça.’ Lit.: ‘É verdade. Não é bom a compra de cachaça.’Q
 # text_en = ‘‘
@@ -2074,7 +2074,7 @@ Natukupa itxa kitxakapirĩka?
 
 # sent_id = FernandaM2017:TextsII-11-5
 # text_orig = Kamarapu: Kuna watxa atuku i-txa kitxakapirĩka. 
-# text = Kamarapu: Kuna watxa atuku itxa kitxakapirĩka. 
+# text = Kuna watxa atuku itxa kitxakapirĩka. 
 # gloss_pt = não hoje como 3SG.M-ser antigamente
 # text_pt = ‘Antigamente não era como hoje.’Q
 # text_en = ‘‘
@@ -2090,7 +2090,7 @@ Kenerepa pỹpymaãnu kitxakary pirana?
 
 # sent_id = FernandaM2017:TextsII-11-7
 # text_orig = Txiiupirĩiry: Ny-nereka-ka-ry nh-imarut-inhi-ry natuku-pyty-pa i-txa kitxakapirĩka.
-# text = Txiiupirĩiry: Nynerekakary nhimarutinhiry natukupytypa itxa kitxakapirĩka.
+# text = Nynerekakary nhimarutinhiry natukupytypa itxa kitxakapirĩka.
 # gloss_pt = 1SG-ter.vontade, querer 1SG-saber-GER-3SG.M.O como-ENF-INTERR 3SG.M-ser antigamente
 # text_pt = ‘Eu quero saber como é que era mesmo antigamente.’Q
 # text_en = ‘‘
@@ -2272,7 +2272,7 @@ Watxa puiaũnuka pupỹkary awary kutxi karywa xipukary pupỹkarywakury.
 
 # sent_id = FernandaM2017:TextsII-11-29
 # text_orig = Txiiupirĩiry: Kenere-pa karywa xipu-ka-ry pupỹkary? 
-# text = Txiiupirĩiry: Kenerepa karywa xipukary pupỹkary? 
+# text = Kenerepa karywa xipukary pupỹkary? 
 # gloss_pt = por.quê-INTERR não.índio acabar-PRED-3SG.M.O índio
 # text_pt = ‘Por que os brancos acabaram com os índios?’Q
 # text_en = ‘‘
@@ -2493,7 +2493,7 @@ Nysãpirataiku irary nytakanapinhi iãtãa.
 # text = Himarutatary kimapury?
 # gloss_pt = 2PL-saber-VBLZ-3SG.M.O caminho
 # text_pt = ‘Vocês conhecem o caminho?’Q
-# text_en = ‘‘
+# text_en = ‘Do you know the path?‘
 Himarutatary kimapury?
 
 # sent_id = FernandaM2017:TextsII-12-24

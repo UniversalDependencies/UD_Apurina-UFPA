@@ -18,11 +18,11 @@
 # gloss_pt = 3SG.M-sangue.de-atrás 3SG.M-rastro.de-atrás ir-ALEAT-VBLZ achar-3SG.M.O 3SG.M-osso
 # text_pt = Ele seguiu o rastro e encontrou um osso.
 # text_en = He followed the trail and found a bone.
-1	Yẽrẽkatikinhi	herẽka	NOUN	N	Gender=Masc|Gender[psor]=Masc	3	obj	_	gloss[pt]=3SG.M-sangue.de-atrás
-2	iãkynytikinhi	iãkyny	NOUN	N	Gender=Masc|Gender[psor]=Masc	1	conj	_	gloss[pt]=3SG.M-rastro.de-atrás
+1	Yẽrẽkatikinhi	herẽkatikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=3SG.M-sangue.de-atrás
+2	iãkynytikinhi	iãkynytikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	1	conj	_	gloss[pt]=3SG.M-rastro.de-atrás
 3	sããputa	sa	VERB	_	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
-4	apukary	apuka	VERB	_	_	3	conj	_	gloss[pt]=achar-3SG.M.O
-5	apy	apy	NOUN	N	Gender=Masc|Gender[psor]=Masc	4	obj	_	gloss[pt]=3SG.M-osso|SpaceAfter=No
+4	apukary	apuka	VERB	_	Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=achar-3SG.M.O
+5	apy	apy	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	4	obj	_	gloss[pt]=3SG.M-osso|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-1-3
@@ -30,14 +30,14 @@
 # text = Inhinhiã ywa apikumunhi ysa iãkynykata apukary uky.
 # gloss_pt = então 3SG.M adiante-DAT 3SG.M-ir 3SG.M-rastro.de-ASSOC achar-3SG.M.O 3SG.M-olho.de
 # text_pt = ‘Ele continuou seguindo o rastro de sangue e encontrou um olho.’
-# text_en = ’He continued to follow the trail of blood and found an eye.’
+# text_en = ’Then he went forward along the path and found an eye.’
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod	_	_
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	GTtags=Pers,Sg3,Msc,Nom
 3	apikumunhi	apiku	ADV	Adv	Case=Dat	4	advmod	_	GTtags=Dat
 4	ysa	sa	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	GTtags=ScSg3M
 5	iãkynykata	iãkyny	NOUN	N	Case=Com|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	GTtags=Msc,Sg,PxSg3M,Com
 6	apukary	apuka	VERB	V	Gender[obj]=Masc|Gender[subj]=Masc|Number[obj]=Plur,Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	4	conj	_	GTtags=Pred,ScSg3M,Oc3M
-7	uky	uky	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	GTtags=Msc,Sg,PxSg3M,Nom|SpaceAfter=No
+7	uky	uky	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	6	obj	_	GTtags=Msc,Sg,PxSg3M,Nom|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-1-4
@@ -46,7 +46,7 @@
 # gloss_pt = AUX-FRUSTR-3SG.M.O existir-IPFTV-PRED muito-DISTR-M 3SG.M-sangue.de existir
 # text_pt = ‘Mas ainda tinha muito sangue no chão.’
 # text_en = But there was still a lot of blood on the ground.
-1	Txamary	txa	AUX	XPOS=AUX-FRUSTR-3SG.M.O	_	2	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+1	Txamary	txa	AUX	XPOS=AUX-FRUSTR	Number[obj]=Sing|Person[obj]=3	2	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	aapanhika	awa	VERB	XPOS=existir-IPFTV-PRED	_	0	root	_	gloss[pt]=existir-IPFTV-PRED
 3	kaiãpukury	kaiãpuku	DET	XPOS=muito-DISTR-M	_	4	det	_	gloss[pt]=muito-DISTR-M
 4	arẽka	herẽka	NOUN	N	Gender=Masc|Gender[psor]=Masc	5	nsubj	_	gloss[pt]=3SG.M-sangue.de
@@ -65,8 +65,8 @@
 4	iãkynytikinhi	iãkyny	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	5	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
 5	sããputa	sa	VERB	XPOS=ir-ALEAT-VBLZ	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
 6	era	era	ADV	XPOS=lá	_	7	advmod:lmod	_	gloss[pt]=lá
-7	apukary	apuka	VERB	XPOS=achar-3SG.M.O	_	5	conj	_	gloss[pt]=achar-3SG.M.O
-8	ymata	mata	NOUN	XPOS=3SG.M-pele,	_	7	obj	_	gloss[pt]=3SG.M-pele,couro,casca.de|SpaceAfter=No
+7	apukary	apuka	VERB	XPOS=achar	Number[obj]=Sing|Person[obj]=3	5	conj	_	gloss[pt]=achar-3SG.M.O
+8	ymata	mata	NOUN	XPOS=3SG.M-pele,	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	7	obj	_	gloss[pt]=3SG.M-pele,couro,casca.de|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = FernandaM2017:Texto-1-6
@@ -74,12 +74,12 @@
 # text = Inhinhiã apikumunhi iãkynytikinhi sããputa araũkytary ãkiti.
 # gloss_pt = então adiante-DAT 3SG.M-rastro.de-atrás ir-ALEAT-VBLZ encontrar-3SG.M.O onça
 # text_pt = ‘Ele andou um pouco mais, seguindo o rastro de sangue, e encontrou uma onça.’Q
-# text_en = He walked onward, following the bloodtrack, and encountered a jaguar.
+# text_en = Then he went onward along the trail and found a jaguar.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod:tmod	_	gloss[pt]=então
 2	apikumunhi	apiku	NOUN	XPOS=adiante	Case=Dat	4	obl:lmod	_	gloss[pt]=adiante-DAT
 3	iãkynytikinhi	iãkyny	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	4	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
 4	sããputa	sa	VERB	XPOS=ir-ALEAT-VBLZ	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
-5	araũkytary	araũkyta	VERB	XPOS=encontrar-3SG.M.O	_	4	conj	_	gloss[pt]=encontrar-3SG.M.O
+5	araũkytary	araũkyta	VERB	XPOS=encontrar	Number[obj]=Sing|Person[obj]=3	4	conj	_	gloss[pt]=encontrar-3SG.M.O
 6	ãkiti	hãkiti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	gloss[pt]=onça|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -90,7 +90,7 @@
 # text_pt = A onça tava comendo um tamanduá bandeira.
 # text_en = So [he] saw the jaguar eating giant anteater meat.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	2	advmod:tmod	_	gloss[pt]=então
-2	atamatary	atama	VERB	XPOS=ver-VBLZ-3SG.M.O	_	0	root	_	gloss[pt]=ver-VBLZ-3SG.M.O
+2	atamatary	atama	VERB	XPOS=ver-VBLZ	Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ver-VBLZ-3SG.M.O
 3	ãkiti	hãkiti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj:agent	_	gloss[pt]=onça
 4	nhikanãtary	nhi	VERB	XPOS=comer-PRED-PROGR-VBLZ-3SG.M.O	Aspect=Prog|Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	advcl	_	gloss[pt]=comer-PRED-PROGR-VBLZ-3SG.M.O
 5	ixuwa	ixuwa	NOUN	XPOS=tamanduá	_	6	nmod:poss	_	gloss[pt]=tamanduá
@@ -104,7 +104,7 @@
 # text_pt = O homem teve muito medo da onça.
 # text_en = The man was very afraid of the jaguar.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod:tmod	_	gloss[pt]=então
-2	kyky	kyky	NOUN	XPOS=homem	_	4	nsubj	_	gloss[pt]=homem
+2	kyky	kyky	NOUN	XPOS=homem	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	nsubj	_	gloss[pt]=homem
 3	ithẽene	ithẽene	VERB	XPOS=?ser.verdade	_	4	advcl	_	gloss[pt]=?ser.verdade
 4	pĩkare	pĩkare	VERB	XPOS=ter.medo	_	0	root	_	gloss[pt]=ter.medo
 5	ãkiti	hãkiti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	gloss[pt]=onça|SpaceAfter=No
@@ -353,8 +353,8 @@
 # gloss_pt = uma mulher existir comunidade.de lugar
 # text_pt = ‘Uma mulher vivia na comunidade.’Q
 # text_en = 'A woman lived in the community.'
-1	Hãtu	Hãtu	NUM	XPOS=uma	_	2	nummod	_	gloss[pt]=uma
-2	sytu	sytu	NOUN	XPOS=mulher	_	3	nsubj	_	gloss[pt]=mulher
+1	Hãtu	hãty	NUM	Num	Gender=Fem	2	nummod	_	gloss[pt]=uma
+2	sytu	sytu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|Possessed=No	3	nsubj	_	gloss[pt]=mulher
 3	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 4	awinhi	awinhi	VERB	XPOS=comunidade.de	_	5	nmod	_	gloss[pt]=comunidade.de
 5	iãtã	iãtã	NOUN	XPOS=lugar	_	3	obj	_	gloss[pt]=lugar|SpaceAfter=No
@@ -865,7 +865,7 @@
 2	nyrymany	nyrymany	NOUN	XPOS=parentes.de	_	4	nsubj	_	gloss[pt]=parentes.de
 3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
-5	nhipukury	nhipukury	NOUN	XPOS=comida	Possessed=No	4	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
+5	nhipukury	nhipukury	NOUN	XPOS=comida	Gender=Masc|Possessed=No	4	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-8
@@ -883,7 +883,7 @@
 7	kutxi	kutxi	SCONJ	XPOS=porque	_	9	mark	_	gloss[pt]=porque
 8	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	9	nsubj	_	gloss[pt]=naquele.lugar
 9	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=existir-3SG.M.O
-10	nhipukury	nhipukury	NOUN	N	Case=Nom|Possessed=No	9	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
+10	nhipukury	nhipukury	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	9	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-9
@@ -1048,8 +1048,8 @@
 # text_en = In the past there was a man.
 1	Kitxaka	kitxaka	ADV	Adv	AdvType=Tim	2	advmod:tmod	_	gloss[pt]=antigamente
 2	awama	awa	VERB	XPOS=3SG.M-existir-FRUSTR	_	0	root	_	gloss[pt]=3SG.M-existir-FRUSTR
-3	ãty	hãty	NUM	Num	_	4	nummod	_	gloss[pt]=um
-4	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	gloss[pt]=homem|SpaceAfter=No
+3	ãty	hãty	NUM	Num	Gender=Masc	4	nummod	_	gloss[pt]=um
+4	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=homem|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-7-2
@@ -1100,6 +1100,6 @@
 # text_pt = Eles tinham roçado.
 # text_en = They had a garden.
 1	Tukury	tukury	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	gloss[pt]=roçado-N.POSSD
-2	awana	awana	VERB	V	Gender[subj]=Masc|Number[subj]=Plur|Person[subj]=3	0	root	_	gloss[pt]=ter-3PL|SpaceAfter=No
+2	awana	awa	VERB	V	Gender[subj]=Masc|Number[subj]=Plur|Person[subj]=3	0	root	_	gloss[pt]=ter-3PL|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
