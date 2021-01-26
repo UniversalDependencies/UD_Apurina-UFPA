@@ -391,15 +391,15 @@ Texto 11 (colaborador: Abe)
 
 # sent_id = FernandaM2017:Texto-11-6
 # text_orig = Sytu-waku-ru kama-ry ø-awinhi my-ra-mana. 
-# text = Sytuwakuru kamary awinhi myramana. 
+# text = Sytuwakuru kamary awinhi myramana.
 # gloss_pt = mulher-PL-F fazer-3SG.M.O 3SG.M-casa.de ATRIB.INTENS-FOC-corpo.de
-# text_pt = ‘As mulheres fizeram nossa casa muito grande’Q
-# text_en = 
-1	Sytuwakuru	sytu	NOUN	XPOS=mulher-PL-F	_	_	_	_	gloss[pt]=mulher-PL-F
-2	kamary	kamary	VERB	XPOS=fazer	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	_	_	_	gloss[pt]=fazer-3SG.M.O
-3	awinhi	awinhi	NOUN	XPOS=3SG.M-casa.de	_	_	_	_	gloss[pt]=3SG.M-casa.de
-4	myramana	myramana	_	XPOS=ATRIB.INTENS-FOC-corpo.de	_	_	_	_	gloss[pt]=ATRIB.INTENS-FOC-corpo.de|SpaceAfter=No
-5	.	.	PUNCT	_	_	_	punct	_	_
+# text_pt = ‘As mulheres fizeram nossa casa muito grande.’
+# text_en = The women made our house very big.
+1	Sytuwakuru	sytu	NOUN	XPOS=mulher	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	gloss[pt]=mulher-PL-F
+2	kamary	kamary	VERB	XPOS=fazer	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=fazer-3SG.M.O
+3	awinhi	awinhi	NOUN	XPOS=3SG.M-casa.de	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	gloss[pt]=3SG.M-casa.de
+4	myramana	myramana	_	XPOS=ATRIB.INTENS-FOC-corpo.de	_	2	xcomp	_	gloss[pt]=ATRIB.INTENS-FOC-corpo.de|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-12-2
 # text_orig = Y: – Kipa?
