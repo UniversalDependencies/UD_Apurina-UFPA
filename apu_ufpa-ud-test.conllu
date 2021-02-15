@@ -7,7 +7,7 @@
 # text_en = When he came to the forest, the Indian saw blood.
 1	Pupỹkary	pupỹkary	NOUN	N	Case=Nom|Gender=Masc	4	nsubj	_	gloss_pt=apurinã
 2	ithupa	ithupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
-3	sikasaaky	sika	VERB	_	AdvType=Tim|VerbType=Conv	4	advcl:tmod	_	gloss_pt=dar-TEMP
+3	sikasaaky	sika	VERB	_	AdvType=Tim|VerbType=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
 4	atamatary	atama	VERB	_	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss_pt=ver-VBLZ-3SG.M.O
 5	erẽkatxi	herẽkatxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	4	obj	_	gloss_pt=sangue.de-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -584,7 +584,7 @@
 # gloss_pt = 3SG.M-voltar-PRED-TEMP comunidade.de-DAT 3SG.M ter-3SG.M.O 3SG.M-ser-REL.F.O celular 3SG.M-ser-REL.F.O computador ter e adiante-DAT coisa.de-N.POSSD comprar-REL.O.M existir 3SG.M-DAT
 # text_pt = ‘Quando ele voltou pra comunidade, ele tinha o celular dele; tinha o computador dele, e ele tinha muitas outras coisas.’ (Lit.: ‘E também tinha coisa comprada pra ele.’)
 # text_en = When he returned to the community, he had a cell phone and a computer, and he had many other things.
-1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	AdvType=Tim|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Conv	5	advcl:tmod	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
+1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	AdvType=Tim|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Conv	5	advcl:tcl	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
 2	aapukumunhi	awapukutxi	NOUN	XPOS=comunidade.de-DAT	_	1	obl:lmod	_	gloss[pt]=comunidade.de-DAT|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	gloss[pt]=3SG.M
