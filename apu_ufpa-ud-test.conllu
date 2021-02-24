@@ -720,7 +720,7 @@
 # text = Ywa aapukutxi kuna awary tirikapikuwana.
 # gloss_pt = 3SG.M casa.de-N.POSSD não ter-3SG.M.O lamparina-?girau
 # text_pt = ‘A casa dele não tinha lamparina.’Q
-# text_en = 
+# text_en = His house has no lamps burning.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
 2	aapukutxi	awapukutxi	NOUN	XPOS=casa.de	Possessed=No	4	nsubj	_	gloss[pt]=casa.de-N.POSSD
 3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
@@ -991,7 +991,7 @@
 # text = Kuna faltatinhi hãty kananeã.
 # gloss_pt = não faltar-GER um,outro ano-LOC
 # text_pt = ‘Não faltava nada nessa nova comunidade.’
-# text_en = Nothing was missing from this new community.
+# text_en = Nothing was missing in the other year.
 1	Kuna	kuna	PART	XPOS=não	_	2	advmod:neg	_	gloss[pt]=não
 2	faltatinhi	faltata	VERB	XPOS=faltar	VerbForm=Vnoun	4	nsubj:cop	_	gloss[pt]=faltar-GER
 3	hãty	hãty	NUM	XPOS=um,outro	_	4	nummod	_	gloss[pt]=um,outro
