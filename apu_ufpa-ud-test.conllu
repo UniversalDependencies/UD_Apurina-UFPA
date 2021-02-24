@@ -7,7 +7,7 @@
 # text_en = When he came to the forest, the Indian saw blood.
 1	Pupỹkary	pupỹkary	NOUN	N	Case=Nom|Gender=Masc	4	nsubj	_	gloss_pt=apurinã
 2	ithupa	ithupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
-3	sikasaaky	sika	VERB	_	AdvType=Tim|VerbType=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
+3	sikasaaky	sika	VERB	_	AdvType=Tim|VerbForm=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
 4	atamatary	atama	VERB	_	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss_pt=ver-VBLZ-3SG.M.O
 5	erẽkatxi	herẽkatxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	4	obj	_	gloss_pt=sangue.de-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -17,7 +17,7 @@
 # text = Yẽrẽkatikinhi iãkynytikinhi sããputa apukary apy.
 # gloss_pt = 3SG.M-sangue.de-atrás 3SG.M-rastro.de-atrás ir-ALEAT-VBLZ achar-3SG.M.O 3SG.M-osso
 # text_pt = Ele seguiu o rastro e encontrou um osso.
-# text_en = He followed the trail and found a bone.
+# text_en = Goig after the blood, after the trail he found a bone.
 1	Yẽrẽkatikinhi	herẽkatikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=3SG.M-sangue.de-atrás
 2	iãkynytikinhi	iãkynytikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	1	conj	_	gloss[pt]=3SG.M-rastro.de-atrás
 3	sããputa	sa	VERB	_	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
@@ -102,7 +102,7 @@
 # text = Inhinhiã kyky ithẽene pĩkare ãkiti.
 # gloss_pt = então homem ?ser.verdade ter.medo onça
 # text_pt = O homem teve muito medo da onça.
-# text_en = The man was very afraid of the jaguar.
+# text_en = The man was really afraid of the jaguar.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod:tmod	_	gloss[pt]=então
 2	kyky	kyky	NOUN	XPOS=homem	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	nsubj	_	gloss[pt]=homem
 3	ithẽene	ithẽene	VERB	XPOS=?ser.verdade	_	4	advcl	_	gloss[pt]=?ser.verdade
@@ -392,10 +392,10 @@
 # text = Kutxi aiku kasunakyry.
 # gloss_pt = por.isso casa ATRIB-boca.de-NC.pequeno-3SG.M.O
 # text_pt = ‘A casa tinha muita goteira.’Q
-# text_en = 'The house had a lot of leaks.'
+# text_en = 'The house was leaky.'
 1	Kutxi	Kutxi	ADV	Adv	_	3	advmod	_	gloss[pt]=por.isso
 2	aiku	aiku	NOUN	XPOS=casa	Case=Nom|Gender=Masc	3	nsubj:cop	_	gloss[pt]=casa
-3	kasunakyry	kasunaky	NOUN	XPOS=ATRIB	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB-boca.de-NC.pequeno-3SG.M.O|SpaceAfter=No
+3	kasunakyry	kasunaky	VERB	XPOS=ATRIB	Derivation=Proprietive|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ATRIB-boca.de-NC.pequeno-3SG.M.O|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-3-5
@@ -584,7 +584,7 @@
 # gloss_pt = 3SG.M-voltar-PRED-TEMP comunidade.de-DAT 3SG.M ter-3SG.M.O 3SG.M-ser-REL.F.O celular 3SG.M-ser-REL.F.O computador ter e adiante-DAT coisa.de-N.POSSD comprar-REL.O.M existir 3SG.M-DAT
 # text_pt = ‘Quando ele voltou pra comunidade, ele tinha o celular dele; tinha o computador dele, e ele tinha muitas outras coisas.’ (Lit.: ‘E também tinha coisa comprada pra ele.’)
 # text_en = When he returned to the community, he had a cell phone and a computer, and he had many other things.
-1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	AdvType=Tim|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Conv	5	advcl:tcl	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
+1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	AdvType=Tim|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbForm=Conv	5	advcl:tcl	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
 2	aapukumunhi	awapukutxi	NOUN	XPOS=comunidade.de-DAT	_	1	obl:lmod	_	gloss[pt]=comunidade.de-DAT|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	gloss[pt]=3SG.M
@@ -707,7 +707,7 @@
 # gloss_pt = ?quando-TEMP 3SG.M comprar-3SG.M.O 3SG.M-falar-REFL-VBLZ-GER 3SG.M-pinta,marca.de-folha.de-VBLZ-GER
 # text_pt = ‘Quando ele voltou, ele comprou o celular dele e o computador dele.’Q
 # text_en = 
-1	Ikanapiriãsaaky	ikanapiriã	ADV	XPOS=?quando-TEMP	AdvType=Tim|VerbType=Conv	3	advmod:tmod	_	gloss[pt]=?quando-TEMP
+1	Ikanapiriãsaaky	ikanapiriã	ADV	XPOS=?quando-TEMP	AdvType=Tim|VerbForm=Conv	3	advmod:tmod	_	gloss[pt]=?quando-TEMP
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
 3	amutary	amuta	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=comprar-3SG.M.O
 4	ysãkirawatinhi	sãkirawatinhi	NOUN	XPOS=3SG.M-falar-REFL-VBLZ	VerbForm=Vnoun	3	obj	_	gloss[pt]=3SG.M-falar-REFL-VBLZ-GER|SpaceAfter=No

@@ -852,7 +852,7 @@ Pukatymarykata ĩkanũkapanhika, yputurika.
 # text = Pumamary sutuãrytymunhi ysinhi. 
 # gloss_pt = ATRIB-PRETO-3SG.M.O igarapé-NC.grande-DAT 3SG.M-ir-GER
 # text_pt = ‘Ele foi para o igarapé preto.’Q
-# text_en = ‘‘
+# text_en = ‘He went into the black current.‘
 Pumamary sutuãrytymunhi ysinhi.
 
 # sent_id = FernandaM2017:TextsII-5-6
