@@ -657,9 +657,9 @@ Texto 11 (colaborador: Abe)
 # text = Ãty ũty aiatary irary kaiãũpuku 
 # gloss_pt = um dia caçar-VBLZ-3SG.M.O queixada muito-DISTR
 # text_pt = ‘Um dia ele caçou muitos queixadas’. 
-# text_en = 
+# text_en = One day he hunted many peccaries.
 1	Ãty	hãty	NUM	Num	_	2	nummod	_	gloss[pt]=um
-2	ũty	ũty	NOUN	XPOS=dia	_	3	advmod:tmod	_	gloss[pt]=dia
+2	ũty	ũty	NOUN	XPOS=dia	_	3	obl:tmod	_	gloss[pt]=dia
 3	aiatary	aia	VERB	XPOS=caçar-VBLZ	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=caçar-VBLZ-3SG.M.O
 4	irary	irary	NOUN	XPOS=queixada	_	3	obj	_	gloss[pt]=queixada
 5	kaiãũpuku	kaiãũ	ADV	XPOS=muito-DISTR	_	3	advmod	_	gloss[pt]=muito-DISTR
@@ -682,8 +682,8 @@ Texto 11 (colaborador: Abe)
 # text_orig = Uwa sãpira-ta: 
 # text = Uwa sãpirata: 
 # gloss_pt = 3SG.F falar-VBLZ
-# text_pt = ‘Ela falou:’Q
-# text_en = 
+# text_pt = ‘Ela falou:’
+# text_en = She said:
 1	Uwa	uwa	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.F
 2	sãpirata	sãpira	VERB	XPOS=falar-VBLZ	_	0	root	_	gloss[pt]=falar-VBLZ|SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
@@ -742,7 +742,7 @@ Texto 15 (colaboradora: Seb)
 # text_orig = U-tukury-te ithu. 
 # text = Utukuryte ithu. 
 # gloss_pt = 3SG.F-roçado-POSSD existir.muito
-# text_pt = ‘O roçadoo dela era muito’Q
+# text_pt = ‘O roçadoo dela era muito’
 # text_en = Her garden was bountiful.
 1	Utukuryte	tukury	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	2	nsubj	_	gloss[pt]=3SG.F-roçado-POSSD
 2	ithu	ithu	VERB	XPOS=existir.muito	_	0	root	_	gloss[pt]=existir.muito|SpaceAfter=No
@@ -812,7 +812,7 @@ Texto 15 (colaboradora: Seb)
 # text_pt = ‘Um dia ela olhou pra criação dela’Q
 # text_en = 
 1	Ãty	hãty	NUM	Num	_	2	nummod	_	gloss[pt]=um
-2	ũty	ũty	NOUN	XPOS=dia	_	3	advcl:tmod	_	gloss[pt]=dia
+2	ũty	ũty	NOUN	XPOS=dia	_	3	obl:tmod	_	gloss[pt]=dia
 3	uĩtimataru	ĩtima	VERB	XPOS=3SG.F-?olhar-VBLZ-3SG.F.O	_	0	root	_	gloss[pt]=3SG.F-?olhar-VBLZ-3SG.F.O
 4	upyraakury	pyra	NOUN	XPOS=3SG.F-criação.de-PL-M	_	3	obj	_	gloss[pt]=3SG.F-criação.de-PL-M|SpaceAfter=No
 5	:	:	PUNCT	_	_	3	punct	_	_

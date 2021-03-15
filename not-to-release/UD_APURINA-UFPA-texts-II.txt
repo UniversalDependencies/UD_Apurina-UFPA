@@ -938,7 +938,13 @@ Ỹtanyru, Kahukiã, puxukutary ximaky.
 # gloss_pt = peixe 3SG.F-dar-3SG.F.O 3SG.F-mãe.de 3SG.F-irmã.de também
 # text_pt = ‘Ela deu peixe para a mãe dela e também para a irmã dela.’Q
 # text_en = ‘‘
-Ximaky usykaru uynyru, uĩtharu apaka.
+1	Ximaky	ximaky	N	_	Msc|Sg|NPossd|Nom	2	obj	_	_
+2	usykaru	syka	V	_	TV|ScSg3F|Oc3F	0	root	_	_
+3	uynyru	ynyrutxi	N	_	Fem|Sg|PxSg3|PxFem|Possd|Nom	2	iobj	_	_
+4	,	,	CLB	_	_	5	punct	_	_
+5	uĩtharu	itharu	N	_	Fem|Sg|PxSg3|PxFem|Possd|Nom	3	conj	_	_
+6	apaka	apaka	Adv	_	_	5	advmod	_	_
+7	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-5-17
 # text_orig = Uwa kaikuta-ka apaka. 
@@ -960,11 +966,18 @@ Kasãtumary sãpiratary aiatinhi pirana Xirikarymunhi.
 
 # sent_id = FernandaM2017:TextsII-6-3
 # text_orig = Kasãtumary: Nuta, Kasãtumary, ny-sãpirata-i-ku n-aiat-inhi pirana. 
-# text = Kasãtumary: Nuta, Kasãtumary, nysãpirataiku naiatinhi pirana. 
+# text = Nuta, Kasãtumary, nysãpirataiku naiatinhi pirana. 
 # gloss_pt = 1SG N.PROP 1SG-contar-2SG.O-FUT 1SG-caçar-GER história
 # text_pt = ‘Eu, Kasãtumary, vou lhe contar sobre a minha caçada.’Q
 # text_en = ‘‘
-Nuta, Kasãtumary, nysãpirataiku naiatinhi pirana.
+1	Nuta	nuta	Pron	_	Pers|Sg1|Nom|@X	5	nsubj	_	_
+2	,	,	CLB	_	_	3	punct	_	_
+3	Kasãtumary	Kasãtumary	N	_	Prop|Msc|Sg|NPossd|Nom|@SUBJ>	1	appos	_	_
+4	,	,	CLB	_	_	3	punct	_	_
+5	nysãpirataiku	sãpirata	V	_	TV|ScSg1|OcSg2|Fut	0	root	_	_
+6	naiatinhi	aiata	V	_	Der|Der/NomAct|N|Msc|Sg|PxSg1|Possd|Nom|@HNOUN	7	advcl	_	_
+7	pirana	pirana	N	_	Fem|Sg|NPossd|Nom|@<SUBJ	5	obj	_	_
+8	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-4
 # text_orig = Nuta kyta aiata. 
@@ -972,7 +985,10 @@ Nuta, Kasãtumary, nysãpirataiku naiatinhi pirana.
 # gloss_pt = 1SG ontem caçar
 # text_pt = ‘Ontem fui caçar.’Q
 # text_en = ‘‘
-Nuta kyta aiata.
+1	Nuta	nuta	Pron	_	Pers|Sg1|Nom	3	nsubj	_	_
+2	kyta	kyta	Adv	_	Temp	3	advmod:tmod	_	_
+3	aiata	aiata	V	_	_	0	root	_	_
+4	.	.	CLB	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-5
 # text_orig = Ĩthupa ny-s-inhi apysa, ny-awanata-ru iuwata. 
@@ -988,7 +1004,9 @@ Nuta kyta aiata.
 # gloss_pt = 1SG-ser.bom-CAUS-VBLZ-3SG.F.O espingarda 
 # text_pt = ‘Arrumei a espingarda.’Q
 # text_en = ‘‘
-Nyerekataru xamynaky.
+1	Nyerekataru	erekata	V	_	TV|ScSg1|Oc3F	0	root	_	_
+2	xamynaky	xamynaky	N	_	Msc|Sg|NPossd|Nom	1	obj	_	_
+3	.	.	CLB	_	_	1	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-7
 # text_orig = Ny-ere-ka-ta-ru apaka paraky. 
@@ -996,7 +1014,10 @@ Nyerekataru xamynaky.
 # gloss_pt = 1SG-ser.bom-CAUS-VBLZ-3SG.F.O também cartucho
 # text_pt = ‘Prepaparei também os cartuchos.’ 
 # text_en = ‘I will also prepare the cartridges.‘
-Nyerekataru apaka paraky.
+1	Nyerekataru	erekata	V	_	TV|ScSg1|Oc3F|@X	0	root	_	_
+2	apaka	apaka	Adv	_	_	3	advmod	_	_
+3	paraky	paraky	N	_	Msc|Sg|NPossd|Nom|@HNOUN	1	obj	_	_
+4	.	.	CLB	_	_	1	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-8
 # text_orig = Inhinhiã puka-tyma-ry-kata sa nhi-txa. 
@@ -1019,8 +1040,11 @@ Nysary ĩthakuxiti ywaã nytaũkytaru irary.
 # text = Inhinhiã keta nhitxaru. 
 # gloss_pt = então atirar 1SG-AUX-3SG.F.O
 # text_pt = ‘Aí atirei nelas.’ 
-# text_en = ‘‘
-Inhinhiã keta nhitxaru.
+# text_en = ‘Then I shot them.‘
+1	Inhinhiã	inhinhiã	Adv	_	_	2	advmod:tmod	_	_
+2	keta	keta	V	_	TV|@X	0	root	_	_
+3	nhitxaru	txa	V	_	ScSg1|Oc3F	2	aux	_	_
+4	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-11
 # text_orig = Ipi hãtu pakyny nhi-keta. 
@@ -1048,7 +1072,7 @@ Xirikary pymãary:
 
 # sent_id = FernandaM2017:TextsII-6-14
 # text_orig = Xirikary: Py-myna-ta-ru p-uka-kytu? 
-# text = Xirikary: Pymynataru pukakytu? 
+# text = Pymynataru pukakytu? 
 # gloss_pt = 2SG-trazer-VBLZ-3SG.F.O 2SG-matar-REL.M.O
 # text_pt = ‘Trouxe o que matou?’Q
 # text_en = ‘‘
@@ -1064,7 +1088,7 @@ Ary, nymynapytykaru.
 
 # sent_id = FernandaM2017:TextsII-6-16
 # text_orig = Xirikary: Kuna minha-ru irary? 
-# text = Xirikary: Kuna minharu irary? 
+# text = Kuna minharu irary? 
 # gloss_pt = não ser.pesado-3SG.F.O queixada
 # text_pt = ‘Não tava pesada a queixada?’Q
 # text_en = ‘‘
@@ -1072,10 +1096,10 @@ Kuna minharu irary?
 
 # sent_id = FernandaM2017:TextsII-6-17
 # text_orig = Kasãtumary: Ary. Minha-pyty-ka-ru. 
-# text = Kasãtumary: Ary. Minhapytykaru. 
+# text = Ary. Minhapytykaru. 
 # gloss_pt = sim ser.pesado-ENF-PRED-3SG.F.O
-# text_pt = ‘Sim, tava pesado mesmo.’Q
-# text_en = ‘‘
+# text_pt = ‘Sim, tava pesado mesmo.’
+# text_en = ‘Yes, it was really heavy.‘
 Ary. Minhapytykaru.
 
 # sent_id = FernandaM2017:TextsII-6-18
@@ -1087,17 +1111,22 @@ Inhinhiãpytykara mapiãpeka napuka wai.
 
 # sent_id = FernandaM2017:TextsII-6-19
 # text_orig = Xirikary: P-awinhi-ã p-apu-k-inhi-ã kiripa py-kama-panhi-ka? 
-# text = Xirikary: Pawinhiã papukinhiã kiripa pykamapanhika? 
+# text = Pawinhiã papukinhiã kiripa pykamapanhika? 
 # gloss_pt = 2SG-casa.de-LOC 2SG-chegar-PRED-GER-PROGR o.quê 2SG-fazer-IPFTV-PRED
-# text_pt = ‘Chegando na sua casa, o que mais você fez?’Q
-# text_en = ‘‘
-Pawinhiã papukinhiã kiripa pykamapanhika?
+# text_pt = ‘Chegando na sua casa, o que mais você fez?’
+# text_en = ‘Having arrived at your home, what were you doing?‘
+1	Pawinhiã	awinhitxi	N	_	Msc|Sg|PxSg2|Possd|Loc|@HNOUN	2	obl:lmod	_	_
+2	papukinhiã	apuka	V	_	Der/NomAct|N|Msc|Sg|PxSg2|Possd|Loc	4	advcl:lcl	_	_
+3	kiripa	kiripa	Pron	_	Interr|Msc	4	obj	_	_
+4	pykamapanhika	kama	V	_	Impf|Pred|ScSg2	0	root	_	_
+5	?	?	CLB	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-20
 # text_orig = Kasãtumary: Kuna m-inha-ka-ty ny-kama-ika kutxi ny-sãpaka-pe-ka. 
-# text = Kasãtumary: Kuna minhakaty nykamaika kutxi nysãpakapeka. 
+# text = Kuna minhakaty nykamaika kutxi nysãpakapeka. 
 # gloss_pt = não PRIV-ser-PRED-3SG.M.O 1SG-fazer-não.mais porque 1SG-estar.cansado-PFTV-PRED
 # text_pt = ‘Não fiz mais nada porque eu já tava cansado.’Q
+# text_en = ‘‘
 Kuna minhakaty nykamaika kutxi nysãpakapeka.
 
 # sent_id = FernandaM2017:TextsII-6-21
@@ -1110,7 +1139,7 @@ Nhikipaãtinhiwanany nykama.
 
 # sent_id = FernandaM2017:TextsII-6-22
 # text_orig = Xirikary: Natuku-pa u-txa irary p-uka-kytu? 
-# text = Xirikary: Natukupa utxa irary pukakytu? 
+# text = Natukupa utxa irary pukakytu? 
 # gloss_pt = como-INTERR 3SG.F-AUX queixada 2SG-matar-REL.M.O
 # text_pt = ‘Como ficou o queixada morto por você?’Q
 # text_en = ‘‘
@@ -1134,15 +1163,20 @@ Namaryteny inhĩkataru.
 
 # sent_id = FernandaM2017:TextsII-6-25
 # text_orig = Xirikary: Kuna py-natxitha ĩthupa p-aiat-inhi-ã? 
-# text = Xirikary: Kuna pynatxitha ĩthupa paiatinhiã? 
+# text = Kuna pynatxitha ĩthupa paiatinhiã? 
 # gloss_pt = não 2SG-sentir.fome mata 2SG-caçar-GER-LOC
 # text_pt = ‘Você não sente fome quando caça na mata?’Q
 # text_en = ‘‘
-Kuna pynatxitha ĩthupa paiatinhiã?
+1	Kuna	kuna	Pcle	_	Aux|Neg	2	advmod:neg	_	_
+2	pynatxitha	natxitha	V	_	IV|ScSg2	0	root	_	_
+3	ĩthupa	ĩthupa	N	_	Msc|Sg|NPossd|Nom	4	obj	_	_
+4	paiatinhiã	aiata	V	_	Der|Der/NomAct|N|Loc	2	advcl:lcl	_	_
+5	?	?	CLB	_	_	2	punct	_	_
+
 
 # sent_id = FernandaM2017:TextsII-6-26
 # text_orig = Kasãtumary: Ary. Ny-natxitha-pyty-ka. 
-# text = Kasãtumary: Ary. Nynatxithapytyka. 
+# text = Ary. Nynatxithapytyka. 
 # gloss_pt = sim 1SG-sentir.fome-ENF-PRED
 # text_pt = ‘Sim, sinto fome mesmo.’Q
 # text_en = ‘‘
@@ -1158,11 +1192,15 @@ Ywaxikapytykara nukaru irary.
 
 # sent_id = FernandaM2017:TextsII-6-28
 # text_orig = Xirikary: P-awinhi-ã p-apu-ka-saaky kiripa pi-nhi-ka? 
-# text = Xirikary: Pawinhiã papukasaaky kiripa pinhika? 
+# text = Pawinhiã papukasaaky kiripa pinhika? 
 # gloss_pt = 2SG-casa.de-LOC 2SG-chegar-PRED-TEMP o.quê 2SG-comer-PRED
-# text_pt = ‘Quando chegou em casa, o que comeu?’Q
-# text_en = ‘‘
-Pawinhiã papukasaaky kiripa pinhika?
+# text_pt = ‘Quando chegou em casa, o que comeu?’
+# text_en = ‘When you arrived home, what did you eat?‘
+1	Pawinhiã	awinhitxi	N	_	Msc|Sg|PxSg2|Possd|Loc	2	obl:lmod	_	_
+2	papukasaaky	apuka	V	_	Temp|ScSg2	4	advcl:tcl	_	_
+3	kiripa	kiripa	Pron	_	Interr|Msc	4	obj	_	_
+4	pinhika	nhika	V	_	ScSg2	_	_	_	_
+5	?	?	CLB	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-29
 # text_orig = Kasãtumary: Nhi-nhi-ka-ry ximaky nỹ-tanyru, Kahukyã, takapasata-kyty. 
@@ -1911,7 +1949,7 @@ Ymanapypytykara.
 # text = Kirisaakypa pyputurykatary . pytukare pykaminhi
 # gloss_pt = INTERR-TEMP-INTENS 2SG-?trabalho-ASSOC-3SG.M.O 2SG-roçado-POSSD 2SG-fazer-GER
 # text_pt = ‘Quando você vai começar a fazer a sua derrubada?’Q
-# text_en = ‘‘
+# text_en = ‘When are you going to start doing your clearing?‘
 Kirisaakypa pyputurykatary . pytukare pykaminhi
 
 # sent_id = FernandaM2017:TextsII-10-7
@@ -1995,7 +2033,7 @@ Pysykanuku paikumaky nytakare ĩkapane.
 
 # sent_id = FernandaM2017:TextsII-10-17
 # text_orig = Kirama: Y-manapy-saaky py-sa nuta-munhi ywaã ny-syka-i.
-# text = Kirama: Ymanapysaaky pysa nutamunhi ywaã nysykai.
+# text = Ymanapysaaky pysa nutamunhi ywaã nysykai.
 # gloss_pt = 3SG.M-ser.época-TEMP 2SG-ir 1SG-DAT assim 1SG-dar-2SG.O
 # text_pt = ‘Quando for no tempo você vai comigo e eu lhe darei a semente’ Lit.: ‘Quando for a época, você vai comigo e eu dou pra você’Q
 # text_en = ‘‘
