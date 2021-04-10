@@ -7,7 +7,7 @@
 # text_en = When he came to the forest, the Indian saw blood.
 1	Pupỹkary	pupỹkary	NOUN	N	Case=Nom|Gender=Masc	4	nsubj	_	gloss_pt=apurinã
 2	ithupa	ithupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
-3	sikasaaky	sika	VERB	_	Case=Temp|VerbForm=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
+3	sikasaaky	sika	VERB	_	Case=Tem|VerbForm=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
 4	atamatary	atama	VERB	_	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss_pt=ver-VBLZ-3SG.M.O
 5	erẽkatxi	herẽkatxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	4	obj	_	gloss_pt=sangue.de-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -584,8 +584,8 @@
 # gloss_pt = 3SG.M-voltar-PRED-TEMP comunidade.de-DAT 3SG.M ter-3SG.M.O 3SG.M-ser-REL.F.O celular 3SG.M-ser-REL.F.O computador ter e adiante-DAT coisa.de-N.POSSD comprar-REL.O.M existir 3SG.M-DAT
 # text_pt = ‘Quando ele voltou pra comunidade, ele tinha o celular dele; tinha o computador dele, e ele tinha muitas outras coisas.’ (Lit.: ‘E também tinha coisa comprada pra ele.’)
 # text_en = When he returned to the community, he had a cell phone and a computer, and he had many other things.
-1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	Case=Temp|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbForm=Conv	5	advcl:tcl	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
-2	aapukumunhi	awapukutxi	NOUN	XPOS=comunidade.de-DAT	_	1	obl:lmod	_	gloss[pt]=comunidade.de-DAT|SpaceAfter=No
+1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	Case=Tem|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbForm=Conv	5	advcl:tcl	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
+2	aapukumunhi	awapukutxi	NOUN	N	Case=Dat	1	obl:lmod	_	gloss[pt]=comunidade.de-DAT|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	gloss[pt]=3SG.M
 5	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
@@ -597,7 +597,7 @@
 11	awa	awa	VERB	XPOS=ter	_	5	conj	_	gloss[pt]=ter|SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
 13	i	i	CCONJ	CC	_	17	cc	_	gloss[pt]=e
-14	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	_	17	obl	_	gloss[pt]=adiante-DAT
+14	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	Case=Dat	17	obl	_	gloss[pt]=adiante-DAT
 15	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	17	obj	_	gloss[pt]=coisa.de-N.POSSD
 16	amutakita	amuta	VERB	XPOS=comprar-REL.O.M	_	15	acl:relcl	_	gloss[pt]=comprar-REL.O.M
 17	awa	awa	VERB	XPOS=existir	_	5	conj	_	gloss[pt]=existir
@@ -708,7 +708,7 @@
 # gloss_pt = ?quando-TEMP 3SG.M comprar-3SG.M.O 3SG.M-falar-REFL-VBLZ-GER 3SG.M-pinta,marca.de-folha.de-VBLZ-GER
 # text_pt = ‘Quando ele voltou, ele comprou o celular dele e o computador dele.’Q
 # text_en = 
-1	Ikanapiriãsaaky	ikanapiriãsaaky	ADV	XPOS=?quando-TEMP	Case=Temp	3	advmod:tmod	_	gloss[pt]=?quando-TEMP
+1	Ikanapiriãsaaky	ikanapiriãsaaky	ADV	XPOS=?quando-TEMP	Case=Tem	3	advmod:tmod	_	gloss[pt]=?quando-TEMP
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
 3	amutary	amuta	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=comprar-3SG.M.O
 4	ysãkirawatinhi	sãkirawatinhi	NOUN	XPOS=3SG.M-falar-REFL-VBLZ	VerbForm=Vnoun	3	obj	_	gloss[pt]=3SG.M-falar-REFL-VBLZ-GER|SpaceAfter=No
@@ -945,7 +945,7 @@
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	matxaka	matxaka	VERB	XPOS=tirar	_	0	root	_	gloss[pt]=tirar
 3	kaiãapuku	kaiãapuku	DET	XPOS=muito-DISTR	_	4	det	_	gloss[pt]=muito-DISTR
-4	maky	maky	NOUN	N	Gender=Fem	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
+4	maky	maky	NOUN	N	Case=Nom|Gender=Fem	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-14
