@@ -1006,7 +1006,7 @@
 # text_pt = ‘Tinha tudo lá.’
 # text_en = There was everything there.
 1	Ykynypuku	Ykynypuku	PRON	XPOS=tudo-DISTR	_	2	nsubj	_	gloss[pt]=tudo-DISTR
-2	awa	awa	AUX	XPOS=existir	_	0	root	_	gloss[pt]=existir
+2	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 3	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	det	_	gloss[pt]=3SG.M
 4	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl:lmod	_	gloss[pt]=naquele.lugar|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
