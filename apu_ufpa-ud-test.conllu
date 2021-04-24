@@ -46,7 +46,7 @@
 # gloss_pt = AUX-FRUSTR-3SG.M.O existir-IPFTV-PRED muito-DISTR-M 3SG.M-sangue.de existir
 # text_pt = ‘Mas ainda tinha muito sangue no chão.’
 # text_en = But there was still a lot of blood on the ground.
-1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Number[obj]=Sing|Person[obj]=3	2	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Number[obj]=Sing|Person[obj]=3	2	cc	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	aapanhika	awa	VERB	XPOS=existir-IPFTV-PRED	_	0	root	_	gloss[pt]=existir-IPFTV-PRED
 3	kaiãpukury	kaiãpuku	DET	XPOS=muito-DISTR-M	_	4	det	_	gloss[pt]=muito-DISTR-M
 4	arẽka	herẽka	NOUN	N	Gender=Masc|Gender[psor]=Masc	5	nsubj	_	gloss[pt]=3SG.M-sangue.de
@@ -176,7 +176,7 @@
 # gloss_pt = AUX-FRUSTR-3SG.M.O 3PL casa.de velho.de-N.POSSD-PFTV-SER-AFET-palha ATRIB.INTENS-??-POSSD-??? casa.de-?LOC
 # text_pt = Mas a casa tinha muita goteira, porque a palha era velha.
 # text_en = But their home had a lot of leaks, because the straw was old.
-1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	cc	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	det	_	gloss[pt]=3PL
 3	aapuku	awapukutxi	NOUN	XPOS=casa.de	Possessed=Yes	4	nsubj	_	gloss[pt]=casa.de
 4	kiumãtxipeinhinhixika	kiumã	NOUN	XPOS=velho.de-N.POSSD-PFTV-SER-AFET-palha	_	6	advcl	_	gloss[pt]=velho.de-N.POSSD-PFTV-SER-AFET-palha|SpaceAfter=No
@@ -1238,7 +1238,7 @@
 # sent_id = Lima-Padovani:2020:342:1
 # text = Iũpiri xuxuri atuku itxa.
 # text_pt = O japó parece com o japiim.
-# text_en = The green oropendola looks like the japiim.
+# text_en = The green oropendola is similar to the japiim.
 1	Iũpiri	iũpiri	NOUN	_	_	3	nsubj:cop	_	_
 2	xuxuri	txutxuri	NOUN	_	_	1	conj	_	_
 3	atuku	atuku	ADJ	_	_	0	root	_	_
