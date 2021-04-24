@@ -1145,7 +1145,7 @@
 
 # sent_id = FernandaM2017:Texto-7-10
 # text_orig = Kyky ukatsaã-nã-ta ĩsũana. 
-# text = Kyky ukatsaãnãta ĩsũana. 
+# text = Kyky ukatsaãnãta ĩsũana.
 # gloss_pt = homem pescar-PROGR-VBLZ rio 
 # text_pt = O homem pescava no rio.
 # text_en = The man was fishing in the river.
@@ -1161,7 +1161,7 @@
 # text_pt = O rio tinha muito peixe.
 # text_en = The river has a lot of fish.
 1	Ĩsũana	ĩsũana	NOUN	XPOS=rio	_	2	nsubj	_	gloss[pt]=rio
-2	myrykynyty	ykyny	DET	XPOS=ATRIB.INTENS-FOC-tudo	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB.INTENS-FOC-tudo-3SG.M.O
+2	myrykynyty	ykyny	ADV	XPOS=ATRIB.INTENS-FOC-tudo	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ATRIB.INTENS-FOC-tudo-3SG.M.O
 3	itxa	txa	AUX	XPOS=3SG.M-AUX	_	2	aux	_	gloss[pt]=3SG.M-AUX
 4	ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	gloss[pt]=peixe|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
