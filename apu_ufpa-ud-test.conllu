@@ -1186,16 +1186,16 @@
 # gloss_pt = lá existir roçado rapé beiju todo-DISTR
 # text_pt = ‘Lá tem roçado, rapé, beiju e outras coisas (todo o resto).’Q
 # text_en = In it, there is a clearing, snuff, beiju and everything else.
-1	Ywã	ywa	PRON	Pron	Case=Loc	0	root	_	gloss[pt]=lá
-2	awa	awa	AUX	XPOS=existir	_	1	cop	_	gloss[pt]=existir
-3	kikiu	kikiu	NOUN	XPOS=roçado	_	1	nsubj:cop	_	gloss[pt]=roçado|SpaceAfter=No
+1	Ywã	ywa	PRON	Pron	Case=Loc	2	obl:lmod	_	gloss[pt]=lá
+2	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
+3	kikiu	kikiu	NOUN	XPOS=roçado	_	2	nsubj	_	gloss[pt]=roçado|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	awiri	awiri	NOUN	XPOS=rapé	_	3	conj	_	gloss[pt]=rapé|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	kumyry	kumyry	NOUN	XPOS=beiju	_	3	conj	_	gloss[pt]=beiju|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	conj	_	gloss[pt]=todo-DISTR
-10	.	.	PUNCT	_	_	1	punct	_	_
+9	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	conj	_	gloss[pt]=todo-DISTR|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-8-5
 # text_orig = Ywã kãkite awa ã-awinhinhĩ-ã y-pyra-waku-ry.
@@ -1204,7 +1204,7 @@
 # text_pt = Lá a gente tem na comunidade as criações.
 # text_en = There the people in our community have children.
 1	Ywã	Ywã	ADV	XPOS=lá	Case=Loc	3	advmod:lmod	_	gloss[pt]=lá
-2	kãkite	kãkite	NOUN 	N	Gender=Masc	3	nsubj	_	gloss[pt]=gente
+2	kãkite	kãkite	NOUN	N	Gender=Masc	3	nsubj	_	gloss[pt]=gente
 3	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
 4	ãawinhinhĩã	awinhinhi	NOUN	XPOS=comunidade.de	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1|Possessed=Yes	3	obl:lmod	_	gloss[pt]=1PL-comunidade.de-LOC
 5	ypyrawakury	pyra	NOUN	XPOS=3SG.M-criação.de-PL-M	Gender=Masc|Number=Plur|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=3SG.M-criação.de-PL-M|SpaceAfter=No
