@@ -21,7 +21,9 @@ Finite-State Transistor development:
 ## References
 
 * Sidney da Silva Facundes, 2000: THE LANGUAGE OF THE APURINÃ PEOPLE OF BRAZIL, (MAIPURE/ARAWAK). (A Dissertation submitted to the Faculty of the Graduate School of State University of New York at Buffalo in partial fulfillment of the requirements for the degree of Doctor of Philosophy Department of Linguistics.)
+* Sidney da Silva Facundes;  Marília Fernanda Pereira de Freitas; Bruna Fernanda Soares de Lima-Padovani, 2021: Number Expression in Apurinã (Arawák).  Hämäläinen, Mika; Partanen, Niko; Alnajjar, Khalid (eds.) In book: Multilingual Facilitation. --  University of Helsinki. (http://hdl.handle.net/10138/327787)
 * Marília Fernanda Pereira de Freitas, 2017: A POSSE EM APURINÃ: descrição de construções atributivas e predicativas em comparação com outras línguas Aruák. Belém/PA.
+* Bruna Fernanda Soares de Lima Padovani, 2020: ESTUDO DO LÉXICO DA LÍNGUA APURINÃ UMA PROPOSTA DE MACRO E MICROESTRURA PARA O DICIONÁRIO APURINÃ. Belém/PA.
 
 
 # Changelog
@@ -41,7 +43,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Fernanda, Marília; Facundes, Sidney; Rueter, Jack; Partanen, Niko
+Contributors: Fernanda, Marília; Facundes, Sidney; Lima Padovani, Bruna; Rueter, Jack; Partanen, Niko
 Contributing: elsewhere
 Contact: rueter.jack@gmail.com
 ===============================================================================

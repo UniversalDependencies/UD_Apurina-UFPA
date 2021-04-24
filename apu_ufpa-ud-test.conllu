@@ -1094,6 +1094,28 @@
 6	xamynaky	xamynaky	NOUN	XPOS=espingarda	_	4	obj	_	gloss[pt]=espingarda|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = FernandaM2017:Texto-7-5
+# text_orig = Ka-tapara-xine-ry inhinhĩã aiata-pe i-txa.
+# text = Kataparaxinery inhinhĩã aiatape itxa.
+# gloss_pt = ATRIB-coragem-?-3SG.M.O então caçar-PFTV 3SG.M-AUX 
+# text_pt = Ele tinha muita coragem, então ele caçava.
+# text_en = He had a lot of courage, so he hunted.
+1	Kataparaxinery	Kataparaxinery	ADJ	XPOS=ATRIB-coragem-?	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB-coragem-?-3SG.M.O
+2	inhinhĩã	inhinhĩã	ADV	XPOS=então	_	3	advmod	_	gloss[pt]=então
+3	aiatape	aiatape	VERB	XPOS=caçar-PFTV	_	1	conj	_	gloss[pt]=caçar-PFTV
+4	itxa	txa	AUX	XPOS=3SG.M-AUX	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	3	aux	_	gloss[pt]=3SG.M-AUX|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-7
+# text_orig = U-kywy-xike-ru uwa.
+# text = Ukywyxikeru uwa.
+# gloss_pt = 3SG.F-cabeça.de-cabelo.de-3SG.F.O 3SG.F
+# text_pt = Ela tinha o cabelo comprido.
+# text_en = She had long hair.
+1	Ukywyxikeru	kywyxiketxi	NOUN	XPOS=cabeça.de-cabelo.de-3SG.F.O	Gender[psor]=Fem|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	2	nsubj	_	gloss[pt]=3SG.F-cabeça.de-cabelo.de-3SG.F.O
+2	uwa	uwa	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	gloss[pt]=3SG.F|SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = FernandaM2017:Texto-7-8
 # text_orig = Tuku-ry awa-na.
 # text = Tukury awana.
@@ -1104,3 +1126,111 @@
 2	awana	awa	VERB	V	Gender[subj]=Masc|Number[subj]=Plur|Person[subj]=3	0	root	_	gloss[pt]=ter-3PL|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
+# sent_id = FernandaM2017:Texto-7-9
+# text_orig = Ywa kyky sytu-re were-ra-wa-ta ywa kikiu-te, ithu-pyty-ma-ry u-parĩka.
+# text = Ywa kyky syture wererawata ywa kikiute, ithupytymary uparĩka.
+# gloss_pt = 3SG.M homem mulher-POSSD ser.bonito-FOC-REFL-VBLZ 3SG.M roçado-POSSD  ter.muito-ENF-FRUSTR-3SG.M.O 3SG.F-trabalho.de
+# text_pt = ‘A mulher do homem deixava bonito o roçado dele, mas ela tinha muito trabalho’ (Lit.: ‘Mas o trabalho dela era muito.’)
+# text_en = The man's wife made his garden beautiful, but she had a lot of work. 
+1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
+2	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	nmod:poss	_	gloss[pt]=homem
+3	syture	sytu	NOUN	XPOS=mulher-POSSD	Case=Nom|Gender=Fem|Possessed=Yes	4	nsubj	_	gloss[pt]=mulher-POSSD
+4	wererawata	were	VERB	XPOS=ser.bonito-FOC-REFL-VBLZ	_	0	root	_	gloss[pt]=ser.bonito-FOC-REFL-VBLZ
+5	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	gloss[pt]=3SG.M
+6	kikiute	kikiu	NOUN	XPOS=roçado-POSSD	Case=Nom|Gender=Masc|Possessed=Yes	4	obj	_	gloss[pt]=roçado-POSSD|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	ithupytymary	ithu	VERB	XPOS=ter.muito-ENF-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	conj	_	gloss[pt]=ter.muito-ENF-FRUSTR-3SG.M.O
+9	uparĩka	parĩkatxi	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	8	nsubj	_	gloss[pt]=3SG.F-trabalho.de|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-10
+# text_orig = Kyky ukatsaã-nã-ta ĩsũana. 
+# text = Kyky ukatsaãnãta ĩsũana. 
+# gloss_pt = homem pescar-PROGR-VBLZ rio 
+# text_pt = O homem pescava no rio.
+# text_en = The man was fishing in the river.
+1	Kyky	kyky	NOUN	XPOS=homem	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=homem
+2	ukatsaãnãta	ukatsaã	VERB	XPOS=pescar-PROGR-VBLZ	_	0	root	_	gloss[pt]=pescar-PROGR-VBLZ
+3	ĩsũana	ĩsũana	NOUN	XPOS=rio	_	2	obl:lmod	_	gloss[pt]=rio|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-11
+# text_orig = Ĩsũana my-r-ykyny-ty i-txa ximaky. 
+# text = Ĩsũana myrykynyty itxa ximaky. 
+# gloss_pt = rio ATRIB.INTENS-FOC-tudo-3SG.M.O 3SG.M-AUX peixe
+# text_pt = O rio tinha muito peixe.
+# text_en = The river has a lot of fish.
+1	Ĩsũana	ĩsũana	NOUN	XPOS=rio	_	2	nsubj	_	gloss[pt]=rio
+2	myrykynyty	ykyny	DET	XPOS=ATRIB.INTENS-FOC-tudo	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB.INTENS-FOC-tudo-3SG.M.O
+3	itxa	txa	VERB	XPOS=3SG.M-AUX	_	2	aux	_	gloss[pt]=3SG.M-AUX
+4	ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	gloss[pt]=peixe|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-12
+# text_orig = Ywa kyky awa ykyny-puku ø-awinhi iãtã.
+# text = Ywa kyky awa ykynypuku awinhi iãtã.
+# gloss_pt = 3SG.M homem ter todo-DISTR 3SG.M-comunidade.de lugar
+# text_pt = O homem tinha de tudo na comunidade dele.
+# text_en = The man had everything in his community.
+1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
+2	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	nsubj	_	gloss[pt]=homem
+3	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
+4	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	obj	_	gloss[pt]=todo-DISTR
+5	awinhi	awinhi	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Possessed=Yes	6	nmod	_	gloss[pt]=3SG.M-comunidade.de
+6	iãtã	iãtã	NOUN	XPOS=lugar	_	3	obl:lmod	_	gloss[pt]=lugar|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = FernandaM2017:Texto-8-3
+# text_orig = Ywã awa kikiu, awiri, kumyry, ykyny-puku
+# text = Ywã awa kikiu, awiri, kumyry, ykynypuku.
+# gloss_pt = lá existir roçado rapé beiju todo-DISTR
+# text_pt = ‘Lá tem roçado, rapé, beiju e outras coisas (todo o resto).’Q
+# text_en = In it, there is a clearing, snuff, beiju and everything else.
+1	Ywã	ywa	PRON	Pron	Case=Loc	0	root	_	gloss[pt]=lá
+2	awa	awa	AUX	XPOS=existir	_	1	cop	_	gloss[pt]=existir
+3	kikiu	kikiu	NOUN	XPOS=roçado	_	1	nsubj:cop	_	gloss[pt]=roçado|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	awiri	awiri	NOUN	XPOS=rapé	_	3	conj	_	gloss[pt]=rapé|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	kumyry	kumyry	NOUN	XPOS=beiju	_	3	conj	_	gloss[pt]=beiju|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	conj	_	gloss[pt]=todo-DISTR
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = FernandaM2017:Texto-8-5
+# text_orig = Ywã kãkite awa ã-awinhinhĩ-ã y-pyra-waku-ry.
+# text = Ywã kãkite awa ãawinhinhĩã ypyrawakury.
+# gloss_pt = lá gente ter 1PL-comunidade.de-LOC 3SG.M-criação.de-PL-M
+# text_pt = Lá a gente tem na comunidade as criações.
+# text_en = There the people in our community have children.
+1	Ywã	Ywã	ADV	XPOS=lá	Case=Loc	3	advmod:lmod	_	gloss[pt]=lá
+2	kãkite	kãkite	NOUN 	N	Gender=Masc	3	nsubj	_	gloss[pt]=gente
+3	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
+4	ãawinhinhĩã	awinhinhi	NOUN	XPOS=comunidade.de	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1|Possessed=Yes	3	obl:lmod	_	gloss[pt]=1PL-comunidade.de-LOC
+5	ypyrawakury	pyra	NOUN	XPOS=3SG.M-criação.de-PL-M	Gender=Masc|Number=Plur|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=3SG.M-criação.de-PL-M|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = FernandaM2017:Texto-9-1
+# text_orig = Pupĩkary-ny awa y-kyynyry-te-na i-serẽka-na mitxi-ry.
+# text = Pupĩkaryny awa ykyynyrytena iserẽkana mitxiry.
+# gloss_pt = índio-PL ter 3PL.M-xingané-POSSD-3PL.M 3PL.M-dança-3PL.M ser.primeiro-3SG.M.O
+# text_pt = ‘Os Apurinã têm a festa deles, as primeiras danças deles (as danças tradicionais).’Q
+# text_en = The Apurinã have their Kyynyry Feast, their first dance.
+1	Pupĩkaryny	pupĩkary	NOUN	XPOS=índio-PL	Number=Plur	2	nsubj	_	gloss[pt]=índio-PL
+2	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
+3	ykyynyrytena	kyynyry	NOUN	XPOS=xingané	Gender=Masc|Gender[psor]=Masc|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	2	obj	_	gloss[pt]=3PL.M-xingané-POSSD-3PL.M
+4	iserẽkana	serẽka	NOUN	XPOS=3PL.M-dança-3PL.M	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	5	nsubj	_	gloss[pt]=3PL.M-dança-3PL.M
+5	mitxiry	mitxiry	VERB	XPOS=ser.primeiro	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	conj	_	gloss[pt]=ser.primeiro-3SG.M.O|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-9-2
+# text_orig = Kyynyry-saaky ø-aputury-ta-wa-na ithu kãkity.
+# text = Kyynyrysaaky aputurytawana ithu kãkity.
+# gloss_pt = xingané-TEMP 3PL.M-?juntar-VBLZ-REFL-3PL.M muito gente
+# text_pt = ‘Quando tem festa, junta muita gente.’Q
+# text_en = At the Kyynyry feast, many people gather.
+1	Kyynyrysaaky	kyynyry	NOUN	XPOS=xingané-TEMP	_	2	obl:tmod	_	gloss[pt]=xingané-TEMP
+2	aputurytawana	aputury	VERB	XPOS=3PL.M-?juntar-VBLZ-REFL-3PL.M	_	0	root	_	gloss[pt]=3PL.M-?juntar-VBLZ-REFL-3PL.M
+3	ithu	ithu	DET	XPOS=muito	_	4	det	_	gloss[pt]=muito
+4	kãkity	kãkity	NOUN	N	Gender=Masc|Number=Sing	2	nsubj	_	gloss[pt]=gente|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
