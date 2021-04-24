@@ -46,7 +46,7 @@
 # gloss_pt = AUX-FRUSTR-3SG.M.O existir-IPFTV-PRED muito-DISTR-M 3SG.M-sangue.de existir
 # text_pt = ‘Mas ainda tinha muito sangue no chão.’
 # text_en = But there was still a lot of blood on the ground.
-1	Txamary	txa	AUX	XPOS=AUX-FRUSTR	Number[obj]=Sing|Person[obj]=3	2	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Number[obj]=Sing|Person[obj]=3	2	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	aapanhika	awa	VERB	XPOS=existir-IPFTV-PRED	_	0	root	_	gloss[pt]=existir-IPFTV-PRED
 3	kaiãpukury	kaiãpuku	DET	XPOS=muito-DISTR-M	_	4	det	_	gloss[pt]=muito-DISTR-M
 4	arẽka	herẽka	NOUN	N	Gender=Masc|Gender[psor]=Masc	5	nsubj	_	gloss[pt]=3SG.M-sangue.de
@@ -176,7 +176,7 @@
 # gloss_pt = AUX-FRUSTR-3SG.M.O 3PL casa.de velho.de-N.POSSD-PFTV-SER-AFET-palha ATRIB.INTENS-??-POSSD-??? casa.de-?LOC
 # text_pt = Mas a casa tinha muita goteira, porque a palha era velha.
 # text_en = But their home had a lot of leaks, because the straw was old.
-1	Txamary	txa	AUX	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	det	_	gloss[pt]=3PL
 3	aapuku	awapukutxi	NOUN	XPOS=casa.de	Possessed=Yes	4	nsubj	_	gloss[pt]=casa.de
 4	kiumãtxipeinhinhixika	kiumã	NOUN	XPOS=velho.de-N.POSSD-PFTV-SER-AFET-palha	_	6	advcl	_	gloss[pt]=velho.de-N.POSSD-PFTV-SER-AFET-palha|SpaceAfter=No
@@ -302,12 +302,12 @@
 # gloss_pt = AUX-FRUST-3SG.M.O 3PL não ATRIB-dinheiro-POSSD-3PL AUX-FRUSTR-3SG.M.O 3PL muito-DISTR-M comida-N.POSSD ter
 # text_pt = ‘Eles não tinham muito dinheiro, (Lit.: ‘Mas, eles não tinham dinheiro’) mas eles tinham muita comida.’
 # text_en = 
-1	Txamary	txa	AUX	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	aux	_	gloss[pt]=AUX-FRUST-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	cc	_	gloss[pt]=AUX-FRUST-3SG.M.O
 2	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	gloss[pt]=3PL
 3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	kadinhẽrutene	dinhẽru	NOUN	XPOS=ATRIB-dinheiro-POSSD-3PL	_	0	root	_	gloss[pt]=ATRIB-dinheiro-POSSD-3PL|SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
-6	txamary	txa	AUX	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	10	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+6	txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	10	cc	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 7	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	gloss[pt]=3PL
 8	kaiãapukury	kaiãapukury	VERB	XPOS=muito-DISTR-M	_	10	acl	_	gloss[pt]=muito-DISTR-M
 9	nhipukury	nhipukury	VERB	XPOS=comida	Possessed=No	10	obj	_	gloss[pt]=comida-N.POSSD
@@ -511,7 +511,7 @@
 3	awary	awa	VERB	XPOS=ter	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 4	ytsupa	tsupa	NOUN	XPOS=3SG.M-dinhero	_	3	obj	_	gloss[pt]=3SG.M-dinhero|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	txamary	txa	AUX	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	8	aux	_	gloss[pt]=AUX-FRUST-3SG.M.O
+6	txamary	txamary	CCONJ	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	8	cc	_	gloss[pt]=AUX-FRUST-3SG.M.O
 7	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	gloss[pt]=3PL
 8	kaiãapuku	kaiãa	VERB	XPOS=ter.muito-DISTR	_	3	conj	_	gloss[pt]=ter.muito-DISTR
 9	nhipukury	nhipuku	VERB	XPOS=comida	Possessed=No	8	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
@@ -1102,7 +1102,7 @@
 # text_en = He had a lot of courage, so he hunted.
 1	Kataparaxinery	Kataparaxinery	ADJ	XPOS=ATRIB-coragem-?	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB-coragem-?-3SG.M.O
 2	inhinhĩã	inhinhĩã	ADV	XPOS=então	_	3	advmod	_	gloss[pt]=então
-3	aiatape	aiatape	VERB	XPOS=caçar-PFTV	_	1	conj	_	gloss[pt]=caçar-PFTV
+3	aiatape	aiata	VERB	XPOS=caçar-PFTV	_	1	conj	_	gloss[pt]=caçar-PFTV
 4	itxa	txa	AUX	XPOS=3SG.M-AUX	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	3	aux	_	gloss[pt]=3SG.M-AUX|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1162,7 +1162,7 @@
 # text_en = The river has a lot of fish.
 1	Ĩsũana	ĩsũana	NOUN	XPOS=rio	_	2	nsubj	_	gloss[pt]=rio
 2	myrykynyty	ykyny	DET	XPOS=ATRIB.INTENS-FOC-tudo	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB.INTENS-FOC-tudo-3SG.M.O
-3	itxa	txa	VERB	XPOS=3SG.M-AUX	_	2	aux	_	gloss[pt]=3SG.M-AUX
+3	itxa	txa	AUX	XPOS=3SG.M-AUX	_	2	aux	_	gloss[pt]=3SG.M-AUX
 4	ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	gloss[pt]=peixe|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1234,3 +1234,13 @@
 3	ithu	ithu	DET	XPOS=muito	_	4	det	_	gloss[pt]=muito
 4	kãkity	kãkity	NOUN	N	Gender=Masc|Number=Sing	2	nsubj	_	gloss[pt]=gente|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Lima-Padovani:2020:342:1
+# text = Iũpiri xuxuri atuku itxa.
+# text_pt = O japó parece com o japiim.
+# text_en = The green oropendola looks like the japiim.
+1	Iũpiri	iũpiri	NOUN	_	_	3	nsubj:cop	_	_
+2	xuxuri	txutxuri	NOUN	_	_	1	conj	_	_
+3	atuku	atuku	ADJ	_	_	0	root	_	_
+4	itxa	txa	AUX	_	_	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
