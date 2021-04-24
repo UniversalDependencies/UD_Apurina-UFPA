@@ -1250,9 +1250,9 @@
 # text = Sytuwakuru, kiripa ukamaãne?
 # gloss_en = woman-PL-F what 3PL.F-do-PROGR-3PL.F
 # text_en = And the women, what do they do?
-1	Sytuwakuru	sytu	NOUN	Gender=Fem|Number=Plur	_	4	dislocated	_	_
+1	Sytuwakuru	sytu	NOUN	Gender=Fem|Number=Plur	_	4	dislocated	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	kiripa	kiripa	PRON	_	_	4	nsubj	_	_
-4	ukamaãne	kama	VERB	Case=Loc|Gender[psor]=Fem|Number[psor]=Plur|Person[psor]=3	_	0	root	_	_
+4	ukamaãne	kama	VERB	Case=Loc|Gender[psor]=Fem|Number[psor]=Plur|Person[psor]=3	_	0	root	_	SpaceAfter=No
 5	?	_	PUNCT	_	_	4	punct	_	_
 
