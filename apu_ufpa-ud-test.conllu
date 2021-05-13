@@ -7,7 +7,7 @@
 # text_en = When he came to the forest, the Indian saw blood.
 1	Pupỹkary	pupỹkary	NOUN	N	Case=Nom|Gender=Masc	4	nsubj	_	gloss_pt=apurinã
 2	ithupa	ithupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
-3	sikasaaky	sika	VERB	_	AdvType=Tim|VerbType=Conv	4	advcl:tmod	_	gloss_pt=dar-TEMP
+3	sikasaaky	sika	VERB	_	Case=Tem|VerbForm=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
 4	atamatary	atama	VERB	_	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss_pt=ver-VBLZ-3SG.M.O
 5	erẽkatxi	herẽkatxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	4	obj	_	gloss_pt=sangue.de-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -17,12 +17,12 @@
 # text = Yẽrẽkatikinhi iãkynytikinhi sããputa apukary apy.
 # gloss_pt = 3SG.M-sangue.de-atrás 3SG.M-rastro.de-atrás ir-ALEAT-VBLZ achar-3SG.M.O 3SG.M-osso
 # text_pt = Ele seguiu o rastro e encontrou um osso.
-# text_en = He followed the trail and found a bone.
-1	Yẽrẽkatikinhi	herẽka	NOUN	N	Gender=Masc|Gender[psor]=Masc	3	obj	_	gloss[pt]=3SG.M-sangue.de-atrás
-2	iãkynytikinhi	iãkyny	NOUN	N	Gender=Masc|Gender[psor]=Masc	1	conj	_	gloss[pt]=3SG.M-rastro.de-atrás
+# text_en = Goig after the blood, after the trail he found a bone.
+1	Yẽrẽkatikinhi	herẽkatikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=3SG.M-sangue.de-atrás
+2	iãkynytikinhi	iãkynytikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	1	conj	_	gloss[pt]=3SG.M-rastro.de-atrás
 3	sããputa	sa	VERB	_	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
-4	apukary	apuka	VERB	_	_	3	conj	_	gloss[pt]=achar-3SG.M.O
-5	apy	apy	NOUN	N	Gender=Masc|Gender[psor]=Masc	4	obj	_	gloss[pt]=3SG.M-osso|SpaceAfter=No
+4	apukary	apuka	VERB	_	Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=achar-3SG.M.O
+5	apy	apy	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	4	obj	_	gloss[pt]=3SG.M-osso|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-1-3
@@ -30,14 +30,14 @@
 # text = Inhinhiã ywa apikumunhi ysa iãkynykata apukary uky.
 # gloss_pt = então 3SG.M adiante-DAT 3SG.M-ir 3SG.M-rastro.de-ASSOC achar-3SG.M.O 3SG.M-olho.de
 # text_pt = ‘Ele continuou seguindo o rastro de sangue e encontrou um olho.’
-# text_en = ’He continued to follow the trail of blood and found an eye.’
+# text_en = ’Then he went forward along the path and found an eye.’
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod	_	_
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	GTtags=Pers,Sg3,Msc,Nom
-3	apikumunhi	apiku	ADV	Adv	Case=All	4	advmod	_	GTtags=All
+3	apikumunhi	apiku	ADV	Adv	Case=Dat	4	advmod	_	GTtags=Dat
 4	ysa	sa	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	GTtags=ScSg3M
 5	iãkynykata	iãkyny	NOUN	N	Case=Com|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	GTtags=Msc,Sg,PxSg3M,Com
 6	apukary	apuka	VERB	V	Gender[obj]=Masc|Gender[subj]=Masc|Number[obj]=Plur,Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	4	conj	_	GTtags=Pred,ScSg3M,Oc3M
-7	uky	uky	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	GTtags=Msc,Sg,PxSg3M,Nom|SpaceAfter=No
+7	uky	uky	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	6	obj	_	GTtags=Msc,Sg,PxSg3M,Nom|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-1-4
@@ -46,7 +46,7 @@
 # gloss_pt = AUX-FRUSTR-3SG.M.O existir-IPFTV-PRED muito-DISTR-M 3SG.M-sangue.de existir
 # text_pt = ‘Mas ainda tinha muito sangue no chão.’
 # text_en = But there was still a lot of blood on the ground.
-1	Txamary	txa	AUX	XPOS=AUX-FRUSTR-3SG.M.O	_	2	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Number[obj]=Sing|Person[obj]=3	2	cc	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	aapanhika	awa	VERB	XPOS=existir-IPFTV-PRED	_	0	root	_	gloss[pt]=existir-IPFTV-PRED
 3	kaiãpukury	kaiãpuku	DET	XPOS=muito-DISTR-M	_	4	det	_	gloss[pt]=muito-DISTR-M
 4	arẽka	herẽka	NOUN	N	Gender=Masc|Gender[psor]=Masc	5	nsubj	_	gloss[pt]=3SG.M-sangue.de
@@ -62,11 +62,11 @@
 1	Inhinhiã	inhinhiã	ADV	Adv	_	5	advmod:tmod	_	gloss[pt]=então
 2	ĩkana	ĩkana	ADV	Adv	_	5	advmod:tmod	_	gloss[pt]=?novamente
 3	iie	ie	DET	Det	Gender=Masc	4	det	_	gloss[pt]=esse-M
-4	iãkynytikinhi	iãkyny	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	5	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
+4	iãkynytikinhi	iãkynytikinhi	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	5	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
 5	sããputa	sa	VERB	XPOS=ir-ALEAT-VBLZ	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
 6	era	era	ADV	XPOS=lá	_	7	advmod:lmod	_	gloss[pt]=lá
-7	apukary	apuka	VERB	XPOS=achar-3SG.M.O	_	5	conj	_	gloss[pt]=achar-3SG.M.O
-8	ymata	mata	NOUN	XPOS=3SG.M-pele,	_	7	obj	_	gloss[pt]=3SG.M-pele,couro,casca.de|SpaceAfter=No
+7	apukary	apuka	VERB	XPOS=achar	Number[obj]=Sing|Person[obj]=3	5	conj	_	gloss[pt]=achar-3SG.M.O
+8	ymata	mata	NOUN	XPOS=3SG.M-pele,	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	7	obj	_	gloss[pt]=3SG.M-pele,couro,casca.de|SpaceAfter=No
 9	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = FernandaM2017:Texto-1-6
@@ -74,12 +74,12 @@
 # text = Inhinhiã apikumunhi iãkynytikinhi sããputa araũkytary ãkiti.
 # gloss_pt = então adiante-DAT 3SG.M-rastro.de-atrás ir-ALEAT-VBLZ encontrar-3SG.M.O onça
 # text_pt = ‘Ele andou um pouco mais, seguindo o rastro de sangue, e encontrou uma onça.’Q
-# text_en = He walked onward, following the bloodtrack, and encountered a jaguar.
+# text_en = Then he went onward along the trail and found a jaguar.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod:tmod	_	gloss[pt]=então
-2	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	_	4	obl:lmod	_	gloss[pt]=adiante-DAT
-3	iãkynytikinhi	iãkyny	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	4	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
+2	apikumunhi	apiku	NOUN	XPOS=adiante	Case=Dat	4	obl:lmod	_	gloss[pt]=adiante-DAT
+3	iãkynytikinhi	iãkynytikinhi	NOUN	XPOS=3SG.M-rastro.de-atrás	Gender=Masc|Gender[psor]=Masc	4	obl	_	gloss[pt]=3SG.M-rastro.de-atrás
 4	sããputa	sa	VERB	XPOS=ir-ALEAT-VBLZ	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
-5	araũkytary	araũkyta	VERB	XPOS=encontrar-3SG.M.O	_	4	conj	_	gloss[pt]=encontrar-3SG.M.O
+5	araũkytary	araũkyta	VERB	XPOS=encontrar	Number[obj]=Sing|Person[obj]=3	4	conj	_	gloss[pt]=encontrar-3SG.M.O
 6	ãkiti	hãkiti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	gloss[pt]=onça|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -90,7 +90,7 @@
 # text_pt = A onça tava comendo um tamanduá bandeira.
 # text_en = So [he] saw the jaguar eating giant anteater meat.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	2	advmod:tmod	_	gloss[pt]=então
-2	atamatary	atama	VERB	XPOS=ver-VBLZ-3SG.M.O	_	0	root	_	gloss[pt]=ver-VBLZ-3SG.M.O
+2	atamatary	atama	VERB	XPOS=ver-VBLZ	Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ver-VBLZ-3SG.M.O
 3	ãkiti	hãkiti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj:agent	_	gloss[pt]=onça
 4	nhikanãtary	nhi	VERB	XPOS=comer-PRED-PROGR-VBLZ-3SG.M.O	Aspect=Prog|Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	advcl	_	gloss[pt]=comer-PRED-PROGR-VBLZ-3SG.M.O
 5	ixuwa	ixuwa	NOUN	XPOS=tamanduá	_	6	nmod:poss	_	gloss[pt]=tamanduá
@@ -102,9 +102,9 @@
 # text = Inhinhiã kyky ithẽene pĩkare ãkiti.
 # gloss_pt = então homem ?ser.verdade ter.medo onça
 # text_pt = O homem teve muito medo da onça.
-# text_en = The man was very afraid of the jaguar.
+# text_en = The man was really afraid of the jaguar.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod:tmod	_	gloss[pt]=então
-2	kyky	kyky	NOUN	XPOS=homem	_	4	nsubj	_	gloss[pt]=homem
+2	kyky	kyky	NOUN	XPOS=homem	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	nsubj	_	gloss[pt]=homem
 3	ithẽene	ithẽene	VERB	XPOS=?ser.verdade	_	4	advcl	_	gloss[pt]=?ser.verdade
 4	pĩkare	pĩkare	VERB	XPOS=ter.medo	_	0	root	_	gloss[pt]=ter.medo
 5	ãkiti	hãkiti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	gloss[pt]=onça|SpaceAfter=No
@@ -118,7 +118,7 @@
 # text_en = He ran out, because he didn't want to be eaten by the jaguar either.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	2	advmod:tmod	_	gloss[pt]=então
 2-3	iputurĩmitekatinhi	_	_	_	_	_	_	_	SpaceAfter=No
-2	iputurĩ	putury	VERB	XPOS=3SG.M-pular	_	0	root	_	gloss[pt]=3SG.M-pular
+2	iputurĩ	putury	VERB	XPOS=3SG.M-pular	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=3SG.M-pular
 3	mitekatinhi	myteka	VERB	XPOS=correr-VBLZ	VerbForm=Vnoun	2	advcl	_	gloss[pt]=correr-VBLZ-GER
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	inhinhiã	inhinhiã	ADV	Adv	_	7	advmod:tmod	_	gloss[pt]=então
@@ -127,7 +127,7 @@
 8	iia	ie	DET	Det	Gender=Masc	9	det	_	gloss[pt]=esse
 9	ãkiti	hãkiti	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	gloss[pt]=onça
 10	kene	kuna	PART	XPOS=não	_	11	advmod:neg	_	gloss[pt]=não
-11	inhinhiãwa	inhinhiãwa	VERB	XPOS=3SG.M-comer-?ser-REFL	_	7	xcomp	_	gloss[pt]=3SG.M-comer-?ser-REFL
+11	inhinhiãwa	inhinhiãwa	VERB	XPOS=3SG.M-comer-?ser-REFL	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	7	xcomp	_	gloss[pt]=3SG.M-comer-?ser-REFL
 12	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	gloss[pt]=3SG.M|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -137,7 +137,7 @@
 # gloss_pt = existir mulher existir gente comunidade.de lugar
 # text_pt = ‘Tinha uma mulher que vivia na comunidade.’ Lit.: ‘Tinha uma mulher que vivia na comunidade da gente.’Q
 # text_en = There is a woman who lived in the community.
-1	Awa	Awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
+1	Awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 2	sytu	sytu	NOUN	XPOS=mulher	_	1	nsubj	_	gloss[pt]=mulher
 3	awa	awa	VERB	XPOS=existir	_	1	conj	_	gloss[pt]=existir
 4	kãkiti	kãkiti	NOUN	N	Gender=Masc	6	nmod:poss	_	gloss[pt]=gente
@@ -176,13 +176,13 @@
 # gloss_pt = AUX-FRUSTR-3SG.M.O 3PL casa.de velho.de-N.POSSD-PFTV-SER-AFET-palha ATRIB.INTENS-??-POSSD-??? casa.de-?LOC
 # text_pt = Mas a casa tinha muita goteira, porque a palha era velha.
 # text_en = But their home had a lot of leaks, because the straw was old.
-1	Txamary	txa	AUX	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	cc	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 2	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	det	_	gloss[pt]=3PL
-3	aapuku	awapukutxi	NOUN	XPOS=casa.de	_	4	nsubj	_	gloss[pt]=casa.de
+3	aapuku	awapukutxi	NOUN	XPOS=casa.de	Possessed=Yes	4	nsubj	_	gloss[pt]=casa.de
 4	kiumãtxipeinhinhixika	kiumã	NOUN	XPOS=velho.de-N.POSSD-PFTV-SER-AFET-palha	_	6	advcl	_	gloss[pt]=velho.de-N.POSSD-PFTV-SER-AFET-palha|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	patsukarepyryna	tsuka	ADJ	XPOS=ATRIB.INTENS-??-POSSD-???	_	0	root	_	gloss[pt]=ATRIB.INTENS-??-POSSD-???
-7	awinhinã	awinhitxi	NOUN	XPOS=casa.de-?LOC	_	6	nsubj	_	gloss[pt]=casa.de-?LOC|SpaceAfter=No
+7	awinhinã	awinhitxi	NOUN	XPOS=casa.de	Case=Loc|Number=Sing|Possessed=Yes	6	nsubj	_	gloss[pt]=casa.de-?LOC|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = FernandaM2017:Texto-2-5
@@ -206,7 +206,7 @@
 # text_en = 
 1	'Awary	'awa	VERB	XPOS=não.existir	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=não.existir-3SG.M.O
 2	kãkiti	kãkiti	NOUN	N	Gender=Masc	3	nsubj	_	gloss[pt]=gente
-3	atamarakitinhitã	atama	VERB	XPOS=ver-FOC-REL.M.O-GER-VBLZ-LOC	_	1	csubj	_	gloss[pt]=ver-FOC-REL.M.O-GER-VBLZ-LOC|SpaceAfter=No
+3	atamarakitinhitã	atama	VERB	XPOS=ver-FOC-REL.M.O-GER-VBLZ	Case=Loc	1	csubj	_	gloss[pt]=ver-FOC-REL.M.O-GER-VBLZ-LOC|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = FernandaM2017:Texto-2-7
@@ -279,7 +279,7 @@
 2	makinhi	mak	VERB	XPOS=dormir	VerbForm=Vnoun	3	nmod	_	gloss[pt]=dormir-GER
 3	iãtã	iãtã	NOUN	XPOS=lugar,	_	6	obl:lmod	_	gloss[pt]=lugar,|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	ũtanyry	tanyry	NOUN	Gender=Masc|Gender[psor]=Fem	_	6	nsubj	_	gloss[pt]=3SG.F-esposo.de
+5	ũtanyry	tanyry	NOUN	Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Possessed=Yes	_	6	nsubj	_	gloss[pt]=3SG.F-esposo.de
 6	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
 7	ykeku	keku	NOUN	XPOS=3SG.M-rede.de	_	6	obj	_	gloss[pt]=3SG.M-rede.de|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -302,12 +302,12 @@
 # gloss_pt = AUX-FRUST-3SG.M.O 3PL não ATRIB-dinheiro-POSSD-3PL AUX-FRUSTR-3SG.M.O 3PL muito-DISTR-M comida-N.POSSD ter
 # text_pt = ‘Eles não tinham muito dinheiro, (Lit.: ‘Mas, eles não tinham dinheiro’) mas eles tinham muita comida.’
 # text_en = 
-1	Txamary	txa	AUX	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	aux	_	gloss[pt]=AUX-FRUST-3SG.M.O
+1	Txamary	txamary	CCONJ	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	cc	_	gloss[pt]=AUX-FRUST-3SG.M.O
 2	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	gloss[pt]=3PL
 3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	kadinhẽrutene	dinhẽru	NOUN	XPOS=ATRIB-dinheiro-POSSD-3PL	_	0	root	_	gloss[pt]=ATRIB-dinheiro-POSSD-3PL|SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
-6	txamary	txa	AUX	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	10	aux	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
+6	txamary	txamary	CCONJ	XPOS=AUX-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	10	cc	_	gloss[pt]=AUX-FRUSTR-3SG.M.O
 7	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	gloss[pt]=3PL
 8	kaiãapukury	kaiãapukury	VERB	XPOS=muito-DISTR-M	_	10	acl	_	gloss[pt]=muito-DISTR-M
 9	nhipukury	nhipukury	VERB	XPOS=comida	Possessed=No	10	obj	_	gloss[pt]=comida-N.POSSD
@@ -332,7 +332,7 @@
 10	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	gloss[pt]=3PL
 11	awary	awa	VERB	XPOS=ter	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	conj	_	gloss[pt]=ter-3SG.M.O
 12	iumyary	iumyary	NOUN	XPOS=macaxeira	_	11	obj	_	gloss[pt]=macaxeira
-13	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	_	12	nmod	_	gloss[pt]=adiante-DAT
+13	apikumunhi	apiku	NOUN	XPOS=adiante	Case=Dat	12	nmod	_	gloss[pt]=adiante-DAT
 14	amãnteere	amãnteere	NOUN	XPOS=fruta	_	12	conj	_	gloss[pt]=fruta|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -353,8 +353,8 @@
 # gloss_pt = uma mulher existir comunidade.de lugar
 # text_pt = ‘Uma mulher vivia na comunidade.’Q
 # text_en = 'A woman lived in the community.'
-1	Hãtu	Hãtu	NUM	XPOS=uma	_	2	nummod	_	gloss[pt]=uma
-2	sytu	sytu	NOUN	XPOS=mulher	_	3	nsubj	_	gloss[pt]=mulher
+1	Hãtu	hãty	NUM	Num	Gender=Fem	2	nummod	_	gloss[pt]=uma
+2	sytu	sytu	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|Possessed=No	3	nsubj	_	gloss[pt]=mulher
 3	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 4	awinhi	awinhi	VERB	XPOS=comunidade.de	_	5	nmod	_	gloss[pt]=comunidade.de
 5	iãtã	iãtã	NOUN	XPOS=lugar	_	3	obj	_	gloss[pt]=lugar|SpaceAfter=No
@@ -378,7 +378,7 @@
 # gloss_pt = 3SG.F 3SG.F-filho.de-PL 3SG.F-esposo.de ter-3SG.M.O casa ATRIB.INTENS-?grande-3SG.M.O
 # text_pt = ‘Ela, os filhos e o marido tinham uma casa muito grande.’Q
 # text_en = 'She, her children and her husband had a very big house.'
-1	Uwa	Uwa,	PRON	XPOS=3SG.F	_	5	nsubj	_	gloss[pt]=3SG.F|SpaceAfter=No
+1	Uwa	uwa	PRON	XPOS=3SG.F	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	gloss[pt]=3SG.F|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	ũimiakury	imi	NOUN	XPOS=3SG.F-filho.de-PL	_	1	conj	_	gloss[pt]=3SG.F-filho.de-PL
 4	ũtanyry	tanyry	NOUN	XPOS=3SG.F-esposo.de	_	1	conj	_	gloss[pt]=3SG.F-esposo.de
@@ -392,10 +392,10 @@
 # text = Kutxi aiku kasunakyry.
 # gloss_pt = por.isso casa ATRIB-boca.de-NC.pequeno-3SG.M.O
 # text_pt = ‘A casa tinha muita goteira.’Q
-# text_en = 'The house had a lot of leaks.'
+# text_en = 'The house was leaky.'
 1	Kutxi	Kutxi	ADV	Adv	_	3	advmod	_	gloss[pt]=por.isso
 2	aiku	aiku	NOUN	XPOS=casa	Case=Nom|Gender=Masc	3	nsubj:cop	_	gloss[pt]=casa
-3	kasunakyry	kasunaky	NOUN	XPOS=ATRIB	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB-boca.de-NC.pequeno-3SG.M.O|SpaceAfter=No
+3	kasunakyry	kasunaky	VERB	XPOS=ATRIB	Derivation=Proprietive|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ATRIB-boca.de-NC.pequeno-3SG.M.O|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-3-5
@@ -444,7 +444,7 @@
 1	Nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	det	_	gloss[pt]=3PL
 2	tiwitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	3	nsubj	_	gloss[pt]=coisa.de-N.POSSD
 3	kaiãapuku	kaiãa	VERB	XPOS=ter.muito-DISTR	_	0	root	_	gloss[pt]=ter.muito-DISTR
-4	aapukutxiã	awapukutxi	NOUN	XPOS=casa.de-N.POSSD-LOC	_	3	obl:lmod	_	gloss[pt]=casa.de-N.POSSD-LOC|SpaceAfter=No
+4	aapukutxiã	awapukutxi	NOUN	XPOS=casa.de	Case=Loc|Possessed=No	3	obl:lmod	_	gloss[pt]=casa.de-N.POSSD-LOC|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-3-9
@@ -464,9 +464,9 @@
 # text_orig = Ø-aa-pe-ka-na atãkary, ãputa, mãka-txi-pe-ka-na. 
 # text = aapekana atãkary, ãputa, mãkatxipekana.
 # gloss_pt = 3PL.M-ter-PFTV-PRED-3PL.M espelho abano roupa.de-N.POSSD-PFTV-PRED-3PL.M
-# text_pt = ‘Eles tinham espelho, abano, roupa.’Q
-# text_en = 
-1	aapekana	aa	VERB	XPOS=3PL.M-ter-PFTV-PRED-3PL.M	_	0	root	_	gloss[pt]=3PL.M-ter-PFTV-PRED-3PL.M
+# text_pt = ‘Eles tinham espelho, abano, roupa.’
+# text_en = ‘They had a mirror, fan [and] clothes‘
+1	aapekana	awa	VERB	XPOS=3PL.M-ter-PFTV-PRED-3PL.M	_	0	root	_	gloss[pt]=3PL.M-ter-PFTV-PRED-3PL.M
 2	atãkary	atãkary	NOUN	XPOS=espelho	_	1	nsubj	_	gloss[pt]=espelho|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	ãputa	ãputa	NOUN	XPOS=abano	_	2	conj	_	gloss[pt]=abano|SpaceAfter=No
@@ -483,7 +483,7 @@
 1	Nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	det	_	gloss[pt]=3PL
 2	makinhi	makinhi	VERB	XPOS=dormir	VerbForm=Vnoun	3	nmod	_	gloss[pt]=dormir-GER
 3	iãtã	iãtã	NOUN	XPOS=lugar	_	4	nsubj	_	gloss[pt]=lugar
-4	awary	awary	VERB	XPOS=existir	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=existir-3SG.M.O
+4	awary	awa	VERB	XPOS=existir	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=existir-3SG.M.O
 5	ũtanyry	tanyry	NOUN	XPOS=3SG.F-marido.de	_	6	nmod	_	gloss[pt]=3SG.F-marido.de
 6	keku	keku	NOUN	XPOS=rede.de	_	4	obj	_	gloss[pt]=rede.de|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
@@ -511,7 +511,7 @@
 3	awary	awa	VERB	XPOS=ter	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 4	ytsupa	tsupa	NOUN	XPOS=3SG.M-dinhero	_	3	obj	_	gloss[pt]=3SG.M-dinhero|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	txamary	txa	AUX	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	8	aux	_	gloss[pt]=AUX-FRUST-3SG.M.O
+6	txamary	txamary	CCONJ	XPOS=AUX-FRUST	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	8	cc	_	gloss[pt]=AUX-FRUST-3SG.M.O
 7	nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	gloss[pt]=3PL
 8	kaiãapuku	kaiãa	VERB	XPOS=ter.muito-DISTR	_	3	conj	_	gloss[pt]=ter.muito-DISTR
 9	nhipukury	nhipuku	VERB	XPOS=comida	Possessed=No	8	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
@@ -521,12 +521,12 @@
 # text_orig = Nynuwa awa-ry, ka-xinhi-ry, iumyary, ximaky, amãtyry
 # text = Nynuwa awary, kaxinhiry, iumyary, ximaky, amãtyry.
 # gloss_pt = 3PL ter-3SG.M.O ATRIB-carne.de-3SG.M.O macaxeira peixe fruta
-# text_pt = ‘Eles tinham carne de caça, macaxeira, peixe e frutas.’ Lit.: ‘Eles tinham, tinham carne, macaxeira, peixe, fruta.’Q
-# text_en = They had it, they had meat, manioc, fish, fruit.
+# text_pt = ‘Eles tinham carne de caça, macaxeira, peixe e frutas.’ Lit.: ‘Eles tinham, tinham carne, macaxeira, peixe, fruta.’
+# text_en = They had it, [they] had meat, manioc, fish, fruit.
 1	Nynuwa	nynuwa	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3PL
 2	awary	awa	VERB	XPOS=ter	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	kaxinhiry	xinhi	NOUN	XPOS=ATRIB-carne.de	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	conj	_	gloss[pt]=ATRIB-carne.de-3SG.M.O|SpaceAfter=No
+4	kaxinhiry	kaxinhi	VERB	XPOS=ATRIB-carne.de	Derivation=Proprietive|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	2	conj	_	gloss[pt]=ATRIB-carne.de-3SG.M.O|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	iumyary	iumyary	NOUN	XPOS=macaxeira	_	4	conj	_	gloss[pt]=macaxeira|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -584,8 +584,8 @@
 # gloss_pt = 3SG.M-voltar-PRED-TEMP comunidade.de-DAT 3SG.M ter-3SG.M.O 3SG.M-ser-REL.F.O celular 3SG.M-ser-REL.F.O computador ter e adiante-DAT coisa.de-N.POSSD comprar-REL.O.M existir 3SG.M-DAT
 # text_pt = ‘Quando ele voltou pra comunidade, ele tinha o celular dele; tinha o computador dele, e ele tinha muitas outras coisas.’ (Lit.: ‘E também tinha coisa comprada pra ele.’)
 # text_en = When he returned to the community, he had a cell phone and a computer, and he had many other things.
-1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	AdvType=Tim|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Conv	5	advcl:tmod	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
-2	aapukumunhi	awapukutxi	NOUN	XPOS=comunidade.de-DAT	_	1	obl:lmod	_	gloss[pt]=comunidade.de-DAT|SpaceAfter=No
+1	Ĩkanapyryãkasaaky	kanapyryã	VERB	V	Case=Tem|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbForm=Conv	5	advcl:tcl	_	gloss[pt]=3SG.M-voltar-PRED-TEMP
+2	aapukumunhi	awapukutxi	NOUN	N	Case=Dat	1	obl:lmod	_	gloss[pt]=comunidade.de-DAT|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	gloss[pt]=3SG.M
 5	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
@@ -597,11 +597,11 @@
 11	awa	awa	VERB	XPOS=ter	_	5	conj	_	gloss[pt]=ter|SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
 13	i	i	CCONJ	CC	_	17	cc	_	gloss[pt]=e
-14	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	_	17	obl	_	gloss[pt]=adiante-DAT
+14	apikumunhi	apiku	NOUN	XPOS=adiante-DAT	Case=Dat	17	obl	_	gloss[pt]=adiante-DAT
 15	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	17	obj	_	gloss[pt]=coisa.de-N.POSSD
 16	amutakita	amuta	VERB	XPOS=comprar-REL.O.M	_	15	acl:relcl	_	gloss[pt]=comprar-REL.O.M
 17	awa	awa	VERB	XPOS=existir	_	5	conj	_	gloss[pt]=existir
-18	ywamunhi	ywa	PRON	XPOS=3SG.M-DAT	_	5	obl	_	gloss[pt]=3SG.M-DAT|SpaceAfter=No
+18	ywamunhi	ywa	PRON	XPOS=3SG.M	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	gloss[pt]=3SG.M-DAT|SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = FernandaM2017:Texto-4-4
@@ -612,7 +612,7 @@
 # text_en = His house had no lamp.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
 2	aapuku	awapukutxi	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	gloss[pt]=casa.de
-3	'awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=NEG.ter-3SG.M.O
+3	'awary	'awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=NEG.ter-3SG.M.O
 4	tirikapi	tirikapi	NOUN	XPOS=lamparina	_	3	obj	_	gloss[pt]=lamparina|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -652,6 +652,7 @@
 # text = Ykynykaapuku ãki ynerekakyty amuta.
 # gloss_pt = tudo-?PRED-casa.de dentro 3SG.M-querer-PRED-REL.O.M comprar
 # text_pt = ‘Ele comprou tudo que queria pra casa dele.’ (Lit.: ‘Tudo que ele queria dentro da casa ele comprou.’)
+#text_en = ‘‘
 1-2	Ykynykaapuku	_	_	_	_	_	_	_	_
 1	Ykynyk	ykynyk	PRON	XPOS=tudo-?PRED	_	2	det	_	gloss[pt]=tudo-?PRED-casa.de
 2	aapuku	awapukutxi	NOUN	XPOS=casa.de	_	4	obj	_	gloss[pt]=casa.de
@@ -665,10 +666,10 @@
 # text = Pupũkary sary sitatximunhi.
 # gloss_pt = índio ir-3SG.M.O cidade-DAT
 # text_pt = ‘O índio foi pra cidade.’Q
-# text_en = 
+# text_en = ‘The native went to town.‘
 1	Pupũkary	Pupũkary	NOUN	N	Gender=Masc	2	nsubj	_	gloss[pt]=índio
 2	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ir-3SG.M.O
-3	sitatximunhi	sitatxi	NOUN	XPOS=cidade-DAT	_	2	obl:lmod	_	gloss[pt]=cidade-DAT|SpaceAfter=No
+3	sitatximunhi	sitatxi	NOUN	XPOS=cidade	Case=Dat	2	obl:lmod	_	gloss[pt]=cidade-DAT|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-5-2
@@ -676,10 +677,10 @@
 # text = Ywa kaiãapuku maky.
 # gloss_pt = 3SG.M ter.muito-DISTR castanha
 # text_pt = ‘Ele tinha muita castanha.’Q
-# text_en = 
+# text_en = He had a lot of chestnuts.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	kaiãapuku	kaiãa	VERB	XPOS=ter.muito-DISTR	_	0	root	_	gloss[pt]=ter.muito-DISTR
-3	maky	maky	NOUN	N	Gender=Fem	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
+3	maky	maky	NOUN	N	Gender=Fem|Possessed=No	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-5-3
@@ -707,7 +708,7 @@
 # gloss_pt = ?quando-TEMP 3SG.M comprar-3SG.M.O 3SG.M-falar-REFL-VBLZ-GER 3SG.M-pinta,marca.de-folha.de-VBLZ-GER
 # text_pt = ‘Quando ele voltou, ele comprou o celular dele e o computador dele.’Q
 # text_en = 
-1	Ikanapiriãsaaky	ikanapiriã	ADV	XPOS=?quando-TEMP	AdvType=Tim|VerbType=Conv	3	advmod:tmod	_	gloss[pt]=?quando-TEMP
+1	Ikanapiriãsaaky	ikanapiriãsaaky	ADV	XPOS=?quando-TEMP	Case=Tem	3	advmod:tmod	_	gloss[pt]=?quando-TEMP
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
 3	amutary	amuta	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=comprar-3SG.M.O
 4	ysãkirawatinhi	sãkirawatinhi	NOUN	XPOS=3SG.M-falar-REFL-VBLZ	VerbForm=Vnoun	3	obj	_	gloss[pt]=3SG.M-falar-REFL-VBLZ-GER|SpaceAfter=No
@@ -720,7 +721,7 @@
 # text = Ywa aapukutxi kuna awary tirikapikuwana.
 # gloss_pt = 3SG.M casa.de-N.POSSD não ter-3SG.M.O lamparina-?girau
 # text_pt = ‘A casa dele não tinha lamparina.’Q
-# text_en = 
+# text_en = His house has no lamps burning.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
 2	aapukutxi	awapukutxi	NOUN	XPOS=casa.de	Possessed=No	4	nsubj	_	gloss[pt]=casa.de-N.POSSD
 3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
@@ -738,7 +739,7 @@
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
 3	amutary	amuta	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=comprar-3SG.M.O
 4	tirikapikuwana	tirikapikuwana	NOUN	XPOS=lamparina	_	3	obj	_	gloss[pt]=lamparina
-5	aapukumunhi	awapukutxi	NOUN	XPOS=casa.de-DAT	_	3	obl	_	gloss[pt]=casa.de-DAT|SpaceAfter=No
+5	aapukumunhi	awapukutxi	NOUN	XPOS=casa.de	Case=Dat	3	obl	_	gloss[pt]=casa.de-DAT|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-5-7
@@ -754,7 +755,7 @@
 5	mãkatxi	mãka	NOUN	XPOS=roupa.de	Possessed=No	4	obj	_	gloss[pt]=roupa.de-N.POSSD|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	ykitimata	kitimata	NOUN	XPOS=3SG.M-pé.de-NC.casca,pele.de	_	5	conj	_	gloss[pt]=3SG.M-pé.de-NC.casca,pele.de
-8	ytanurumunhi	tanuru	NOUN	XPOS=3SG.M-esposa-DAT	_	4	obl	_	gloss[pt]=3SG.M-esposa-DAT|SpaceAfter=No
+8	ytanurumunhi	tanuru	NOUN	XPOS=3SG.M-esposa	Case=Dat	4	obl	_	gloss[pt]=3SG.M-esposa-DAT|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-5-8
@@ -766,7 +767,7 @@
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
 3	ykynypuku	ykyny	PRON	XPOS=todo-DISTR	_	2	obj	_	gloss[pt]=todo-DISTR
-4	aapukutxiã	awapukutxi	NOUN	N	Case=Loc|Gender=Masc|Gender[psor]=Masc|Number[psor]=Sing|Person[psor]=3	2	obl:lmod	_	gloss[pt]=3SG.M-casa.de-N.POSSD-LOC|SpaceAfter=No
+4	aapukutxiã	awapukutxi	NOUN	N	Case=Loc|Gender=Masc|Gender[psor]=Masc|Number[psor]=Sing|Person[psor]=3|Possessed=No	2	obl:lmod	_	gloss[pt]=3SG.M-casa.de-N.POSSD-LOC|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-1
@@ -775,7 +776,7 @@
 # gloss_pt = existir-3sg.m.o índio 1sg-comunidade.de lugar
 # text_pt = Tinha um índio na minha comunidade.
 # text_en = Lit. There is an Indian [in] my living place.
-1	Awary	Awa	VERB	XPOS=existir-3sg.m.o	_	0	root	_	gloss[pt]=existir-3sg.m.o
+1	Awary	awa	VERB	XPOS=existir-3sg.m.o	_	0	root	_	gloss[pt]=existir-3sg.m.o
 2	pupỹkary	pupỹkary	NOUN	N	Gender=Masc	1	nsubj	_	gloss[pt]=índio
 3	nawinhi	awa	VERB	XPOS=1sg-comunidade.de	_	4	nmod	_	gloss[pt]=1sg-comunidade.de
 4	iãta	iãta	NOUN	XPOS=lugar	_	1	obl:lmod	_	gloss[pt]=lugar|SpaceAfter=No
@@ -791,18 +792,18 @@
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
 3	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ir-3SG.M.O
 4	hãty	hãty	NUM	XPOS=um,outro	_	5	nummod	_	gloss[pt]=um,outro
-5	kananeã	kanane	NOUN	XPOS=ano-LOC	_	3	obl:tmod	_	gloss[pt]=ano-LOC|SpaceAfter=No
+5	kananeã	kanane	NOUN	XPOS=ano-LOC	Case=Loc	3	obl:tmod	_	gloss[pt]=ano-LOC|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	kutxi	kutxi	SCONJ	XPOS=porque	_	9	mark	_	gloss[pt]=porque
 8	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	gloss[pt]=3SG.M
 9	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=ir-3SG.M.O
 10	hãty	hãty	NUM	XPOS=um,outro	_	11	nummod	_	gloss[pt]=um,outro
-11	kananeã	kanane	NOUN	XPOS=ano-LOC	_	9	obl:tmod	_	gloss[pt]=ano-LOC|SpaceAfter=No
+11	kananeã	kanane	NOUN	XPOS=ano	Case=Loc	9	obl:tmod	_	gloss[pt]=ano-LOC|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	kutxi	kutxi	SCONJ	XPOS=porque	_	15	mark	_	gloss[pt]=porque
 14	kuna	kuna	PART	XPOS=não	_	15	advmod:neg	_	gloss[pt]=não
 15	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=existir-3SG.M.O
-16	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	15	nsubj	_	gloss[pt]=naquele.lugar|SpaceAfter=No
+16	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	15	obl:lmod	_	gloss[pt]=naquele.lugar|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-3
@@ -849,10 +850,10 @@
 # gloss_pt = naquele.lugar não existir-3SG.M.O castanha-LOC
 # text_pt = ‘Lá não tinha castanha.’Q
 # text_en = 
-1	Ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	3	nsubj	_	gloss[pt]=naquele.lugar
+1	Ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	3	obl:lmod	_	gloss[pt]=naquele.lugar
 2	kuna	kuna	PART	XPOS=não	_	3	advmod:neg	_	gloss[pt]=não
-3	awary	awary	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=existir-3SG.M.O
-4	makiã	makiã	NOUN	XPOS=castanha-LOC	_	3	obl:lmod	_	gloss[pt]=castanha-LOC|SpaceAfter=No
+3	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=existir-3SG.M.O
+4	makiã	makiã	NOUN	XPOS=castanha	Case=Loc	3	obl:lmod	_	gloss[pt]=castanha-LOC|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-7
@@ -865,7 +866,7 @@
 2	nyrymany	nyrymany	NOUN	XPOS=parentes.de	_	4	nsubj	_	gloss[pt]=parentes.de
 3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ter-3SG.M.O
-5	nhipukury	nhipukury	NOUN	XPOS=comida	Possessed=No	4	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
+5	nhipukury	nhipukury	NOUN	XPOS=comida	Gender=Masc|Possessed=No	4	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-8
@@ -881,9 +882,9 @@
 5	itixi	itixi	NOUN	XPOS=terra,chão	_	3	obl:lmod	_	gloss[pt]=terra,chão|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	kutxi	kutxi	SCONJ	XPOS=porque	_	9	mark	_	gloss[pt]=porque
-8	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	9	nsubj	_	gloss[pt]=naquele.lugar
+8	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	9	obl:lmod	_	gloss[pt]=naquele.lugar
 9	awary	awa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=existir-3SG.M.O
-10	nhipukury	nhipukury	NOUN	N	Case=Nom|Possessed=No	9	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
+10	nhipukury	nhipukury	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	9	obj	_	gloss[pt]=comida-N.POSSD|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-9
@@ -892,7 +893,7 @@
 # gloss_pt = naquele.lugar existir-IPFTV-PRED terra ?ATRIB.INTENS-?ser.bom-DISTR
 # text_pt = ‘Lá ainda tinha muita terra boa pra plantar.’
 # text_en = There was still a lot of good land to plant there.
-1	Ywãtãa	Ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl:lmod	_	gloss[pt]=naquele.lugar
+1	Ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl:lmod	_	gloss[pt]=naquele.lugar
 2	aapanhika	awa	VERB	XPOS=existir-IPFTV-PRED	_	0	root	_	gloss[pt]=existir-IPFTV-PRED
 3	kipatxi	kipatxi	NOUN	XPOS=terra	_	2	nsubj	_	gloss[pt]=terra
 4	peerapuku	eera	VERB	XPOS=?ATRIB.INTENS-?ser.bom-DISTR	_	3	acl:relcl	_	gloss[pt]=?ATRIB.INTENS-?ser.bom-DISTR|SpaceAfter=No
@@ -903,7 +904,7 @@
 # text = Awapekana tsapyryky, kitxiti.
 # gloss_pt = existir-PFTV-?NC.cacho açaí patauá
 # text_pt = ‘Tinha açaí e patauá.’Q
-# text_en = 
+# text_en = ‘There were açaí palms and bataua palms.‘ 
 1	Awapekana	awa	VERB	XPOS=existir-PFTV-?NC.cacho	_	0	root	_	gloss[pt]=existir-PFTV-?NC.cacho
 2	tsapyryky	tsapyryky	NOUN	XPOS=açaí	_	1	nsubj	_	gloss[pt]=açaí|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -916,7 +917,7 @@
 # gloss_pt = naquele.lugar todo-DISTR existir ATRIB-carne.de-3SG.M.O-PL
 # text_pt = ‘Lá tinha todo tipo de carne de caça.’Q
 # text_en = There was all kinds of game meat there.
-1	Ywãtãa	Ywãtãa	NOUN	XPOS=naquele.lugar	_	3	obl:lmod	_	gloss[pt]=naquele.lugar
+1	Ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	3	obl:lmod	_	gloss[pt]=naquele.lugar
 2	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	nsubj	_	gloss[pt]=todo-DISTR
 3	awa	awa	VERB	V	_	0	root	_	gloss[pt]=existir
 4	kaxinhirywakury	kaxinhirywakury	NOUN	XPOS=ATRIB-carne.de-3SG.M.O-PL	_	3	obl	_	gloss[pt]=ATRIB-carne.de-3SG.M.O-PL|SpaceAfter=No
@@ -929,7 +930,7 @@
 # text_pt = ‘Então, no igarapé não faltava peixe.’
 # text_en = So, in the stream there was no lack of fish.
 1	Inhinhiã	inhinhiã	ADV	Adv	_	4	advmod	_	gloss[pt]=então
-2	kawãryã	kawãryã	NOUN	XPOS=igarapé-LOC	_	4	obl:lmod	_	gloss[pt]=igarapé-LOC
+2	kawãryã	kawãry	NOUN	XPOS=igarapé	Case=Loc	4	obl:lmod	_	gloss[pt]=igarapé-LOC
 3	kuna	kuna	PART	XPOS=não	_	4	advmod:neg	_	gloss[pt]=não
 4	fawtatinhi	fawtatinhi	VERB	XPOS=faltar-VBLZ	VerbForm=Vnoun	0	root	_	gloss[pt]=faltar-VBLZ-GER
 5	ximaky	ximaky	NOUN	XPOS=peixe	_	4	obj	_	gloss[pt]=peixe|Possessed=No|SpaceAfter=No
@@ -944,7 +945,7 @@
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	matxaka	matxaka	VERB	XPOS=tirar	_	0	root	_	gloss[pt]=tirar
 3	kaiãapuku	kaiãapuku	DET	XPOS=muito-DISTR	_	4	det	_	gloss[pt]=muito-DISTR
-4	maky	maky	NOUN	N	Gender=Fem	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
+4	maky	maky	NOUN	N	Case=Nom|Gender=Fem	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-14
@@ -955,12 +956,12 @@
 # text_en = He sold chestnuts and bought many things.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	vĩtxita	vĩtxita	VERB	XPOS=vender	_	0	root	_	gloss[pt]=vender
-3	maky	maky	NOUN	N	Gender=Fem	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
+3	maky	maky	NOUN	N	Gender=Fem|Possessed=No	2	obj	_	gloss[pt]=castanha|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	gloss[pt]=3SG.M
 6	amutary	amuta	VERB	XPOS=comprar	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	conj	_	gloss[pt]=comprar-3SG.M.O
 7	ykynypuku	ykynypuku	PRON	Pron	_	8	det	_	gloss[pt]=todo-DISTR
-8	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	6	obj	_	gloss[pt]=coisa.de-N.POSSD|Possessed=No|SpaceAfter=No
+8	tiitxi	tiwitxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	6	obj	_	gloss[pt]=coisa.de-N.POSSD|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-15
@@ -991,11 +992,11 @@
 # text = Kuna faltatinhi hãty kananeã.
 # gloss_pt = não faltar-GER um,outro ano-LOC
 # text_pt = ‘Não faltava nada nessa nova comunidade.’
-# text_en = Nothing was missing from this new community.
+# text_en = Nothing was missing in the other year.
 1	Kuna	kuna	PART	XPOS=não	_	2	advmod:neg	_	gloss[pt]=não
 2	faltatinhi	faltata	VERB	XPOS=faltar	VerbForm=Vnoun	4	nsubj:cop	_	gloss[pt]=faltar-GER
 3	hãty	hãty	NUM	XPOS=um,outro	_	4	nummod	_	gloss[pt]=um,outro
-4	kananeã	kanane	NOUN	XPOS=ano-LOC	_	0	root	_	gloss[pt]=ano-LOC|Possessed=No|SpaceAfter=No
+4	kananeã	kanane	NOUN	XPOS=ano	Case=Loc	0	root	_	gloss[pt]=ano-LOC|Possessed=No|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-17
@@ -1005,9 +1006,9 @@
 # text_pt = ‘Tinha tudo lá.’
 # text_en = There was everything there.
 1	Ykynypuku	Ykynypuku	PRON	XPOS=tudo-DISTR	_	2	nsubj	_	gloss[pt]=tudo-DISTR
-2	awa	awa	AUX	XPOS=existir	_	0	root	_	gloss[pt]=existir
+2	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
 3	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	det	_	gloss[pt]=3SG.M
-4	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl	_	gloss[pt]=naquele.lugar|SpaceAfter=No
+4	ywãtãa	ywãtãa	NOUN	XPOS=naquele.lugar	_	2	obl:lmod	_	gloss[pt]=naquele.lugar|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-18
@@ -1024,10 +1025,10 @@
 6	nesesitatxi	nesesitatxi	NOUN	XPOS=necessidade	_	5	obj	_	gloss[pt]=necessidade|SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
 8	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	det	_	gloss[pt]=3SG.M
-9	kananeã	kanane	NOUN	XPOS=ano-LOC	_	12	obl:tmod	_	gloss[pt]=ano-LOC
+9	kananeã	kanane	NOUN	XPOS=ano	Case=Loc	12	obl:tmod	_	gloss[pt]=ano-LOC
 10	watxa	watxa	ADV	XPOS=hoje	_	12	advmod:tmod	_	gloss[pt]=hoje
 11	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	12	nsubj	_	gloss[pt]=todo-DISTR
-12	awary	awary	VERB	XPOS=existir	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	5	conj	_	gloss[pt]=existir-3SG.M.O|SpaceAfter=No
+12	awary	awa	VERB	XPOS=existir	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	5	conj	_	gloss[pt]=existir-3SG.M.O|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = FernandaM2017:Texto-6-19
@@ -1048,8 +1049,8 @@
 # text_en = In the past there was a man.
 1	Kitxaka	kitxaka	ADV	Adv	AdvType=Tim	2	advmod:tmod	_	gloss[pt]=antigamente
 2	awama	awa	VERB	XPOS=3SG.M-existir-FRUSTR	_	0	root	_	gloss[pt]=3SG.M-existir-FRUSTR
-3	ãty	hãty	NUM	Num	_	4	nummod	_	gloss[pt]=um
-4	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	gloss[pt]=homem|SpaceAfter=No
+3	ãty	hãty	NUM	Num	Gender=Masc	4	nummod	_	gloss[pt]=um
+4	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=homem|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-7-2
@@ -1074,9 +1075,9 @@
 3	ytãnurukata	tãnuru	NOUN	XPOS=3SG.M-esposa.de	Case=Com	6	obl	_	gloss[pt]=3SG.M-esposa.de-ASSOC|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	imiakurykata	imi	NOUN	XPOS=3SG.M-filho.de-PL	Case=Com|Gender=Masc|Number=Plur	3	conj	_	gloss[pt]=3SG.M-filho.de-PL-ASSOC
-6	awama	awama	VERB	XPOS=existir-FRUSTR	_	0	root	_	gloss[pt]=existir-FRUSTR
+6	awama	awa	VERB	XPOS=existir-FRUSTR	_	0	root	_	gloss[pt]=existir-FRUSTR
 7	awinhi	awinhi	NOUN	XPOS=3SG.M-casa.de	_	6	obj	_	gloss[pt]=3SG.M-casa.de
-8	mitharyã	mitharyã	VERB	XPOS=ser.grande-3SG.M.O	Case=Loc	7	acl	_	gloss[pt]=ser.grande-3SG.M.O-LOC|SpaceAfter=No
+8	mitharyã	mithary	VERB	XPOS=ser.grande-3SG.M.O	Case=Loc	7	acl	_	gloss[pt]=ser.grande-3SG.M.O-LOC|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = FernandaM2017:Texto-7-4
@@ -1093,6 +1094,28 @@
 6	xamynaky	xamynaky	NOUN	XPOS=espingarda	_	4	obj	_	gloss[pt]=espingarda|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = FernandaM2017:Texto-7-5
+# text_orig = Ka-tapara-xine-ry inhinhĩã aiata-pe i-txa.
+# text = Kataparaxinery inhinhĩã aiatape itxa.
+# gloss_pt = ATRIB-coragem-?-3SG.M.O então caçar-PFTV 3SG.M-AUX 
+# text_pt = Ele tinha muita coragem, então ele caçava.
+# text_en = He had a lot of courage, so he hunted.
+1	Kataparaxinery	Kataparaxinery	ADJ	XPOS=ATRIB-coragem-?	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ATRIB-coragem-?-3SG.M.O
+2	inhinhĩã	inhinhĩã	ADV	XPOS=então	_	3	advmod	_	gloss[pt]=então
+3	aiatape	aiata	VERB	XPOS=caçar-PFTV	_	1	conj	_	gloss[pt]=caçar-PFTV
+4	itxa	txa	AUX	XPOS=3SG.M-AUX	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	3	aux	_	gloss[pt]=3SG.M-AUX|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-7
+# text_orig = U-kywy-xike-ru uwa.
+# text = Ukywyxikeru uwa.
+# gloss_pt = 3SG.F-cabeça.de-cabelo.de-3SG.F.O 3SG.F
+# text_pt = Ela tinha o cabelo comprido.
+# text_en = She had long hair.
+1	Ukywyxikeru	kywyxiketxi	NOUN	XPOS=cabeça.de-cabelo.de-3SG.F.O	Gender[psor]=Fem|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	2	nsubj	_	gloss[pt]=3SG.F-cabeça.de-cabelo.de-3SG.F.O
+2	uwa	uwa	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	gloss[pt]=3SG.F|SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = FernandaM2017:Texto-7-8
 # text_orig = Tuku-ry awa-na.
 # text = Tukury awana.
@@ -1100,6 +1123,136 @@
 # text_pt = Eles tinham roçado.
 # text_en = They had a garden.
 1	Tukury	tukury	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	gloss[pt]=roçado-N.POSSD
-2	awana	awana	VERB	V	Gender[subj]=Masc|Number[subj]=Plur|Person[subj]=3	0	root	_	gloss[pt]=ter-3PL|SpaceAfter=No
+2	awana	awa	VERB	V	Gender[subj]=Masc|Number[subj]=Plur|Person[subj]=3	0	root	_	gloss[pt]=ter-3PL|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-9
+# text_orig = Ywa kyky sytu-re were-ra-wa-ta ywa kikiu-te, ithu-pyty-ma-ry u-parĩka.
+# text = Ywa kyky syture wererawata ywa kikiute, ithupytymary uparĩka.
+# gloss_pt = 3SG.M homem mulher-POSSD ser.bonito-FOC-REFL-VBLZ 3SG.M roçado-POSSD  ter.muito-ENF-FRUSTR-3SG.M.O 3SG.F-trabalho.de
+# text_pt = ‘A mulher do homem deixava bonito o roçado dele, mas ela tinha muito trabalho’ (Lit.: ‘Mas o trabalho dela era muito.’)
+# text_en = The man's wife made his garden beautiful, but she had a lot of work. 
+1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
+2	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	nmod:poss	_	gloss[pt]=homem
+3	syture	sytu	NOUN	XPOS=mulher-POSSD	Case=Nom|Gender=Fem|Possessed=Yes	4	nsubj	_	gloss[pt]=mulher-POSSD
+4	wererawata	were	VERB	XPOS=ser.bonito-FOC-REFL-VBLZ	_	0	root	_	gloss[pt]=ser.bonito-FOC-REFL-VBLZ
+5	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	gloss[pt]=3SG.M
+6	kikiute	kikiu	NOUN	XPOS=roçado-POSSD	Case=Nom|Gender=Masc|Possessed=Yes	4	obj	_	gloss[pt]=roçado-POSSD|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	ithupytymary	ithu	VERB	XPOS=ter.muito-ENF-FRUSTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	conj	_	gloss[pt]=ter.muito-ENF-FRUSTR-3SG.M.O
+9	uparĩka	parĩkatxi	NOUN	NOUN	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	8	nsubj	_	gloss[pt]=3SG.F-trabalho.de|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-10
+# text_orig = Kyky ukatsaã-nã-ta ĩsũana. 
+# text = Kyky ukatsaãnãta ĩsũana.
+# gloss_pt = homem pescar-PROGR-VBLZ rio 
+# text_pt = O homem pescava no rio.
+# text_en = The man was fishing in the river.
+1	Kyky	kyky	NOUN	XPOS=homem	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=homem
+2	ukatsaãnãta	ukatsaã	VERB	XPOS=pescar-PROGR-VBLZ	_	0	root	_	gloss[pt]=pescar-PROGR-VBLZ
+3	ĩsũana	ĩsũana	NOUN	XPOS=rio	_	2	obl:lmod	_	gloss[pt]=rio|SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-11
+# text_orig = Ĩsũana my-r-ykyny-ty i-txa ximaky. 
+# text = Ĩsũana myrykynyty itxa ximaky.
+# gloss_pt = rio ATRIB.INTENS-FOC-tudo-3SG.M.O 3SG.M-AUX peixe
+# text_pt = O rio tinha muito peixe.
+# text_en = The river has a lot of fish.
+1	Ĩsũana	ĩsũana	NOUN	XPOS=rio	_	2	nsubj	_	gloss[pt]=rio
+2	myrykynyty	ykyny	ADV	XPOS=ATRIB.INTENS-FOC-tudo	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ATRIB.INTENS-FOC-tudo-3SG.M.O
+3	itxa	txa	AUX	XPOS=3SG.M-AUX	_	2	aux	_	gloss[pt]=3SG.M-AUX
+4	ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	gloss[pt]=peixe|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-7-12
+# text_orig = Ywa kyky awa ykyny-puku ø-awinhi iãtã.
+# text = Ywa kyky awa ykynypuku awinhi iãtã.
+# gloss_pt = 3SG.M homem ter todo-DISTR 3SG.M-comunidade.de lugar
+# text_pt = O homem tinha de tudo na comunidade dele.
+# text_en = The man had everything in his community.
+1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
+2	kyky	kyky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	nsubj	_	gloss[pt]=homem
+3	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
+4	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	obj	_	gloss[pt]=todo-DISTR
+5	awinhi	awinhi	NOUN	N	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Possessed=Yes	6	nmod	_	gloss[pt]=3SG.M-comunidade.de
+6	iãtã	iãtã	NOUN	XPOS=lugar	_	3	obl:lmod	_	gloss[pt]=lugar|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = FernandaM2017:Texto-8-3
+# text_orig = Ywã awa kikiu, awiri, kumyry, ykyny-puku
+# text = Ywã awa kikiu, awiri, kumyry, ykynypuku.
+# gloss_pt = lá existir roçado rapé beiju todo-DISTR
+# text_pt = ‘Lá tem roçado, rapé, beiju e outras coisas (todo o resto).’Q
+# text_en = In it, there is a clearing, snuff, beiju and everything else.
+1	Ywã	ywa	PRON	Pron	Case=Loc	2	obl:lmod	_	gloss[pt]=lá
+2	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
+3	kikiu	kikiu	NOUN	XPOS=roçado	_	2	nsubj	_	gloss[pt]=roçado|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	awiri	awiri	NOUN	XPOS=rapé	_	3	conj	_	gloss[pt]=rapé|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	kumyry	kumyry	NOUN	XPOS=beiju	_	3	conj	_	gloss[pt]=beiju|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	ykynypuku	ykynypuku	PRON	XPOS=todo-DISTR	_	3	conj	_	gloss[pt]=todo-DISTR|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-8-5
+# text_orig = Ywã kãkite awa ã-awinhinhĩ-ã y-pyra-waku-ry.
+# text = Ywã kãkite awa ãawinhinhĩã ypyrawakury.
+# gloss_pt = lá gente ter 1PL-comunidade.de-LOC 3SG.M-criação.de-PL-M
+# text_pt = Lá a gente tem na comunidade as criações.
+# text_en = There the people in our community have children.
+1	Ywã	Ywã	ADV	XPOS=lá	Case=Loc	3	advmod:lmod	_	gloss[pt]=lá
+2	kãkite	kãkite	NOUN	N	Gender=Masc	3	nsubj	_	gloss[pt]=gente
+3	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
+4	ãawinhinhĩã	awinhinhi	NOUN	XPOS=comunidade.de	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1|Possessed=Yes	3	obl:lmod	_	gloss[pt]=1PL-comunidade.de-LOC
+5	ypyrawakury	pyra	NOUN	XPOS=3SG.M-criação.de-PL-M	Gender=Masc|Number=Plur|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=3SG.M-criação.de-PL-M|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = FernandaM2017:Texto-9-1
+# text_orig = Pupĩkary-ny awa y-kyynyry-te-na i-serẽka-na mitxi-ry.
+# text = Pupĩkaryny awa ykyynyrytena iserẽkana mitxiry.
+# gloss_pt = índio-PL ter 3PL.M-xingané-POSSD-3PL.M 3PL.M-dança-3PL.M ser.primeiro-3SG.M.O
+# text_pt = ‘Os Apurinã têm a festa deles, as primeiras danças deles (as danças tradicionais).’Q
+# text_en = The Apurinã have their Kyynyry Feast, their first dance.
+1	Pupĩkaryny	pupĩkary	NOUN	XPOS=índio-PL	Number=Plur	2	nsubj	_	gloss[pt]=índio-PL
+2	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
+3	ykyynyrytena	kyynyry	NOUN	XPOS=xingané	Gender=Masc|Gender[psor]=Masc|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	2	obj	_	gloss[pt]=3PL.M-xingané-POSSD-3PL.M
+4	iserẽkana	serẽka	NOUN	XPOS=3PL.M-dança-3PL.M	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	5	nsubj	_	gloss[pt]=3PL.M-dança-3PL.M
+5	mitxiry	mitxiry	VERB	XPOS=ser.primeiro	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	conj	_	gloss[pt]=ser.primeiro-3SG.M.O|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-9-2
+# text_orig = Kyynyry-saaky ø-aputury-ta-wa-na ithu kãkity.
+# text = Kyynyrysaaky aputurytawana ithu kãkity.
+# gloss_pt = xingané-TEMP 3PL.M-?juntar-VBLZ-REFL-3PL.M muito gente
+# text_pt = ‘Quando tem festa, junta muita gente.’Q
+# text_en = At the Kyynyry feast, many people gather.
+1	Kyynyrysaaky	kyynyry	NOUN	XPOS=xingané-TEMP	_	2	obl:tmod	_	gloss[pt]=xingané-TEMP
+2	aputurytawana	aputury	VERB	XPOS=3PL.M-?juntar-VBLZ-REFL-3PL.M	_	0	root	_	gloss[pt]=3PL.M-?juntar-VBLZ-REFL-3PL.M
+3	ithu	ithu	DET	XPOS=muito	_	4	det	_	gloss[pt]=muito
+4	kãkity	kãkity	NOUN	N	Gender=Masc|Number=Sing	2	nsubj	_	gloss[pt]=gente|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Lima-Padovani:2020:342:1
+# text = Iũpiri xuxuri atuku itxa.
+# text_pt = O japó parece com o japiim.
+# text_en = The green oropendola is similar to the japiim.
+1	Iũpiri	iũpiri	NOUN	_	_	3	nsubj:cop	_	_
+2	xuxuri	txutxuri	NOUN	_	_	1	conj	_	_
+3	atuku	atuku	ADJ	_	_	0	root	_	_
+4	itxa	txa	AUX	_	_	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = NumberApurina:2021:35-5:1
+# text_orig = Sytu-waku-ru, kiripa u-kama-ã-ne?
+# text = Sytuwakuru, kiripa ukamaãne?
+# gloss_en = woman-PL-F what 3PL.F-do-PROGR-3PL.F
+# text_en = And the women, what do they do?
+1	Sytuwakuru	sytu	NOUN	Gender=Fem|Number=Plur	_	4	dislocated	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	kiripa	kiripa	PRON	_	_	4	nsubj	_	_
+4	ukamaãne	kama	VERB	Case=Loc|Gender[psor]=Fem|Number[psor]=Plur|Person[psor]=3	_	0	root	_	SpaceAfter=No
+5	?	_	PUNCT	_	_	4	punct	_	_
 
