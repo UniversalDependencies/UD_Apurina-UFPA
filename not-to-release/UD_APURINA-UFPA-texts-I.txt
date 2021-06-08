@@ -34,7 +34,7 @@ Texto 8 (colaborador: Zé In)
 # text_en = There are a lot of people in our community.
 1	Kuna.kamunyry	Kuna.kamunyry	VERB	XPOS=existir.muito	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	_	_	_	gloss[pt]=existir.muito-3SG.M.O
 2	kãkity	kãkity	_	N	Gender=Masc	_	_	_	gloss[pt]=gente
-3	ãawinhipuku	ãawinhipuku	_	XPOS=1PL-comunidade.de-DISTR	_	_	_	_	gloss[pt]=1PL-comunidade.de-DISTR
+3	ãawinhipuku	awinhipuku	N	XPOS=1PL-comunidade.de-DISTR	Number[psor]=PLur|Person[psor]=1	_	_	_	gloss[pt]=1PL-comunidade.de-DISTR
 4	iãtã	iãtã	_	XPOS=lugar	_	_	_	_	gloss[pt]=lugar|SpaceAfter=No
 5	.	.	PUNCT	_	_	_	punct	_	_
 
