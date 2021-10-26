@@ -668,7 +668,7 @@
 # text_pt = ‘O índio foi pra cidade.’Q
 # text_en = ‘The native went to town.‘
 1	Pupũkary	Pupũkary	NOUN	N	Gender=Masc	2	nsubj	_	gloss[pt]=índio
-2	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ir-3SG.M.O
+2	sary	sa	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ir-3SG.M.O
 3	sitatximunhi	sitatxi	NOUN	XPOS=cidade	Case=Dat	2	obl:lmod	_	gloss[pt]=cidade-DAT|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -790,13 +790,13 @@
 # text_en = 
 1	Atuku	Atuku	ADV	XPOS=igual,como	_	3	advmod	_	gloss[pt]=igual,como
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
-3	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ir-3SG.M.O
+3	sary	sa	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ir-3SG.M.O
 4	hãty	hãty	NUM	XPOS=um,outro	_	5	nummod	_	gloss[pt]=um,outro
 5	kananeã	kanane	NOUN	XPOS=ano-LOC	Case=Loc	3	obl:tmod	_	gloss[pt]=ano-LOC|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	kutxi	kutxi	SCONJ	XPOS=porque	_	9	mark	_	gloss[pt]=porque
 8	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	gloss[pt]=3SG.M
-9	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	3	conj	_	gloss[pt]=ir-3SG.M.O
+9	sary	sa	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	3	conj	_	gloss[pt]=ir-3SG.M.O
 10	hãty	hãty	NUM	XPOS=um,outro	_	11	nummod	_	gloss[pt]=um,outro
 11	kananeã	kanane	NOUN	XPOS=ano	Case=Loc	9	obl:tmod	_	gloss[pt]=ano-LOC|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
@@ -877,7 +877,7 @@
 # text_en = 
 1	Atuku	Atuku	ADV	XPOS=depois	_	3	advmod	_	gloss[pt]=depois
 2	ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	gloss[pt]=3SG.M
-3	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ir-3SG.M.O
+3	sary	sa	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ir-3SG.M.O
 4	hãty	hãty	NUM	XPOS=um,outro	_	5	nummod	_	gloss[pt]=um,outro
 5	itixi	itixi	NOUN	XPOS=terra,chão	_	3	obl:lmod	_	gloss[pt]=terra,chão|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
@@ -1198,7 +1198,7 @@
 # gloss_pt = existir.muito-3SG.M.O gente 1PL-comunidade.de-DISTR lugar
 # text_pt = Tem muita gente na nossa comunidade.
 # text_en = There are a lot of people in our community.
-1	Kunakamunyry	kunakamuny	VERB	XPOS=existir.muito	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=existir.muito-3SG.M.O
+1	Kunakamunyry	kunakamuny	VERB	XPOS=existir.muito	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=existir.muito-3SG.M.O
 2	kãkity	kãkity	NOUN	N	Gender=Masc	1	nsubj	_	gloss[pt]=gente
 3	ãawinhipuku	awinhipuku	NOUN	XPOS=1PL-comunidade.de-DISTR	Number[psor]=Plur|Person[psor]=1	4	nmod	_	gloss[pt]=1PL-comunidade.de-DISTR
 4	iãtã	iãtã	NOUN	XPOS=lugar	_	1	obl:lmod	_	gloss[pt]=lugar|SpaceAfter=No
@@ -1267,7 +1267,7 @@
 2	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
 3	ykyynyrytena	kyynyry	NOUN	XPOS=xingané	Gender=Masc|Gender[psor]=Masc|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	2	obj	_	gloss[pt]=3PL.M-xingané-POSSD-3PL.M
 4	iserẽkana	serẽka	NOUN	XPOS=3PL.M-dança-3PL.M	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	5	nsubj	_	gloss[pt]=3PL.M-dança-3PL.M
-5	mitxiry	mitxiry	VERB	XPOS=ser.primeiro	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	conj	_	gloss[pt]=ser.primeiro-3SG.M.O|SpaceAfter=No
+5	mitxiry	mitxiry	VERB	XPOS=ser.primeiro	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	2	conj	_	gloss[pt]=ser.primeiro-3SG.M.O|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-9-2
@@ -1358,7 +1358,7 @@
 # text_en = Our home is small.
 1	Atha	atha	PRON	XPOS=1PL	_	2	det	_	gloss[pt]=1PL
 2	aapuku	awapuku	NOUN	XPOS=casa.de	_	3	nsubj	_	gloss[pt]=casa.de
-3	xepitiry	xepiti	VERB	XPOS=ser.pequeno	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ser.pequeno-3SG.M.O|SpaceAfter=No
+3	xepitiry	xepiti	VERB	XPOS=ser.pequeno	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ser.pequeno-3SG.M.O|SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-10-6
@@ -1369,7 +1369,7 @@
 # text_en = Let's make a house that is really big.
 1	Makamary	kama	VERB	XPOS=EXORT-fazer	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=EXORT-fazer-3SG.M.O
 2	aapukutxi	awapukutxi	NOUN	XPOS=casa.de-N.POSSD	_	1	obj	_	gloss[pt]=casa.de-N.POSSD
-3	myramanery	mane	NOUN	XPOS=ATRIB.INTENS-?FOC-?corpo.de	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	2	nmod	_	gloss[pt]=ATRIB.INTENS-?FOC-?corpo.de-3SG.M.O|SpaceAfter=No
+3	myramanery	mane	NOUN	XPOS=ATRIB.INTENS-?FOC-?corpo.de	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	2	nmod	_	gloss[pt]=ATRIB.INTENS-?FOC-?corpo.de-3SG.M.O|SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = FernandaM2017:Texto-10-7
@@ -1382,7 +1382,7 @@
 2	amakynyka	amakynyka	X	X	_	3	dep	_	_
 3	kamary	kamary	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=fazer-3SG.M.O
 4	aapukutxi	awapukutxi	NOUN	N	_	3	obj	_	gloss[pt]=casa.de-N.POSSD
-5	myramanery	myramanery	NOUN	XPOS=atrib.intens-?foc-?corpo.de	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	4	nmod	_	gloss[pt]=atrib.intens-?foc-?corpo.de-3SG.M.O|SpaceAfter=No
+5	myramanery	myramanery	NOUN	XPOS=atrib.intens-?foc-?corpo.de	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	4	nmod	_	gloss[pt]=atrib.intens-?foc-?corpo.de-3SG.M.O|SpaceAfter=No
 
 # sent_id = FernandaM2017:Texto-11-1
 # text_orig = Uwa awinhi awa sytu. 
@@ -1403,7 +1403,7 @@
 # text_pt = ‘A mulher tinha muitos filhos’ Lit.: ‘Os filhos da mulher eram muitos.’
 # text_en = 'The woman had many children.'
 # text_en =
-1	Naãtyru	na=ãty	VERB	XPOS=não=existir.um-3SG.F.O	_	0	root	_	gloss[pt]=não=existir.um-3SG.F.O
+1	Naãtyru	na=hãty	VERB	XPOS=não=existir.um-3SG.F.O	Gender[subj]=Fem|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=não=existir.um-3SG.F.O
 2	sytu	sytu	NOUN	XPOS=mulher	_	1	obj	_	gloss[pt]=mulher
 3	anaakury	ana	NOUN	XPOS=filho.de-PL	_	1	nsubj	_	gloss[pt]=filho.de-PL|SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -1428,7 +1428,7 @@
 # gloss_pt = ATRIB-ser.pequeno-3SG.M.O 1PL casa.de
 # text_pt = Nossa casa é pequena.
 # text_en = Our house is little.
-1	Kuaxary	axa	VERB	XPOS=ATRIB-ser.pequeno	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB-ser.pequeno-3SG.M.O
+1	Kuaxary	axa	VERB	XPOS=ATRIB-ser.pequeno	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ATRIB-ser.pequeno-3SG.M.O
 2	atha	atha	PRON	XPOS=1PL	_	3	det	_	gloss[pt]=1PL
 3	awinhi	awinhi	NOUN	XPOS=casa.de	_	1	nsubj	_	gloss[pt]=casa.de|SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
