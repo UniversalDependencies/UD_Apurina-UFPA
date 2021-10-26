@@ -126,10 +126,9 @@ Kuna kaiumaãnu.
 # text_pt = Nós temos peixe.’ Lit.: ‘Tem peixe pra nós.’
 # text_en = We have fish.
 1	Athamunhi	nuta	Pron	_	Pers|Pl1|Dat	2	obl	_	_
-2	awa	awa	V	_	ScSg3M|@X	0	root	_	_
+2	awa	awa	V	_	ScSg3M	0	root	_	_
 3	ximaky	ximaky	N	_	Msc|Sg|NPossd|Nom	2	nsubj	_	_
 4	.	.	CLB	_	_	2	punct	_	_
-
 
 # sent_id = FernandaM2017:TextsII-1-16
 # text_orig = Ximaky p-anhi-k-inha-wa. 
@@ -246,7 +245,7 @@ Syrywyny nawa.
 
 # sent_id = FernandaM2017:TextsII-2-12
 # text_orig = Txiiakatxi: Aa! P-yry nh-iimatykyry i-txa-wa. 
-# text = Aa! Pyry nhiimatykyry itxawa. 
+# text = Aa! Pyry iimatykyry itxawa. 
 # gloss_pt = interjeição 2SG-pai.de 1SG-tio.de 3SG.M-ser-REFL
 # text_pt = Ah! O seu pai é meu tio.
 # text_en = Ah! your father is my uncle.
@@ -718,15 +717,21 @@ Kumyrype pusunapeka inhinhiã akiritharu ĩtanyru kumyrype uiuẽkinhi nere.
 # gloss_pt = N.PROP chamar-3SG.F.O N.PROP
 # text_pt = ‘Kirama chamou Kamĩkiu.’Q
 # text_en = ‘‘
-Kirama akiritharu Kamĩkiu:
+1	Kirama	Kirama	NOUN	N	Prop|Msc|Sg|NPossd|Nom	_	_	_	_
+2	akiritharu	akiritha	VERB	V	Oc3F|ScSg3M	_	_	_	_
+3	Kamĩkiu	Kamĩkiu	NOUN	N	Prop|Fem|Sg|Possd|Nom	_	_	_	_
+4	:	:	PUNCT	CLB	_	_	_	_	_
 
 # sent_id = FernandaM2017:TextsII-4-17
 # text_orig = Kirama: Ximaky p-axitha mitxi. 
 # text = Kirama: Ximaky paxitha mitxi. 
 # gloss_pt = peixe 2SG-cozinhar primeiro
-# text_pt = ‘Primeiro cozinha o peixe (antes da primeira fornada de farinha).’Q
-# text_en = ‘‘
-Ximaky paxitha mitxi.
+# text_pt = Primeiro cozinha o peixe (antes da primeira fornada de farinha).
+# text_en = First, you cook the fish.
+1	Ximaky	ximaky	NOUN	N	Msc|Sg|NPossd|Nom	_	_	_	_
+2	paxitha	axitha	VERB	V	ScSg2	_	_	_	_
+3	mitxi	mitxi	ADV	Adv	Temp	_	_	_	_
+4	.	.	PUNCT	CLB	_	_	_	_	_
 
 # sent_id = FernandaM2017:TextsII-4-18
 # text_orig = Kamĩkiu: Ateeneka. 
@@ -1034,11 +1039,11 @@ Kasãtumary sãpiratary aiatinhi pirana Xirikarymunhi.
 # text_en = ‘‘
 1	Nuta	nuta	Pron	_	Pers|Sg1|Nom|@X	5	nsubj	_	_
 2	,	,	CLB	_	_	3	punct	_	_
-3	Kasãtumary	Kasãtumary	N	_	Prop|Msc|Sg|NPossd|Nom|@SUBJ>	1	appos	_	_
+3	Kasãtumary	Kasãtumary	N	_	Prop|Msc|Sg|NPossd|Nom	1	appos	_	_
 4	,	,	CLB	_	_	3	punct	_	_
 5	nysãpirataiku	sãpirata	V	_	TV|ScSg1|OcSg2|Fut	0	root	_	_
-6	naiatinhi	aiata	V	_	Der|Der/NomAct|N|Msc|Sg|PxSg1|Possd|Nom|@HNOUN	7	advcl	_	_
-7	pirana	pirana	N	_	Fem|Sg|NPossd|Nom|@<SUBJ	5	obj	_	_
+6	naiatinhi	aiata	V	_	Der|Der/NomAct|N|Msc|Sg|PxSg1|Possd|Nom	7	advcl	_	_
+7	pirana	pirana	N	_	Fem|Sg|NPossd|Nom	5	obj	_	_
 8	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-4
