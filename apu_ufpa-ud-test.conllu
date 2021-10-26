@@ -1437,8 +1437,8 @@
 # text_orig = Amu a-kama ø-awinhi my-ra-manu 
 # text = Amu akama awinhi myramanu.
 # gloss_pt = EXORT 1PL-fazer 3SG.M-casa.de ATRIB.INTENS-:?foc-?corpo.de
-# text_pt = ‘Vamos fazer uma casa muito grande’Q
-# text_en = 
+# text_pt = Vamos fazer uma casa muito grande.
+# text_en = Let's make a really big house.
 1	Amu	amu	AUX	XPOS=EXORT	_	2	aux:exhort	_	gloss[pt]=EXORT
 2	akama	kama	VERB	XPOS=1PL-fazer	_	0	root	_	gloss[pt]=1PL-fazer
 3	awinhi	awinhi	NOUN	XPOS=3SG.M-casa.de	_	2	obj	_	gloss[pt]=3SG.M-casa.de
