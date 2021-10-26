@@ -1113,7 +1113,7 @@
 # text_pt = A filha dele tinha um corpo muito bonito.
 # text_en = Her daughter had a very beautiful body.
 1	Uwa	uwa	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.F
-2	amarute	amaru	NOUN	XPOS=filho-F-POSSD	Gender=Fem|Possessed=Yes	3	nmod:pos	_	gloss[pt]=filha-F-POSSD
+2	amarute	amaru	NOUN	XPOS=filho-F-POSSD	Gender=Fem|Possessed=Yes	3	nmod:poss	_	gloss[pt]=filha-F-POSSD
 3	mãnẽrutakaru	mãnẽ	NOUN	XPOS=corpo.de-3SG.F.O-VBLZ-REL.S.F	_	4	nsubj	_	gloss[pt]=corpo.de-3SG.F.O-VBLZ-REL.S.F
 4	mywereru	were	NOUN	XPOS=ATRIB.INTENS-bonito-3SG.F.O	_	0	root	_	gloss[pt]=ATRIB.INTENS-bonito-3SG.F.O|SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
@@ -1383,6 +1383,7 @@
 3	kamary	kamary	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=fazer-3SG.M.O
 4	aapukutxi	awapukutxi	NOUN	N	_	3	obj	_	gloss[pt]=casa.de-N.POSSD
 5	myramanery	myramanery	NOUN	XPOS=atrib.intens-?foc-?corpo.de	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	4	nmod	_	gloss[pt]=atrib.intens-?foc-?corpo.de-3SG.M.O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-11-1
 # text_orig = Uwa awinhi awa sytu. 
