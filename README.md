@@ -28,7 +28,10 @@ Finite-State Transistor development:
 
 # Changelog
 
-* 2021-04-29
+* 2021-10-31 v2.9
+  * Auxiliary, feature and deprel documentation
+  * Continued annotation of original corpus.
+* 2021-04-29 v2.8
   * Auxiliary, feature and deprel documentation
   * Introducing lemmas consistent with Dictionary in Lima Padovani 2020.
   * Continued annotation of original corpus.
