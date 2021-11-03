@@ -1,12 +1,12 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Apurina-UFPA:
-commit 98fa0a33edf8de89149cc9b8f67307ec9331a01c
-Merge: b21cc83 ee72f9f
+commit 85d7c6deed141bdb06fec19106933eee2887c83e
+Merge: 83a3207 484ad45
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 642 of 642 words (nodes).
+Size: counted 731 of 731 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
@@ -15,14 +15,14 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 237 out of 642 total words have one or more features.
+Features: 262 out of 731 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 21 out of 37 found in the corpus.
+Universal relations: 22 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        170
-Udapi: found 170 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 642 words.
+               TOTAL        199
+Udapi: found 199 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 731 words.
 Genres: found 2 out of 17 known.
 validate.py --lang apu --max-err=10 UD_Apurina-UFPA/apu_ufpa-ud-test.conllu
 *** PASSED ***
@@ -34,7 +34,7 @@ Validity: 1
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.454054054054054) = 0.0349272349272349
-(TOTAL score=0.194173087114264) * (availability=1) * (validity=1) = 0.194173087114264
+(weight=0.0769230769230769) * (score{udeprels}=0.475675675675676) = 0.0365904365904366
+(TOTAL score=0.195836288777465) * (availability=1) * (validity=1) = 0.195836288777465
 STARS = 1
-UD_Apurina-UFPA	0.194173087114264	1
+UD_Apurina-UFPA	0.195836288777465	1
