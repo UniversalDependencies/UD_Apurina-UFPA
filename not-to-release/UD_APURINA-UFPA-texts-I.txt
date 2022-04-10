@@ -27,22 +27,7 @@ Texto 8 (colaborador: Zé In)
 
 Texto 9 (colaborador: Zé In)
 
-# sent_id = FernandaM2017:Texto-9-4
-# text_orig = Ipi-nany-ra awa kãkity serẽka: ka-tsa-marĩ-ẽne, ka-ta-marĩ-ẽne.
-# text = Ipinanyra awa kãkity serẽka: katsamarĩẽne, katamarĩẽne.
-# gloss_pt = dois-RESTR-FOC existir gente dança ATRIB-NC.longo,fino, fileira-?-som ATRIB-?-?-som
-# text_pt = ‘Só tem duas danças da gente: a que faz fileira e a que fica lado a lado.’Q
-# text_en = There are only two folk dances: one that goes in a row and one goes standing side by side.
-1	Ipinanyra	Ipinanyra	NUM	XPOS=dois-RESTR-FOC	_	_	_	_	gloss[pt]=dois-RESTR-FOC
-2	awa	awa	VERB	XPOS=existir	VERB	_	_	_	gloss[pt]=existir
-3	kãkity	kãkity	NOUN	N	Gender=Masc	_	_	_	gloss[pt]=gente
-4	serẽka	serẽka	NOUN	XPOS=dança	_	_	_	_	gloss[pt]=dança|SpaceAfter=No
-5	:	:	PUNCT	_	_	_	punct	_	_
-6	katsamarĩẽne	katsamarĩẽne	_	XPOS=ATRIB-NC.longo,fino,	_	_	_	_	gloss[pt]=ATRIB-NC.longo,fino,|SpaceAfter=No
-7	,	,	PUNCT	_	_	_	punct	_	_
-8	katamarĩẽne	katamarĩẽne	_	XPOS=fileira-?-som	_	_	_	_	gloss[pt]=fileira-?-som|SpaceAfter=No
-9	.	.	PUNCT	_	_	_	punct	_	_
-#apu=#pt=ATRIB-?-?-som
+
 
 <€/>
 #apu=#pt=
@@ -64,81 +49,6 @@ Texto 11 (colaborador: Abe)
 2	Kipa	Kipa	_	XPOS=o.quê?	_	_	_	_	gloss[pt]=o.quê?|SpaceAfter=No
 3	?	?	PUNCT	_	_	_	punct	_	_
 
-# sent_id = FernandaM2017:Texto-12-3
-# text_orig = X: – Kiãtukupa i-txa kikiu?’ 
-# text = – Kiãtukupa itxa kikiu?’ 
-# gloss_pt = – como 3SG.M-ser roçado
-# text_pt = ‘Como está o roçado?’Q
-# text_en = 
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	Kiãtukupa	Kiãtukupa	_	XPOS=como	_	_	_	_	gloss[pt]=como
-3	itxa	txa	VERB	XPOS=3SG.M-ser	_	_	_	_	gloss[pt]=3SG.M-ser
-4	kikiu?’	kikiu?’	_	XPOS=roçado	_	_	_	_	gloss[pt]=roçado
-
-# sent_id = FernandaM2017:Texto-12-4
-# text_orig = Y: – Ywã kaiãũ-puku kumyry. 
-# text = – Ywã kaiãũpuku kumyry. 
-# gloss_pt = – lá existir.muito-DISTR mandioca
-# text_pt = ‘Lá tem muita mandioca.’Q
-# text_en = 
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	Ywã	Ywã	_	XPOS=lá	_	_	_	_	gloss[pt]=lá
-3	kaiãũpuku	kaiãũpuku	VERB	XPOS=existir.muito-DISTR	_	_	_	_	gloss[pt]=existir.muito-DISTR
-4	kumyry	kumyry	_	XPOS=mandioca	_	_	_	_	gloss[pt]=mandioca|SpaceAfter=No
-5	.	.	PUNCT	_	_	_	punct	_	_
-
-# sent_id = FernandaM2017:Texto-12-5
-# text_orig = Kaiãũ-ry txipary.
-# text = Kaiãũry txipary.
-# gloss_pt = existir.muito banana
-# text_pt = ‘Tem muita banana.’Q
-# text_en = 
-1	Kaiãũry	Kaiãũry	VERB	XPOS=existir.muito	_	_	_	_	gloss[pt]=existir.muito
-2	txipary	txipary	_	XPOS=banana	_	_	_	_	gloss[pt]=banana|SpaceAfter=No
-3	.	.	PUNCT	_	_	_	punct	_	_
-
-# sent_id = FernandaM2017:Texto-12-6
-# text_orig = X: – Pitha awa awiri yky?
-# text = – Pitha awa awiri yky?
-# gloss_pt = – 2SG ter rapé semente
-# text_pt = ‘Você tem semente de rapé?’Q
-# text_en = 
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	Pitha	Pitha	PRON	XPOS=2SG	_	_	_	_	gloss[pt]=2SG
-3	awa	awa	VERB	XPOS=ter	_	_	_	_	gloss[pt]=ter
-4	awiri	awiri	_	XPOS=rapé	_	_	_	_	gloss[pt]=rapé
-5	yky	yky	_	XPOS=semente	_	_	_	_	gloss[pt]=semente|SpaceAfter=No
-6	?	?	PUNCT	_	_	_	punct	_	_
-
-# sent_id = FernandaM2017:Texto-12-7
-# text_orig = Y: – Nuta awa-pyty-ka awiri yky. (Nuta kaiãũ-pyty-ka awiri yky)
-# text = – Nuta awapytyka awiri yky. (Nuta kaiãũpytyka awiri yky)
-# gloss_pt = – 1SG ter-ENF-PRED rapé semente. (1SG ter.muito-ENF-PRED rapé semente)
-# text_pt = ‘Eu tenho muita semente de rapé.’Q
-# text_en = 
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	Nuta	Nuta	PRON	XPOS=1SG	_	_	_	_	gloss[pt]=1SG
-3	awapytyka	awapytyka	VERB	XPOS=ter-ENF-PRED	_	_	_	_	gloss[pt]=ter-ENF-PRED
-4	awiri	awiri	_	XPOS=rapé	_	_	_	_	gloss[pt]=rapé
-5	yky	yky	_	XPOS=semente.	_	_	_	_	gloss[pt]=semente.|SpaceAfter=No
-6	.	.	PUNCT	_	_	_	punct	_	_
-7	(Nuta	(Nuta	_	XPOS=(1SG	_	_	_	_	gloss[pt]=(1SG
-8	kaiãũpytyka	kaiãũpytyka	VERB	XPOS=ter.muito-ENF-PRED	_	_	_	_	gloss[pt]=ter.muito-ENF-PRED
-9	awiri	awiri	_	XPOS=rapé	_	_	_	_	gloss[pt]=rapé
-	yky)	yky)	_	XPOS=semente)	_	_	_	_	gloss[pt]=semente)
-
-# sent_id = FernandaM2017:Texto-12-8
-# text_orig = X: – Nuta py-syka-nu awiri yky 
-# text = – Nuta pysykanu awiri yky 
-# gloss_pt = – 1SG 2SG-dar-1SG.O rapé semente
-# text_pt = ‘Me dá semente de rapé.’Q
-# text_en = 
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	Nuta	Nuta	PRON	XPOS=1SG	_	_	_	_	gloss[pt]=1SG
-3	pysykanu	pysykanu	_	XPOS=2SG-dar-1SG.O	_	_	_	_	gloss[pt]=2SG-dar-1SG.O
-4	awiri	awiri	_	XPOS=rapé	_	_	_	_	gloss[pt]=rapé
-5	yky	yky	_	XPOS=semente	_	_	_	_	gloss[pt]=semente
-
 # sent_id = FernandaM2017:Texto-12-9
 # text_orig = Y: – Ateeneka (iãũ-pe-ka)
 # text = – Ateeneka (iãũpeka)
@@ -152,8 +62,8 @@ Texto 11 (colaborador: Abe)
 # text_orig = X: – na i-txa py-tuka-ra pithe?
 # text = – na itxa pytukara pithe?
 # gloss_pt = – como 3SG.M-ser 2SG-roçado-POSSD 2SG
-# text_pt = ‘Como está o seu roçado?’Q
-# text_en = 
+# text_pt = Como está o seu roçado?
+# text_en = How is your swidden?
 1	–	–	PUNCT	_	_	punct	_	_	_
 2	na	na	_	XPOS=como	_	_	_	_	gloss[pt]=como
 3	itxa	itxa	VERB	XPOS=3SG.M-ser	_	_	_	_	gloss[pt]=3SG.M-ser
@@ -165,8 +75,8 @@ Texto 11 (colaborador: Abe)
 # text_orig = Y: – Na=ãty-ry kumyry ny-tuka-rẽ-ã
 # text = – Na=ãtyry kumyry nytukarẽã
 # gloss_pt = – não-existir.um-3SG.M.O mandioca 1SG-roçado-POSSD-LOC
-# text_pt = ‘Tem muita mandioca no meu roçado.’Q
-# text_en = 
+# text_pt = Tem muita mandioca no meu roçado.
+# text_en = There is a lot of cassava on my swidden.
 1	–	–	PUNCT	_	_	punct	_	_	_
 2	Na=ãtyry	Na=ãtyry	VERB	XPOS=não-existir.um	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	_	_	_	gloss[pt]=não-existir.um-3SG.M.O
 3	kumyry	kumyry	_	XPOS=mandioca	_	_	_	_	gloss[pt]=mandioca
@@ -176,8 +86,8 @@ Texto 11 (colaborador: Abe)
 # text_orig = Txipari na=ãty. 
 # text = Txipari na=ãty. 
 # gloss_pt = banana não=existir.um
-# text_pt = ‘Tem muita banana.’Q
-# text_en = 
+# text_pt = Tem muita banana.
+# text_en = There are many bananas.
 1	Txipari	Txipari	_	XPOS=banana	_	_	_	_	gloss[pt]=banana
 2	na=ãty	na=ãty	VERB	XPOS=não=existir.um	_	_	_	_	gloss[pt]=não=existir.um|SpaceAfter=No
 3	.	.	PUNCT	_	_	_	punct	_	_
@@ -201,7 +111,7 @@ Texto 11 (colaborador: Abe)
 # text = – Na=ãtyry awiri yky nytakara.
 # gloss_pt = – não=ter.um-3SG.M.O rapé semente 1SG-roçado-POSSD
 # text_pt = ‘Meu roçado tem muita semente de rapé.’Q
-# text_en = 
+# text_en = My swidden
 1	–	–	PUNCT	_	_	punct	_	_	_
 2	Na=ãtyry	Na=ãty	VERB	XPOS=não=ter.um	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	_	_	_	gloss[pt]=não=ter.um-3SG.M.O
 3	awiri	awiri	_	XPOS=rapé	_	_	_	_	gloss[pt]=rapé
@@ -287,7 +197,7 @@ Texto 11 (colaborador: Abe)
 # text_orig = ø-Ama-ry-te ãtukyry k-aia-puku-ry. 
 # text = Amaryte ãtukyry kaiapukury. 
 # gloss_pt = 3SG.M-filho-M-POSSD velho ATRIB-caçar-DISTR-3SG.M.O
-# text_pt = ‘O filho mais velho dele era caçador’Q
+# text_pt = O filho mais velho dele era caçador.
 # text_en = His oldest son was a hunter.
 1	Amaryte	Amaryte	NOUN	XPOS=3SG.M-filho-M-POSSD	_	3	nsubj:cop	_	gloss[pt]=3SG.M-filho-M-POSSD
 2	ãtukyry	ãtukyry	ADJ	XPOS=velho	_	1	acl:relcl	_	gloss[pt]=velho

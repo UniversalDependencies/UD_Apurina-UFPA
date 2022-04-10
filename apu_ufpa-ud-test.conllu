@@ -1293,6 +1293,22 @@
 3	xipuãtakary	xipuãtakary	VERB	XPOS=cantar-pred-REL.S.M	_	2	acl:relcl	_	gloss[pt]=cantar-pred-REL.S.M|SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
+# sent_id = FernandaM2017:Texto-9-4
+# text_orig = Ipi-nany-ra awa kãkity serẽka: ka-tsa-marĩ-ẽne, ka-ta-marĩ-ẽne.
+# text = Ipinanyra awa kãkity serẽka: katsamarĩẽne, katamarĩẽne.
+# gloss_pt = dois-RESTR-FOC existir gente dança ATRIB-NC.longo,fino, fileira-?-som ATRIB-?-?-som
+# text_pt = ‘Só tem duas danças da gente: a que faz fileira e a que fica lado a lado.’Q
+# text_en = There are only two folk dances: one that goes in a row and one goes standing side by side.
+1	Ipinanyra	ipi	ADV	XPOS=dois-RESTR-FOC	_	2	advmod	_	gloss[pt]=dois-RESTR-FOC
+2	awa	awa	VERB	XPOS=existir	_	0	root	_	gloss[pt]=existir
+3	kãkity	kãkity	NOUN	N	Gender=Masc	4	nmod	_	gloss[pt]=gente
+4	serẽka	serẽka	NOUN	XPOS=dança	_	2	nsubj	_	gloss[pt]=dança|SpaceAfter=No
+5	:	:	PUNCT	_	_	6	punct	_	_
+6	katsamarĩẽne	katsamarĩẽne	NOUN	N	_	4	list	_	gloss[pt]=ATRIB-NC.longo,fino,|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	katamarĩẽne	katamarĩẽne	NOUN	N	_	4	list	_	gloss[pt]=fileira-?-som|SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = FernandaM2017:Texto-9-5
 # text_orig = Awa-ry ithu nhipuku-ry i ỹarỹa.
 # text = Awary ithu nhipukury i ỹarỹa.
@@ -1458,11 +1474,96 @@
 4	myramana	myramana	NOUN	XPOS=ATRIB.INTENS-FOC-corpo.de	_	2	xcomp	_	gloss[pt]=ATRIB.INTENS-FOC-corpo.de|SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
+# sent_id = FernandaM2017:Texto-12-3
+# text_orig = X: – Kiãtukupa i-txa kikiu?
+# text = – Kiãtukupa itxa kikiu?
+# gloss_pt = – como 3SG.M-ser roçado
+# text_pt = Como está o roçado?
+# text_en = How is the harvest?
+1	–	–	PUNCT	_	_	2	punct	_	_
+2	Kiãtukupa	kiãtukupa	ADV	XPOS=como	_	0	root	_	gloss[pt]=como
+3	itxa	txa	AUX	XPOS=3SG.M-ser	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	4	aux	_	gloss[pt]=3SG.M-ser
+4	kikiu	kikiu	NOUN	XPOS=roçado	Gender=Masc|Possessed=No	2	nsubj	_	gloss[pt]=roçado|SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-12-4
+# text_orig = Y: – Ywã kaiãũ-puku kumyry.
+# text = – Ywã kaiãũpuku kumyry.
+# gloss_pt = – lá existir.muito-DISTR mandioca
+# text_pt = Lá tem muita mandioca.
+# text_en = Cassava abound there.
+1	–	–	PUNCT	PUNCT	_	3	punct	_	_
+2	Ywã	Ywã	PRON	Pron	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl:lmod	_	gloss[pt]=lá
+3	kaiãũpuku	kaiãũpuku	VERB	V	_	0	root	_	gloss[pt]=existir.muito-DISTR
+4	kumyry	kumyry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	nsubj	_	gloss[pt]=mandioca|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = FernandaM2017:Texto-12-5
+# text_orig = Kaiãũ-ry txipary.
+# text = Kaiãũry txipary.
+# gloss_pt = existir.muito banana
+# text_pt = Tem muita banana.
+# text_en = There are a lot of bananas.
+1	Kaiãũry	Kaiãu	VERB	V	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=existir.muito
+2	txipary	txipary	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	1	nsubj	_	gloss[pt]=banana|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = FernandaM2017:Texto-12-6
+# text_orig = X: – Pitha awa awiri yky?
+# text = – Pitha awa awiri yky?
+# gloss_pt = – 2SG ter rapé semente
+# text_pt = Você tem semente de rapé?
+# text_en = Do you have snuff seed?
+1	–	–	PUNCT	PUNCT	_	3	punct	_	_
+2	Pitha	Pitha	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	gloss[pt]=2SG
+3	awa	awa	VERB	V	_	0	root	_	gloss[pt]=ter
+4	awiri	awiri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	5	nmod	_	gloss[pt]=rapé
+5	yky	yky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obj	_	gloss[pt]=semente|SpaceAfter=No
+6	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = FernandaM2017:Texto-12-7a
+# text_orig = Y: – Nuta awa-pyty-ka awiri yky.
+# text = – Nuta awapytyka awiri yky.
+# gloss_pt = – 1SG ter-ENF-PRED rapé semente.
+# text_pt = Eu tenho muita semente de rapé.
+# text_en = I have plenty of snuff seed.
+1	–	–	PUNCT	PUNCT	_	3	punct	_	_
+2	Nuta	nuta	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	gloss[pt]=1SG
+3	awapytyka	awapytyka	VERB	V	_	0	root	_	gloss[pt]=ter-ENF-PRED
+4	awiri	awiri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	5	compound	_	gloss[pt]=rapé
+5	yky	yky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obj	_	gloss[pt]=semente.|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = FernandaM2017:Texto-12-7b
+# text_orig = (Nuta kaiãũ-pyty-ka awiri yky)
+# text = Nuta kaiãũpytyka awiri yky.
+# gloss_pt = 1SG ter.muito-ENF-PRED rapé semente
+# text_pt = Eu tenho muita semente de rapé.
+# text_en = I have plenty of snuff seed.
+1	Nuta	nuta	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	gloss[pt]=1SG
+2	kaiãũpytyka	kaiãu	VERB	V	_	0	root	_	gloss[pt]=ter.muito-ENF-PRED
+3	awiri	awiri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	compound	_	gloss[pt]=rapé
+4	yky	yky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	gloss[pt]=semente)|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = FernandaM2017:Texto-12-8
+# text_orig = X: – Nuta py-syka-nu awiri yky 
+# text = – Nuta pysykanu awiri yky.
+# gloss_pt = – 1SG 2SG-dar-1SG.O rapé semente
+# text_pt = Me dá semente de rapé.
+# text_en = Give me snuff seed.
+1	–	–	PUNCT	PUNCT	_	3	punct	_	_
+2	Nuta	Nuta	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	iobj	_	gloss[pt]=1SG
+3	pysykanu	syka	VERB	V	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2	0	root	_	gloss[pt]=2SG-dar-1SG.O
+4	awiri	awiri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	5	compound	_	gloss[pt]=rapé
+5	yky	yky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obj	_	gloss[pt]=semente|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
 # sent_id = Lima-Padovani:2020:342:1
 # text = Iũpiri xuxuri atuku itxa.
 # text_pt = O japó parece com o japiim.
 # text_en = The green oropendola is similar to the japiim.
-1	Iũpiri	iũpiri	NOUN	_	_	3	nsubj:cop	_	_
+1	Iũpiri	iũpiri	NOUN	_	Gender=Masc|Possessed=No	3	nsubj:cop	_	_
 2	xuxuri	txutxuri	NOUN	_	_	1	conj	_	_
 3	atuku	atuku	ADJ	_	_	0	root	_	_
 4	itxa	txa	AUX	_	_	3	cop	_	SpaceAfter=No
