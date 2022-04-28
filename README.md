@@ -28,6 +28,9 @@ Finite-State Transistor development:
 
 # Changelog
 
+* 2022-04-29
+  * Deprel correction and documentation
+  * Trouble shooting in dependencies
 * 2021-10-31 v2.9
   * Auxiliary, feature and deprel documentation
   * Continued annotation of original corpus.
