@@ -64,23 +64,24 @@ Texto 11 (colaborador: Abe)
 # gloss_pt = – como 3SG.M-ser 2SG-roçado-POSSD 2SG
 # text_pt = Como está o seu roçado?
 # text_en = How is your swidden?
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	na	na	_	XPOS=como	_	_	_	_	gloss[pt]=como
-3	itxa	itxa	VERB	XPOS=3SG.M-ser	_	_	_	_	gloss[pt]=3SG.M-ser
-4	pytukara	pytukara	_	XPOS=2SG-roçado-POSSD	_	_	_	_	gloss[pt]=2SG-roçado-POSSD
-5	pithe	pithe	PRON	XPOS=2SG	_	_	_	_	gloss[pt]=2SG|SpaceAfter=No
-6	?	?	PUNCT	_	_	_	punct	_	_
+1	–	–	PUNCT	_	_	3	punct	_	_
+2	na	na	ADV	XPOS=como	_	3	advmod	_	gloss[pt]=como
+3	itxa	txa	VERB	XPOS=3SG.M-ser	_	0	root	_	gloss[pt]=3SG.M-ser
+4	pytukara	tuka	NOUN	XPOS=2SG-roçado-POSSD	Number[psor]=Sing|Person[psor]=2|Possessed=Yes	3	nsubj	_	gloss[pt]=2SG-roçado-POSSD
+5	pithe	pithe	PRON	XPOS=2SG	_	4	det	_	gloss[pt]=2SG|SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-13-4
 # text_orig = Y: – Na=ãty-ry kumyry ny-tuka-rẽ-ã
-# text = – Na=ãtyry kumyry nytukarẽã
+# text = – Na=ãtyry kumyry nytukarẽã.
 # gloss_pt = – não-existir.um-3SG.M.O mandioca 1SG-roçado-POSSD-LOC
 # text_pt = Tem muita mandioca no meu roçado.
 # text_en = There is a lot of cassava on my swidden.
-1	–	–	PUNCT	_	_	punct	_	_	_
-2	Na=ãtyry	Na=ãtyry	VERB	XPOS=não-existir.um	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	_	_	_	gloss[pt]=não-existir.um-3SG.M.O
-3	kumyry	kumyry	_	XPOS=mandioca	_	_	_	_	gloss[pt]=mandioca
-4	nytukarẽã	nytukarẽã	NOUN	XPOS=1SG-roçado-POSSD	Case=Loc	_	_	_	gloss[pt]=1SG-roçado-POSSD-LOC
+1	–	–	PUNCT	_	_	2	punct	_	_
+2	Naãtyry	naãty	VERB	XPOS=não-existir.um	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=não-existir.um-3SG.M.O
+3	kumyry	kumyry	NOUN	XPOS=mandioca	_	2	nsubj	_	gloss[pt]=mandioca
+4	nytukarẽã	tuka	NOUN	XPOS=1SG-roçado-POSSD	Case=Loc	2	obl:lmod	_	gloss[pt]=1SG-roçado-POSSD-LOC
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-13-5
 # text_orig = Txipari na=ãty. 
