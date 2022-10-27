@@ -1574,14 +1574,14 @@
 
 # sent_id = FernandaM2017:Texto-13-4
 # text_orig = Y: – Na=ãty-ry kumyry ny-tuka-rẽ-ã
-# text = – Na=ãtyry kumyry nytukarẽã.
+# text = – Naãtyry kumyry nytukarẽã.
 # gloss_pt = – não-existir.um-3SG.M.O mandioca 1SG-roçado-POSSD-LOC
 # text_pt = Tem muita mandioca no meu roçado.
 # text_en = There is a lot of cassava on my swidden.
 1	–	–	PUNCT	_	_	2	punct	_	_
 2	Naãtyry	naãty	VERB	XPOS=não-existir.um	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=não-existir.um-3SG.M.O
 3	kumyry	kumyry	NOUN	XPOS=mandioca	_	2	nsubj	_	gloss[pt]=mandioca
-4	nytukarẽã	tuka	NOUN	XPOS=1SG-roçado-POSSD	Case=Loc	2	obl:lmod	_	gloss[pt]=1SG-roçado-POSSD-LOC
+4	nytukarẽã	tuka	NOUN	XPOS=1SG-roçado-POSSD	Case=Loc	2	obl:lmod	_	gloss[pt]=1SG-roçado-POSSD-LOC|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-13-5
@@ -1603,8 +1603,8 @@
 1	–	–	PUNCT	_	_	3	punct	_	_
 2	Pitha	pitha	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	obl	_	gloss[pt]=2SG
 3	awa	awa	VERB	_	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=ter
-4	awiri	awiri	NOUN	_	Case=Nom|Gender=Msc|Number=Sing|Possessed=No	5	nmod:poss	_	gloss[pt]=rapé
-5	yky	ky	NOUN	_	Case=Nom|Gender=Msc|Number=Sing|Possessed=Yes	3	nsubj	_	gloss[pt]=semente|SpaceAfter=No
+4	awiri	awiri	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	5	nmod:poss	_	gloss[pt]=rapé
+5	yky	ky	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=Yes	3	nsubj	_	gloss[pt]=semente|SpaceAfter=No
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-13-8
@@ -1616,30 +1616,30 @@
 # comment = recipient is higher in the animacy hierarchy, it is the direct object
 1	–	–	PUNCT	_	_	3	punct	_	_
 2	Nuta	nuta	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	gloss[pt]=1SG
-3	pysykanu	syka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Valency=2	0	root	_	gloss[pt]=2SG-dar-1SG.O
-4	awiri	awiri	NOUN	_	Case=Nom|Gender=Msc|Number=Sing|Possessed=No	5	nmod:poss	_	gloss[pt]=rapé
-5	yky	ky	NOUN	_	Case=Nom|Gender=Msc|Number=Sing|Number[psor]=Sing|Person[psor]=3|PxMsc|Possessed=Yes	3	obj	_	gloss[pt]=semente|SpaceAfter=No
+3	pysykanu	syka	VERB	_	Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=2	0	root	_	gloss[pt]=2SG-dar-1SG.O
+4	awiri	awiri	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	5	nmod:poss	_	gloss[pt]=rapé
+5	yky	ky	NOUN	_	Case=Nom|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=semente|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-1
 # text_orig = Ĩthupa ø-awa-ma ãtary
-# text = Ĩthupa awama ãtary.
+# text = Ĩthupa awamaãtary.
 # gloss_pt = mata 3SG.M-viver-FRUSTR ?
 # text_pt = Ele vivia na mata.
 # text_en = He lived in the forest.
-1	Ĩthupa	ĩthupa	nsubj	_	Case=Nom|Gender=Msc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=mata
-2	awamaãtary	awaãta	VERB	_	Frustr|Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=3SG.M-viver-FRUSTR|SpaceAfter=No
+1	Ĩthupa	ĩthupa	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=mata
+2	awamaãtary	awaãta	VERB	_	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=3SG.M-viver-FRUSTR|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-2
 # text_orig = Ywa kaiãũ-puku ø-amary-ta-ne
-# text = Ywa kaiãũpuku amarytane
+# text = Ywa kaiãũpuku amarytane.
 # gloss_pt = 3SG.M ter.muito-DISTR 3SG.M-filho-POSSD-?PL
 # text_pt = ‘Ele tinha muitos filhos’. 
 # text_en = He had many children.
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	kaiãũpuku	kaiãupuku	VERB	_	_	0	root	_	gloss[pt]=ter.muito-DISTR
-3	amarytane	amary	NOUN	N	Gender=Masc|Number=Plur|Possessed=Yes	2	obj	_	gloss[pt]=3SG.M-filho-POSSD-?PL
+3	amarytane	amary	NOUN	N	Gender=Masc|Number=Plur|Possessed=Yes	2	obj	_	gloss[pt]=3SG.M-filho-POSSD-?PL|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-4
@@ -1649,16 +1649,16 @@
 # text_pt = Um dia ele pescou, pegou muito peixe. 
 # text_en = One day he fished, caught a lot of fish.
 1	Hãty	hãty	NUM	Num	_	2	nummod	_	gloss[pt]=um
-2	ũty	ũty	NOUN	XPOS=dia	Msc|Sg|Possessed=No|Nom	3	obl:tmod	_	gloss[pt]=dia
-3	ukatsaãta	ukatsaã	VERB	XPOS=3SG.M-pescar-VBLZ	Vblz	0	root	_	gloss[pt]=3SG.M-pescar-VBLZ
-4	imãĩkary	mãĩka	VERB	XPOS=3SG.M-pegar	Gender[obj]=Masc|Gender[psor]=Masc|Number[obj]=Sing|Number[psor]=Sing|Person[obj]=3|Person[psor]=3	3	conj	_	gloss[pt]=3SG.M-pegar-3SG.M.O
+2	ũty	ũty	NOUN	XPOS=dia	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obl:tmod	_	gloss[pt]=dia
+3	ukatsaãta	ukatsaã	VERB	XPOS=3SG.M-pescar-VBLZ	_	0	root	_	gloss[pt]=3SG.M-pescar-VBLZ
+4	imãĩkary	mãĩka	VERB	XPOS=3SG.M-pegar	Gender[obj]=Masc|Gender[subj]=Masc|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	3	conj	_	gloss[pt]=3SG.M-pegar-3SG.M.O
 5	kaiãũpuku	kaiãu	VERB	XPOS=muito-DISTR	_	6	advcl	_	gloss[pt]=muito-DISTR
-6	ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	obj	_	gloss[pt]=peixe
+6	ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	obj	_	gloss[pt]=peixe|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-5
-# text_orig = ø-Ama-ry-te ãtukyry k-aia-puku-ry. 
-# text = Amaryte ãtukyry kaiapukury. 
+# text_orig = ø-Ama-ry-te ãtukyry k-aia-puku-ry.
+# text = Amaryte ãtukyry kaiapukury.
 # gloss_pt = 3SG.M-filho-M-POSSD velho ATRIB-caçar-DISTR-3SG.M.O
 # text_pt = O filho mais velho dele era caçador.
 # text_en = His oldest son was a hunter.
@@ -1669,13 +1669,13 @@
 
 # sent_id = FernandaM2017:Texto-14-6
 # text_orig = Ywa k-aia-puku-ry kaiãũ-puku
-# text = Ywa kaiapukury kaiãũpuku
+# text = Ywa kaiapukury kaiãũpuku.
 # gloss_pt = 3SG.M ATRIB-caçar-DISTR-3SG.M.O muito-DISTR
 # text_pt = ‘Ele caçava muito’. Lit.: ‘Ele era muito caçador’Q
 # text_en =
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.M
 2	kaiapukury	aia	VERB	XPOS=ATRIB-caçar-DISTR	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ATRIB-caçar-DISTR-3SG.M.O
-3	kaiãũpuku	kaiãupuku	ADV	XPOS=muito-DISTR	_	2	advmod	_	gloss[pt]=muito-DISTR
+3	kaiãũpuku	kaiãupuku	ADV	XPOS=muito-DISTR	_	2	advmod	_	gloss[pt]=muito-DISTR|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-7
@@ -1685,7 +1685,7 @@
 # text_pt = ‘Um dia ele caçou muitos queixadas’.
 # text_en = One day he hunted many peccaries.
 1	Ãty	hãty	NUM	Num	_	2	nummod	_	gloss[pt]=um
-2	ũty	ũty	NOUN	XPOS=dia	Case=Nom|Gender=Msc|Number=Sing|Possessed=No	3	obl:tmod	_	gloss[pt]=dia
+2	ũty	ũty	NOUN	XPOS=dia	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obl:tmod	_	gloss[pt]=dia
 3	aiatary	aia	VERB	XPOS=caçar-VBLZ	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=caçar-VBLZ-3SG.M.O
 4	irary	irary	NOUN	XPOS=queixada	_	3	obj	_	gloss[pt]=queixada
 5	kaiãũpuku	kaiãupuku	ADV	XPOS=muito-DISTR	_	3	advmod	_	gloss[pt]=muito-DISTR
@@ -1699,50 +1699,49 @@
 1	Ywa	ywa	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	det	_	gloss[pt]=3SG.M
 2	ãkeru	ãkeru	NOUN	XPOS=filho-F	_	3	nsubj	_	gloss[pt]=filho-F
 3	ukamary	ukamary	VERB	XPOS=3SG.F-fazer	Gender[obj]=Masc|Gender[subj]=Fem|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	0	root	_	gloss[pt]=3SG.F-fazer-3SG.M.O
-4	ãputa	ãputa	NOUN	XPOS=abano	Case=Nom|Gender=Masc|Number=Sing|Person=3|Possessed=No	3	obj	_	gloss[pt]=abano
+4	ãputa	ãputa	NOUN	XPOS=abano	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obj	_	gloss[pt]=abano
 5	i	i	CCONJ	XPOS=e	_	6	cc	_	gloss[pt]=e
-6	manu	manu	NOUN	XPOS=tipiti	Case=Nom|Gender=Masc|Number=Sing|Person=3|Possessed=No	4	conj	_	gloss[pt]=tipiti|SpaceAfter=No
+6	manu	manu	NOUN	XPOS=tipiti	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	conj	_	gloss[pt]=tipiti|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-9
-# text_orig = Uwa sãpira-ta: 
-# text = Uwa sãpirata: 
+# text_orig = Uwa sãpira-ta:
+# text = Uwa sãpirata:
 # gloss_pt = 3SG.F falar-VBLZ
 # text_pt = ‘Ela falou:’
 # text_en = She said:
 1	Uwa	uwa	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	gloss[pt]=3SG.F
-2	sãpirata	sãpira  VERB	XPOS=falar-VBLZ _	0	root	_	gloss[pt]=falar-VBLZ|SpaceAfter=No
+2	sãpirata	sãpira	VERB	V	_	0	root	_	SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-10
-# text_orig = – Nuta kama-ry kaiãũ-puku ãputa 
+# text_orig = – Nuta kama-ry kaiãũ-puku ãputa
 # text = – Nuta kamary kaiãũpuku ãputa.
 # gloss_pt = – 1SG fazer-3SG.M.O muito-DISTR abano
-# text_pt = ‘Eu já fiz muitos abanos’. 
+# text_pt = ‘Eu já fiz muitos abanos’.
 # text_en = I already made many fans.
 1	–	–	PUNCT	_	_	3	punct	_	_
 2	Nuta	nuta	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	GTtags=Pers,Sg1,Nom
-3	kamary  kama	VERB	_	Gender[obj]=Masc|Number[obj]=Plur,Sing|Person[obj]=3	0	root	_	GTtags=Oc3M
-4	kaiãupuku	kaiãupuku	ADV	_	_	3	advmod  _	_
-5	ãputa	ãputa	NOUN	_	Gender=Msc|Number=Sing|Possessed=No|Nom_	3	obj	_	GTtags=Msc,Sg,NPossd,Nom_|SpaceAfter=No
+3	kamary	kama	VERB	_	Gender[obj]=Masc|Number[obj]=Plur,Sing|Person[obj]=3	0	root	_	GTtags=Oc3M
+4	kaiãũpuku	kaiãupuku	ADV	_	_	3	advmod	_	_
+5	ãputa	ãputa	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obj	_	GTtags=Msc,Sg,NPossd,Nom|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FernandaM2017:Texto-14-11
-# text_orig = Watxa awa-pe-ka ãputa i-pusu-pe-ka 
-# text = Watxa awapeka ãputa ipusupeka. 
+# text_orig = Watxa awa-pe-ka ãputa i-pusu-pe-ka
+# text = Watxa awapeka ãputa ipusupeka.
 # gloss_pt = agora existir-PFTV-PRED abano 3SG.M-estar.terminado-PFTV-PRED
 # text_pt = ‘Agora tem muitos abanos prontos.’ Lit.: ‘Agora tem abano, ele tá terminado.’
 # text_en = Now there's a fan, it is finished.
-1	Watxa	watxa	ADV	XPOS=agora	Case=Temp	2	advmod:tmod	_	gloss[pt]=agora
-2	awapeka awa	VERB	XPOS=existir-PFTV-PRED	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|  0	root	_	gloss[pt]=existir-PFTV-PRED
-3	ãputa	ãputa	NOUN	XPOS=abano	Case=Nom|Gender=Msc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=abano
-4	ipusupeka	pusu	VERB	XPOS=3SG.M-estar.terminado-PFTV-PRED	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|	2	conj	_	gloss[pt]=3SG.
-M-estar.terminado-PFTV-PRED|SpaceAfter=No
+1	Watxa	watxa	ADV	XPOS=agora	_	2	advmod:tmod	_	gloss[pt]=agora
+2	awapeka	awa	VERB	XPOS=existir-PFTV-PRED	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=existir-PFTV-PRED
+3	ãputa	ãputa	NOUN	XPOS=abano	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nsubj	_	gloss[pt]=abano
+4	ipusupeka	pusu	VERB	XPOS=3SG.M-estar.terminado-PFTV-PRED	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	2	conj	_	gloss[pt]=3SG.M-estar.terminado-PFTV-PRED|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	GTtags=2
 
 # sent_id = FernandaM2017:Texto-15-2
-# text_orig = U-tukury-te ithu. 
-# text = Utukuryte ithu. 
+# text_orig = U-tukury-te ithu.
+# text = Utukuryte ithu.
 # gloss_pt = 3SG.F-roçado-POSSD existir.muito
 # text_pt = ‘O roçadoo dela era muito’
 # text_en = Her garden was bountiful.
@@ -1756,15 +1755,15 @@ M-estar.terminado-PFTV-PRED|SpaceAfter=No
 # gloss_pt = Um dia 3SG.F-?roçado-LOC 3SG.F-ir
 # text_pt = ‘Um dia ela foi no roçado (dela)’Q
 # text_en = One day she went to the field.
-1	Ãty	hãty	NUM	XPOS=Um	Case=Nom|Gender=Msc	2	nummod	_	gloss[pt]=Um
-2	ũty	ũty	NOUN	XPOS=dia	Case=Nom|Gender=Msc|Number=Sing|Possessed=No	4	obl:tmod	_	gloss[pt]=dia
-3	ukinhiã	kinhi	NOUN	XPOS=3SG.F-?roçado	Case=Loc|Gender=Msc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	4	obl:lmod	_	gloss[pt]=3SG.F-?roçado-LOC
+1	Ãty	hãty	NUM	XPOS=Um	Case=Nom|Gender=Masc	2	nummod	_	gloss[pt]=Um
+2	ũty	ũty	NOUN	XPOS=dia	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	obl:tmod	_	gloss[pt]=dia
+3	ukinhiã	kinhi	NOUN	XPOS=3SG.F-?roçado	Case=Loc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	4	obl:lmod	_	gloss[pt]=3SG.F-?roçado-LOC
 4	usa	sa	VERB	XPOS=3SG.F-ir	Gender[subj]=Fem|Number[subj]=Sing|Person[subj]=3	0	root	_	gloss[pt]=3SG.F-ir|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = FernandaM2017:Texto-15-7
-# text_orig = – Ny-mapuruĩ-ta-ry macaxeira ĩarĩã ny-kam-inhi nere. 
-# text = – Nymapuruĩtary macaxeira ĩarĩã nykaminhi nere. 
+# text_orig = – Ny-mapuruĩ-ta-ry macaxeira ĩarĩã ny-kam-inhi nere.
+# text = – Nymapuruĩtary macaxeira ĩarĩã nykaminhi nere.
 # gloss_pt = – 1SG-arrancar-VBLZ-3SG.M.O macaxeira vinho 1SG-fazer-GER querer
 # text_pt = ‘Eu quero tirar pra fazer vinho de macaxeira’Q
 # text_en = I want to take it to make manioc wine.
