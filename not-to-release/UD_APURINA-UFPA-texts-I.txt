@@ -182,20 +182,6 @@ Texto 15 (colaboradora: Seb)
 3	macaxeira	macaxeira	NOUN	XPOS=macaxeira	_	2	nsubj	_	gloss[pt]=macaxeira|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = FernandaM2017:Texto-15-7
-# text_orig = – Ny-mapuruĩ-ta-ry macaxeira ĩarĩã ny-kam-inhi nere. 
-# text = – Nymapuruĩtary macaxeira ĩarĩã nykaminhi nere. 
-# gloss_pt = – 1SG-arrancar-VBLZ-3SG.M.O macaxeira vinho 1SG-fazer-GER querer
-# text_pt = ‘Eu quero tirar pra fazer vinho de macaxeira’Q
-# text_en = I want to take it to make manioc wine.
-1	–	–	PUNCT	_	_	2	punct	_	_
-2	Nymapuruĩtary	mapuruĩ	VERB	XPOS=1SG-arrancar-VBLZ	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=1SG-arrancar-VBLZ-3SG.M.O
-3	macaxeira	macaxeira	NOUN	XPOS=macaxeira	_	2	obj	_	gloss[pt]=macaxeira
-4	ĩarĩã	ĩarĩã	NOUN	XPOS=vinho	_	5	nmod	_	gloss[pt]=vinho
-5	nykaminhi	kama	VERB	XPOS=1SG-fazer	VerbForm=Vnoun	6	obj	_	gloss[pt]=1SG-fazer-GER
-6	nere	nere	VERB	XPOS=querer	_	2	conj	_	gloss[pt]=querer|SpaceAfter=No
-7	.	.	PUNCT	_	_	2	punct	_	_
-
 # sent_id = FernandaM2017:Texto-15-8
 # text_orig = Ãty ũty u-ĩtima-ta-ru u-pyra-aku-ry: 
 # text = Ãty ũty uĩtimataru upyraakury: 
