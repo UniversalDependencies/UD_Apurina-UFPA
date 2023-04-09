@@ -1367,13 +1367,13 @@
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = FernandaM2017:Texto-10-5
-# text_orig = Atha aapuku xepiti-ry. 
+# text_orig = Atha aapuku xepiti-ry.
 # text = Atha aapuku xepitiry.
 # gloss_pt = 1PL casa.de ser.pequeno-3SG.M.O
 # text_pt = Nossa casa é pequena.
 # text_en = Our home is small.
-1	Atha	atha	PRON	XPOS=1PL	_	2	det	_	gloss[pt]=1PL
-2	aapuku	awapuku	NOUN	XPOS=casa.de	_	3	nsubj	_	gloss[pt]=casa.de
+1	Atha	atha	PRON	XPOS=1PL	Number=Plur|Person=1|PronType=Prs	2	det	_	gloss[pt]=1PL
+2	aapuku	awapuku	NOUN	XPOS=casa.de	Gender=Masc|Possessed=No	3	nsubj	_	gloss[pt]=casa.de
 3	xepitiry	xepiti	VERB	XPOS=ser.pequeno	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=ser.pequeno-3SG.M.O|SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
