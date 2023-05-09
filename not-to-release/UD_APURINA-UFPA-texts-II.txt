@@ -1,16 +1,6 @@
 # -*- coding : UTF-8 -*-
 II. TEXTOS DO MATERIAL DE CONVERSAÇÃO (COM O ACRÉSCIMO DAS INTERLINEARIZAÇÕES)
 
-# sent_id = FernandaM2017:TextsII-1-1
-# text_orig = Lição 1: Wai-ka-i Pitha 
-# text = Waikai Pitha 
-# gloss_pt = estar.aqui-PRED-2SG.O 2SG) 
-# text_pt = Você está aqui.
-# text_en = You are here.
-1	Waikai	waika	V	_	IV|Vido|OcSg2	0	root	_	_
-2	Pitha	pitha	Pron	_	Pers|Sg2|Nom	1	nsubj	_	_
-3	.	.	CLB	_	_	1	punct	_	_
-
 # sent_id = FernandaM2017:TextsII-1-2
 # text_orig = Kamasaru: Wai-ka-i pitha. 
 # text = Waikai pitha. 
@@ -89,18 +79,6 @@ Kiripa pykama?
 # text_en = I didn't take anything.
 Kuna kaiumaãnu.
 
-# sent_id = FernandaM2017:TextsII-1-13
-# text_orig = Yny umiti-ka-ry ximaky. 
-# text = Yny umitikary ximaky. 
-# gloss_pt = lontra espantar-PRED-3SG.M.O peixe
-# text_pt = A lontra espantou os peixes.
-# text_en = The otter scared the fish away.
-1	Yny	yny	N	_	Msc|Sg|NPossd|Nom	2	nsubj	_	_
-2	umitikary	mitĩka	V	_	ScSg3F|Oc3M	0	root	_	_
-3	ximaky	ximaky	N	_	Msc|Sg|NPossd|Nom	2	obj	_	_
-4	.	.	CLB	_	_	2	punct	_	_
-
-
 # sent_id = FernandaM2017:TextsII-1-14
 # text_orig = Inhinhĩã kuna m-inha-ka-ty n-uka. 
 # text = Inhinhĩã kuna minhakaty nuka. 
@@ -118,17 +96,6 @@ Kuna kaiumaãnu.
 "<.>"
         "." CLB
 
-
-# sent_id = FernandaM2017:TextsII-1-15
-# text_orig = Kamasaru: Atha-munhi awa ximaky.
-# text = Athamunhi awa ximaky.
-# gloss_pt = 1PL-DAT existir peixe
-# text_pt = Nós temos peixe.’ Lit.: ‘Tem peixe pra nós.’
-# text_en = We have fish.
-1	Athamunhi	nuta	Pron	_	Pers|Pl1|Dat	2	obl	_	_
-2	awa	awa	V	_	ScSg3M	0	root	_	_
-3	ximaky	ximaky	N	_	Msc|Sg|NPossd|Nom	2	nsubj	_	_
-4	.	.	CLB	_	_	2	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-1-16
 # text_orig = Ximaky p-anhi-k-inha-wa. 
@@ -223,51 +190,6 @@ Nanhikiripa pyna?
 # text_en = ‘I'm from Seruini.‘
 Syrywyny nawa.
 
-# sent_id = FernandaM2017:TextsII-2-10
-# text_orig = Txiiakatxi: Kiripa p-yry? 
-# text = Kiripa pyry?
-# gloss_pt = quem 2SG-pai.de
-# text_pt = ‘Quem é o seu pai?’Q
-# text_en = Who is your father?
-1	Kiripa	kiripa	Pron	_	Interr|Msc	2	nsubj:cop	_	_
-2	pyry	yritxi	N	_	Msc|Sg|PxSg2|Possd|Nom	0	root	_	_
-3	?	?	CLB	_	_	2	punct	_	_
-
-# sent_id = FernandaM2017:TextsII-2-11
-# text_orig = Txiiupyryỹry: Kamarapu n-yry. 
-# text = Kamarapu nyry. 
-# gloss_pt = N.PROP 1SG-pai.de
-# text_pt = ‘Meu pai é o seu Kamarapu.’Q
-# text_en = My father is Kamarapu
-1	Kamarapu	Kamarapu	N	_	Prop|Msc|Sg|NPossd|Nom	2	nsubj:cop	_	_
-2	nyry	yritxi	N	_	Msc|Sg|PxSg1|Possd|Nom	0	root	_	_
-3	.	.	CLB	_	_	2	punct	_	_
-
-# sent_id = FernandaM2017:TextsII-2-12
-# text_orig = Txiiakatxi: Aa! P-yry nh-iimatykyry i-txa-wa. 
-# text = Aa! Pyry iimatykyry itxawa. 
-# gloss_pt = interjeição 2SG-pai.de 1SG-tio.de 3SG.M-ser-REFL
-# text_pt = Ah! O seu pai é meu tio.
-# text_en = Ah! your father is my uncle.
-1	Aa	aa	Interj	_	_	4	discourse	_	_
-2	!	!	CLB	_	_	1	punct	_	_
-3	Pyry	yritxi	N	_	Msc|Sg|PxSg2|Possd|Nom|@HNOUN	4	nsubj	_	_
-4	nhiimatykyry	iimatykyry	N	_	Msc|Sg|PxSg1|Possd|Nom	0	root	_	_
-5	itxawa	txa	V	_	Aux|ScSg3M	4	aux	_	_
-6	.	.	CLB	_	_	4	punct	_	_
-
-
-# sent_id = FernandaM2017:TextsII-2-13
-# text_orig = Kerupa p-ynyru? 
-# text = Kerupa pynyru? 
-# gloss_pt = quem 2SG-mãe.de
-# text_pt = ‘Quem é a sua mãe?’
-# text_en = Who is your mother?
-1	Kerupa	kiripa	Pron	_	Interr|Fem	0	root	_	_
-2	pynyru	ynyrutxi	N	_	Fem|Sg|PxSg2|Possd|Nom	1	nsubj	_	_
-3	?	?	CLB	_	_	1	punct	_	_
-
-
 # sent_id = FernandaM2017:TextsII-2-14
 # text_orig = Txiiupyryỹry: Kanaiapa ny-nyru. 
 # text = Kanaiapa nynyru. 
@@ -275,14 +197,6 @@ Syrywyny nawa.
 # text_pt = Minha mãe é a Kanaiapa.
 # text_en = My mother is Kanaiapa.
 Kanaiapa nynyru.
-
-# sent_id = FernandaM2017:TextsII-2-15
-# text_orig = Txiiakatxi: Py-nyru ny-nyru nyrymane u-txa-wa. 
-# text = Pynyru nynyru nyrymane utxawa. 
-# gloss_pt = 2SG-mãe.de 1SG-mãe.de parente.de 3SG.F-ser-REFL
-# text_pt = ‘A sua mãe é parenta da minha mãe.’Q
-# text_en = Your mother is my mother's relative
-Pynyru nynyru nyrymane utxawa.
 
 # sent_id = FernandaM2017:TextsII-2-16
 # text_orig = Txiiupyryỹry: Ãkiri kiripa-ra-i pitha? 
@@ -328,31 +242,15 @@ Ataũpytykara pysãkire.
 # text = Ataũpytykara pitxa kutxi nyry xinhikapikary pyry. 
 # gloss_pt = ser.verdade-ENF-PRED-FOC 2SG-ser porque 1SG-pai.de lembrar-HAB-PRED-3SG.M.O 2SG-pai.de
 # text_pt = ‘Você disse a verdade, pois meu pai sempre se lembra do seu pai.’Q
-# text_en = ‘‘
-Ataũpytykara pitxa kutxi nyry xinhikapikary pyry.
+# text_en = You are right, because my father always remembers your father.
+1	Ataũpytykara	ataũ	ADJ	_	_	0	root	_	_
+2	pitxa	txa	AUX	_	Aux|ScSg2	1	cop	_	_
+3	kutxi	kutxi	CS	_	_	5	mark	_	_
+4	nyry	yry	NOUN	_	Msc|Sg|PxSg1|Possd|Nom	5	nsubj	_	_
+5	xinhikapikary	xinhika	VERB	_	TV|Hab|Pred|Oc3M	1	advcl	_	_
+6	pyry	yry	NOUN	_	Msc|Sg|PxSg2|Possd|Nom	5	obj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = FernandaM2017:TextsII-2-22
-# text_orig = Kiripa py-wãka? 
-# text = Kiripa pywãka? 
-# gloss_pt = qual 2SG-nome.de
-# text_pt = ‘Qual o seu nome?’Q
-# text_en = ‘‘
-Kiripa pywãka?
-
-# sent_id = FernandaM2017:TextsII-2-23
-# text_orig = Txiiakatxi: Txiiakatxi ny-wãka. 
-# text = Txiiakatxi nywãka. 
-# gloss_pt = N.PROP 1SG-nome.de
-# text_pt = ‘O meu nome é Txiiakatxi.’ 
-Txiiakatxi nywãka.
-
-# sent_id = FernandaM2017:TextsII-2-24
-# text_orig = Kiripa pitha wãka? 
-# text = Kiripa pitha wãka? 
-# gloss_pt = qual 2SG nome.de
-# text_pt = ‘Qual o seu nome?’Q
-# text_en = ‘‘
-Kiripa pitha wãka?
 
 # sent_id = FernandaM2017:TextsII-2-25
 # text_orig = Txiiupyryỹry: Txiiupyryỹry ny-wãka. 
@@ -369,19 +267,6 @@ Txiiupyryỹry nywãka.
 # text_pt = ‘Então já nos conhecemos.’Q
 Ĩka aymarutakakapeka.
 
-# sent_id = FernandaM2017:TextsII-2-27
-# text_orig = Nh-ithary pi-txa-wa. 
-# text = Nhithary pitxawa. 
-# gloss_pt = 1SG-primo,irmão.de 2SG-ser-REFL
-# text_pt = Você é meu primo.
-# text_en = You are my cousin.
-"<Nhithary>"
-        "ithary" N Msc Sg PxSg1 Possd Nom @HNOUN
-"<pitxawa>"
-        "txa" V Aux ScSg2 OcPl1 @X
-"<.>"
-        "." CLB
-
 # sent_id = FernandaM2017:TextsII-2-28
 # text_orig = Txiiupyryỹry: Ateeneka. Ereka-pyty-ka-ry. 
 # text = Ateeneka. Erekapytykary. 
@@ -396,23 +281,6 @@ Txiiupyryỹry nywãka.
 # text_pt = ‘Como é a vida na sua comunidade?’Q
 # text_en = ‘‘
 
-
-# sent_id = FernandaM2017:TextsII-3-2
-# text_orig = Txiakatxi: Natuku-pa i-txa wai p-awinhi-ã? 
-# text = Natukupa itxa wai pawinhiã? 
-# gloss_pt = como-INTER 3SG.M-ser aqui 2SG-comunidade.de-LOC
-# text_pt = Como é a vida aqui onde você mora?
-# text_en = How is it [life] in your village?
-"<Natukupa>"
-        "natukupa" Adv
-"<itxa>"
-        "txa" V Aux ScSg3M @X
-"<wai>"
-        "wai" Adv Spat @X
-"<pawinhiã>"
-        "awinhitxi" N Msc Sg PxSg2 Possd Loc @HNOUN
-"<?>"
-        "?" CLB @X
 
 # sent_id = FernandaM2017:TextsII-3-3
 # text_orig = Kuriiaty: Nuta-munhi ereka-ry.
@@ -442,22 +310,6 @@ Txiiupyryỹry nywãka.
         "ykynyũty" ?
 "<?>"
         "?" CLB @X
-
-# sent_id = FernandaM2017:TextsII-3-5
-# text_orig = Kuriiaty: Ii! Kaiãu-ry parĩka-txi atha-munhi. 
-# text = Ii! Kaiãury parĩkatxi athamunhi. 
-# gloss_pt = interjeição existir.muito-3SG.M.O trabalho.de-N.POSSD 1PL-DAT
-# text_pt = ‘Ii! Tem muito trabalho pra nós!’Q
-# text_en = ‘‘
-Ii! Kaiãury parĩkatxi athamunhi.
-
-# sent_id = FernandaM2017:TextsII-3-6
-# text_orig = Hĩtha-munhi awa parĩka-txi apaka? 
-# text = Hĩthamunhi awa parĩkatxi apaka? 
-# gloss_pt = 2PL-DAT existir trabalho.de-N.POSSD também
-# text_pt = ‘E lá com vocês, é assim também?’ Lit.: ‘Pra vocês também tem trabalho?’Q
-# text_en = ‘‘
-Hĩthamunhi awa parĩkatxi apaka?
 
 # sent_id = FernandaM2017:TextsII-3-7
 # text_orig = Txiakatxi: Ary, awa-pyty-ka. 
