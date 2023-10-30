@@ -1994,3 +1994,14 @@
 5	xamyna	xamyna	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = FernandaM2017:TextsII-4-23
+# text_orig = Inhinhiã y-kama-ry katarukyry.
+# text = Inhinhiã ykamary katarukyry.
+# gloss_pt = então 3SG.M-fazer-3SG.M.O farinha
+# text_pt = Então, ele fez a farinha.
+# text_en = Then, he made the flour.
+1	Inhinhiã	inhinhiã	ADV	Adv	_	2	advmod	_	_
+2	ykamary	kama	VERB	V	Gender[obj]=Masc|Gender[subj]=Masc|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	0	root	_	_
+3	katarukyry	katarukyry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+

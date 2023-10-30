@@ -600,14 +600,6 @@ Ximaky ypukasaaky uwa iuẽkary kumyrype.
 # text_en = ‘‘
 Ypusupeka ininhiã, ywa Kirama kukyta itxary kumyrype.
 
-# sent_id = FernandaM2017:TextsII-4-23
-# text_orig = Inhinhiã y-kama-ry katarukyry. 
-# text = Inhinhiã ykamary katarukyry. 
-# gloss_pt = então 3SG.M-fazer-3SG.M.O farinha
-# text_pt = ‘Então, ele fez a farinha.’Q
-# text_en = ‘‘
-Inhinhiã ykamary katarukyry.
-
 # sent_id = FernandaM2017:TextsII-4-24
 # text_orig = Iiana ãky taka i-txa-ry katarukyry. 
 # text = Iiana ãky taka itxary katarukyry. 
