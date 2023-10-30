@@ -1967,7 +1967,7 @@
 # gloss_pt = Seruini 1SG-existir
 # text_pt = Eu sou do Seruini.
 # text_en = I'm from Seruini.
-1	Syrywyny	Syrywyny	PROPN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nsubj	_	_
+1	Syrywyny	Syrywyny	PROPN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	_
 2	nawa	awa	VERB	V	Number[subj]=Sing|Person[subj]=1	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
