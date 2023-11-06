@@ -1961,3 +1961,47 @@
 4	ukamaãne	kama	VERB	Case=Loc|Gender[psor]=Fem|Number[psor]=Plur|Person[psor]=3	_	0	root	_	SpaceAfter=No
 5	?	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = FernandaM2017:TextsII-2-9
+# text_orig = Txiiupyryỹry: Syrywyny n-awa.
+# text = Syrywyny nawa.
+# gloss_pt = Seruini 1SG-existir
+# text_pt = Eu sou do Seruini.
+# text_en = I'm from Seruini.
+1	Syrywyny	Syrywyny	PROPN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	_
+2	nawa	awa	VERB	V	Number[subj]=Sing|Person[subj]=1	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-2-14
+# text_orig = Txiiupyryỹry: Kanaiapa ny-nyru.
+# text = Kanaiapa nynyru.
+# gloss_pt = N.PROP 1SG-mãe.de
+# text_pt = Minha mãe é a Kanaiapa.
+# text_en = My mother is Kanaiapa.
+1	Kanaiapa	Kanaiapa	PROPN	N	Case=Nom|Gender=Fem|Number=Sing|Possessed=No	2	nsubj:cop	_	_
+2	nynyru	ynyru	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Possessed=Yes	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-4-19
+# text_orig = Ywasawaky ywa Kirama kama-ry xamyna.
+# text = Ywasawaky ywa Kirama kamary xamyna.
+# gloss_pt = TEMP 3SG.M N.PROP fazer-3SG.M.O fogo
+# text_pt = Enquanto isso, Kirama foi fazer o fogo.
+# text_en = During that time, he, Kirama, made the fire.
+1	Ywasawaky	ywasawaky	ADV	Adv	AdvType=Tim	4	obl:tmod	_	_
+2	ywa	ywa	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	nsubj	_	_
+3	Kirama	Kirama	PROPN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	appos	_	_
+4	kamary	kama	VERB	V	Number[obj]=Sing|Person[obj]=3	0	root	_	_
+5	xamyna	xamyna	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-4-23
+# text_orig = Inhinhiã y-kama-ry katarukyry.
+# text = Inhinhiã ykamary katarukyry.
+# gloss_pt = então 3SG.M-fazer-3SG.M.O farinha
+# text_pt = Então, ele fez a farinha.
+# text_en = Then, he made the flour.
+1	Inhinhiã	inhinhiã	ADV	Adv	_	2	advmod	_	_
+2	ykamary	kama	VERB	V	Gender[obj]=Masc|Gender[subj]=Masc|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	0	root	_	_
+3	katarukyry	katarukyry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+

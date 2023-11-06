@@ -182,22 +182,6 @@ Kuna waikirinu nuta.
 # text_en = Where do you come from?
 Nanhikiripa pyna?
 
-# sent_id = FernandaM2017:TextsII-2-9
-# text_orig = Txiiupyryỹry: Syrywyny n-awa. 
-# text = Syrywyny nawa. 
-# gloss_pt = Seruini 1SG-existir
-# text_pt = ‘Eu sou do Seruini.’Q
-# text_en = ‘I'm from Seruini.‘
-Syrywyny nawa.
-
-# sent_id = FernandaM2017:TextsII-2-14
-# text_orig = Txiiupyryỹry: Kanaiapa ny-nyru. 
-# text = Kanaiapa nynyru. 
-# gloss_pt = N.PROP 1SG-mãe.de
-# text_pt = Minha mãe é a Kanaiapa.
-# text_en = My mother is Kanaiapa.
-Kanaiapa nynyru.
-
 # sent_id = FernandaM2017:TextsII-2-16
 # text_orig = Txiiupyryỹry: Ãkiri kiripa-ra-i pitha? 
 # text = Ãkiri kiriparai pitha?
@@ -592,14 +576,6 @@ Kumyrype pusunapeka inhinhiã akiritharu ĩtanyru kumyrype uiuẽkinhi nere.
 # text_pt = ‘Tá bom.’Q
 # text_en = ‘‘
 
-# sent_id = FernandaM2017:TextsII-4-19
-# text_orig = Ywasawaky ywa Kirama kama-ry xamyna. 
-# text = Ywasawaky ywa Kirama kamary xamyna. 
-# gloss_pt = TEMP 3SG.M N.PROP fazer-3SG.M.O fogo
-# text_pt = ‘Enquanto isso, Kirama foi fazer o fogo.’Q
-# text_en = ‘‘
-Ywasawaky ywa Kirama kamary xamyna.
-
 # sent_id = FernandaM2017:TextsII-4-20
 # text_orig = Uwa apaka kama-ry xamyna ximaky ũ-axit-inhi ĩkapane. 
 # text = Uwa apaka kamary xamyna ximaky ũaxitinhi ĩkapane. 
@@ -623,14 +599,6 @@ Ximaky ypukasaaky uwa iuẽkary kumyrype.
 # text_pt = ‘Depois de peneirada, Kirama torra a massa.’Q
 # text_en = ‘‘
 Ypusupeka ininhiã, ywa Kirama kukyta itxary kumyrype.
-
-# sent_id = FernandaM2017:TextsII-4-23
-# text_orig = Inhinhiã y-kama-ry katarukyry. 
-# text = Inhinhiã ykamary katarukyry. 
-# gloss_pt = então 3SG.M-fazer-3SG.M.O farinha
-# text_pt = ‘Então, ele fez a farinha.’Q
-# text_en = ‘‘
-Inhinhiã ykamary katarukyry.
 
 # sent_id = FernandaM2017:TextsII-4-24
 # text_orig = Iiana ãky taka i-txa-ry katarukyry. 
