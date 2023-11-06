@@ -1,12 +1,12 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Apurina-UFPA:
-commit 121ea201afbe37e21fa86bbe614cc5ff759cbff3
-Merge: 81db811 fe237b2
+commit 3e916809671895ce907f7c6ee33a980c62b7448b
+Merge: 5471b0f 6f0fa2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 925 of 925 words (nodes).
+Size: counted 941 of 941 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
@@ -15,14 +15,14 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 364 out of 925 total words have one or more features.
+Features: 375 out of 941 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        237
-Udapi: found 237 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 925 words.
+               TOTAL        240
+Udapi: found 240 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 941 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang apu --max-err=10 UD_Apurina-UFPA/apu_ufpa-ud-test.conllu
 *** PASSED ***
