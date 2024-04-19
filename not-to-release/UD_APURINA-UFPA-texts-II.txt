@@ -166,75 +166,12 @@ Ximaky panhikinhawa.
 # text_pt = Você é de onde?
 # text_en = Where are you from?
 
-# sent_id = FernandaM2017:TextsII-2-7
-# text_orig = Txiiupyryỹry: Kuna wai-kiri-nu nuta. 
-# text = Kuna waikirinu nuta. 
-# gloss_pt = não aqui-?-1SG.O 1SG 
-# text_pt = ‘Eu não sou daqui.’
-# text_en = I am not from here
-Kuna waikirinu nuta.
-
-# sent_id = FernandaM2017:TextsII-2-8
-# text_orig = Txiiakatxi: Nanhikiripa p-yna? 
-# text = Nanhikiripa pyna? 
-# gloss_pt = de.onde 2SG-vir
-# text_pt = ‘De onde você é?’ Lit.: ‘De onde você veio?’Q
-# text_en = Where do you come from?
-Nanhikiripa pyna?
-
-# sent_id = FernandaM2017:TextsII-2-16
-# text_orig = Txiiupyryỹry: Ãkiri kiripa-ra-i pitha? 
-# text = Ãkiri kiriparai pitha?
-# gloss_pt = filho.de quem-FOC-2SG.O 2SG
-# text_pt = ‘E você é filho de quem?’Q
-# text_en = ‘‘
-Ãkiri kiriparai pitha?
-
-# sent_id = FernandaM2017:TextsII-2-17
-# text_orig = Txiiakatxi: Tutupary ãkiri nhi-txa-wa. 
-# text = Tutupary ãkiri nhitxawa.
-# gloss_pt = N.PROP filho.de 1SG-ser-REFL
-# text_pt = ‘Eu sou filho do Tutupary.’Q
-# text_en = ‘‘
-Tutupary ãkiri nhitxawa.
-
-# sent_id = FernandaM2017:TextsII-2-18
-# text_orig = Txiiupyryỹry: Kerupa p-ynyru? 
-# text = Kerupa pynyru? 
-# gloss_pt = quem 2SG-mãe.de
-# text_pt = ‘Quem é a sua mãe?’Q
-# text_en = ‘‘
-Kerupa pynyru?
-
-# sent_id = FernandaM2017:TextsII-2-19
-# text_orig = Txiiakatxi: Kamĩkiu n-ynyru. 
-# text = Kamĩkiu nynyru. 
-# gloss_pt = N.PROP 1SG-mãe.de
-# text_pt = ‘Minha mãe é a Kamĩkiu.’Q
-# text_en = ‘‘
-Kamĩkiu nynyru.
-
 # sent_id = FernandaM2017:TextsII-2-20
 # text_orig = Txiiupyryỹry: Ataũ-pyty-ka-ra py-sãkire. 
 # text = Ataũpytykara pysãkire. 
 # gloss_pt = ser.verdade-ENF-PRED-FOC 2SG-falar
 # text_pt = ‘Você falou a verdade.’ 
 Ataũpytykara pysãkire.
-
-# sent_id = FernandaM2017:TextsII-2-21
-# text_orig = Ataũ-pyty-ka-ra pi-txa kutxi n-yry xinhika-pi-ka-ry p-yry. 
-# text = Ataũpytykara pitxa kutxi nyry xinhikapikary pyry. 
-# gloss_pt = ser.verdade-ENF-PRED-FOC 2SG-ser porque 1SG-pai.de lembrar-HAB-PRED-3SG.M.O 2SG-pai.de
-# text_pt = ‘Você disse a verdade, pois meu pai sempre se lembra do seu pai.’Q
-# text_en = You are right, because my father always remembers your father.
-1	Ataũpytykara	ataũ	ADJ	_	_	0	root	_	_
-2	pitxa	txa	AUX	_	Aux|ScSg2	1	cop	_	_
-3	kutxi	kutxi	CS	_	_	5	mark	_	_
-4	nyry	yry	NOUN	_	Msc|Sg|PxSg1|Possd|Nom	5	nsubj	_	_
-5	xinhikapikary	xinhika	VERB	_	TV|Hab|Pred|Oc3M	1	advcl	_	_
-6	pyry	yry	NOUN	_	Msc|Sg|PxSg2|Possd|Nom	5	obj	_	_
-7	.	.	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = FernandaM2017:TextsII-2-25
 # text_orig = Txiiupyryỹry: Txiiupyryỹry ny-wãka. 
@@ -548,26 +485,26 @@ Ypusatuku xamyna itxirata kumyrype ykukytinhi ĩkapane.
 Kumyrype pusunapeka inhinhiã akiritharu ĩtanyru kumyrype uiuẽkinhi nere.
 
 # sent_id = FernandaM2017:TextsII-4-16
-# text_orig = Kirama akiritha-ru Kamĩkiu: 
-# text = Kirama akiritharu Kamĩkiu: 
+# text_orig = Kirama akiritha-ru Kamĩkiu:
+# text = Kirama akiritharu Kamĩkiu:
 # gloss_pt = N.PROP chamar-3SG.F.O N.PROP
 # text_pt = ‘Kirama chamou Kamĩkiu.’Q
 # text_en = ‘‘
-1	Kirama	Kirama	NOUN	N	Prop|Msc|Sg|NPossd|Nom	_	_	_	_
-2	akiritharu	akiritha	VERB	V	Oc3F|ScSg3M	_	_	_	_
-3	Kamĩkiu	Kamĩkiu	NOUN	N	Prop|Fem|Sg|Possd|Nom	_	_	_	_
-4	:	:	PUNCT	CLB	_	_	_	_	_
+1	Kirama	Kirama	NOUN	N	Prop|Msc|Sg|NPossd|Nom	2	nsubj	_	_
+2	akiritharu	akiritha	VERB	V	Oc3F|ScSg3M	0	root	_	_
+3	Kamĩkiu	Kamĩkiu	NOUN	N	Prop|Fem|Sg|Possd|Nom	2	obl	_	_
+4	:	:	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-4-17
-# text_orig = Kirama: Ximaky p-axitha mitxi. 
-# text = Kirama: Ximaky paxitha mitxi. 
+# text_orig = Kirama: Ximaky p-axitha mitxi.
+# text = Kirama: Ximaky paxitha mitxi.
 # gloss_pt = peixe 2SG-cozinhar primeiro
 # text_pt = Primeiro cozinha o peixe (antes da primeira fornada de farinha).
 # text_en = First, you cook the fish.
-1	Ximaky	ximaky	NOUN	N	Msc|Sg|NPossd|Nom	_	_	_	_
-2	paxitha	axitha	VERB	V	ScSg2	_	_	_	_
-3	mitxi	mitxi	ADV	Adv	Temp	_	_	_	_
-4	.	.	PUNCT	CLB	_	_	_	_	_
+1	Ximaky	ximaky	NOUN	N	Msc|Sg|NPossd|Nom	2	obj	_	_
+2	paxitha	axitha	VERB	V	ScSg2	0	root	_	_
+3	mitxi	mitxi	ADV	Adv	Temp	2	advmod:tmod	_	SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-4-18
 # text_orig = Kamĩkiu: Ateeneka. 
@@ -641,12 +578,14 @@ Inhinhiã ywasaakiika Kirama Kamĩkiu nhipukuta itxane.
 Inhinhiã itxa Kirama:
 
 # sent_id = FernandaM2017:TextsII-4-29
-# text_orig = Kirama: Ny-sãpaka nuta. 
-# text = Nysãpaka nuta. 
+# text_orig = Kirama: Ny-sãpaka nuta.
+# text = Nysãpaka nuta.
 # gloss_pt = 1SG-estar.cansado 1SG
-# text_pt = ‘Eu estou cansado.’Q
-# text_en = ‘‘
-Nysãpaka nuta.
+# text_pt = Eu estou cansado.
+# text_en = I am tired
+1	Nysãpaka	sãpaka	VERB	_	_	0	root	_	_
+2	nuta	nuta	PRON	_	_	1	nsubj	_	_
+3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-4-30
 # text_orig = Kamĩkiu: Nuta apaka. 

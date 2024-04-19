@@ -1961,6 +1961,27 @@
 4	ukamaãne	kama	VERB	Case=Loc|Gender[psor]=Fem|Number[psor]=Plur|Person[psor]=3	_	0	root	_	SpaceAfter=No
 5	?	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = FernandaM2017:TextsII-2-7
+# text_orig = Txiiupyryỹry: Kuna wai-kiri-nu nuta. 
+# text = Kuna waikirinu nuta.
+# gloss_pt = não aqui-?-1SG.O 1SG 
+# text_pt = ‘Eu não sou daqui.’
+# text_en = I am not from here
+1	Kuna	kuna	PART	Pcle	Polarity=Neg	2	advmod:neg	_	GTtags=Aux,Neg
+2	waikirinu	waikiri	ADV	Adv	Number[subj]=Sing|Person[subj]=1	0	root	_	GTtags=OcSg1
+3	nuta	nuta	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg1,Nom|SpaceAfter=No
+4	.	_	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-2-8
+# text_orig = Txiiakatxi: Nanhikiripa p-yna? 
+# text = Nanhikiripa pyna?
+# gloss_pt = de.onde 2SG-vir
+# text_pt = ‘De onde você é?’ Lit.: ‘De onde você veio?’Q
+# text_en = Where do you come from?
+1	Nanhikiripa	_	ADV	Adv	PronType=Int	2	advmod	_	GTtags=Interr
+2	pyna	_	VERB	V	Number[subj]=Sing|Person[subj]=2	0	root	_	GTtags=ScSg2|SpaceAfter=No
+3	?	_	PUNCT	PUNCT	_	2	punct	_	_
+
 # sent_id = FernandaM2017:TextsII-2-9
 # text_orig = Txiiupyryỹry: Syrywyny n-awa.
 # text = Syrywyny nawa.
@@ -1980,6 +2001,62 @@
 1	Kanaiapa	Kanaiapa	PROPN	N	Case=Nom|Gender=Fem|Number=Sing|Possessed=No	2	nsubj:cop	_	_
 2	nynyru	ynyru	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Possessed=Yes	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-2-16
+# text_orig = Txiiupyryỹry: Ãkiri kiripa-ra-i pitha? 
+# text = Ãkiri kiriparai pitha?
+# gloss_pt = filho.de quem-FOC-2SG.O 2SG
+# text_pt = E você é filho de quem?
+# text_en = Who are you the son of?
+1	Ãkiri	ãkiri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	vocative	_	GTtags=Msc,Sg,NPossd,Nom
+2	kiriparai	kiripa	ADV	Adv	_	0	root	_	_
+3	pitha	pitha	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg2,Nom|SpaceAfter=No
+4	?	_	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-2-17
+# text_orig = Txiiakatxi: Tutupary ãkiri nhi-txa-wa. 
+# text = Tutupary ãkiri nhitxawa.
+# gloss_pt = N.PROP filho.de 1SG-ser-REFL
+# text_pt = Eu sou filho do Tutupary.
+# text_en = I am Tutupary's son.
+1	Tutupary	Tutupary	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	nmod	_	GTtags=Msc,Sg,NPossd,Nom
+2	ãkiri	ãkiri	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	root	_	GTtags=Msc,Sg,NPossd,Nom
+3	nhitxawa	txa	AUX	_	Number[subj]=Sing|Person[subj]=1	2	cop	_	GTtags=ScSg1|SpaceAfter=No
+4	.	_	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-2-18
+# text_orig = Txiiupyryỹry: Kerupa p-ynyru? 
+# text = Kerupa pynyru?
+# gloss_pt = quem 2SG-mãe.de
+# text_pt = Quem é a sua mãe?
+# text_en = Who is your mother?
+1	Kerupa	kerupa	PRON	Pron	Gender=Fem|PronType=Int	0	root	_	GTtags=Interr,Fem
+2	pynyru	ynyru	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=2|Possessed=Yes	1	nsubj	_	GTtags=Fem,Sg,PxSg2,Possd,Nom|SpaceAfter=No
+3	?	_	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-2-19
+# text_orig = Txiiakatxi: Kamĩkiu n-ynyru. 
+# text = Kamĩkiu nynyru.
+# gloss_pt = N.PROP 1SG-mãe.de
+# text_pt = Minha mãe é a Kamĩkiu.
+# text_en = My mother is Kamĩkiu.
+1	Kamĩkiu	_	PROPN	_	Case=Nom|Gender=Fem|Number=Sing|Possessed=No	0	root	_	GTtags=Fem,Sg,NPossd,Nom
+2	nynyru	_	NOUN	N	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Possessed=Yes	1	nsubj:cop	_	GTtags=Fem,Sg,PxSg1,Possd,Nom|SpaceAfter=No
+3	.	_	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-2-21
+# text_orig = Ataũ-pyty-ka-ra pi-txa kutxi n-yry xinhika-pi-ka-ry p-yry. 
+# text = Ataũpytykara pitxa kutxi nyry xinhikapikary pyry.
+# gloss_pt = ser.verdade-ENF-PRED-FOC 2SG-ser porque 1SG-pai.de lembrar-HAB-PRED-3SG.M.O 2SG-pai.de
+# text_pt = ‘Você disse a verdade, pois meu pai sempre se lembra do seu pai.’Q
+# text_en = You are right, because my father always remembers your father.
+1	Ataũpytykara	ataũ	ADJ	A	_	0	root	_	_
+2	pitxa	txa	AUX	_	Number[subj]=Sing|Person[subj]=2	1	cop	_	GTtags=Aux,ScSg2
+3	kutxi	kutxi	SCONJ	CS	_	5	mark	_	_
+4	nyry	yry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Possessed=Yes	5	nsubj	_	GTtags=Msc,Sg,PxSg1,Possd,Nom
+5	xinhikapikary	xinhika	VERB	V	Gender[obj]=Masc|Number[obj]=Plur,Sing|Person[obj]=3	1	advcl	_	GTtags=TV,Hab,Pred,Oc3M
+6	pyry	yry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Possessed=Yes	5	obj	_	GTtags=Msc,Sg,PxSg2,Possd,Nom|SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-4-19
 # text_orig = Ywasawaky ywa Kirama kama-ry xamyna.
