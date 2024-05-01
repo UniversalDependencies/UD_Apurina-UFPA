@@ -1198,14 +1198,6 @@ Nymuianary amiianatinhiã, akanapyrype.
 # text_pt = O Kĩpuku perguntou: 
 pymaãry Kĩpuku:
 
-# sent_id =  FernandaM2017:TextsII-7-19
-# text_orig = Mirĩeru: Natuku-pa i-txa p-amiiana-re puturi-k-inhi? 
-# text = Mirĩeru: Natukupa itxa pamiianare puturikinhi? 
-# gloss_pt = como-INTERR 3SG.M-AUX 2SG-doença-POSSD ?trabalhar-PRED-GER
-# text_pt = ‘Como começou a tua doença?’Q
-# text_en = ‘‘
-Natukupa itxa pamiianare puturikinhi?
-
 # sent_id = FernandaM2017:TextsII-7-20
 # text_orig = Kĩpuku: Ny-tsyy-kywy txa-nu mitxi. 
 # text = Kĩpuku: Nytsyykywy txanu mitxi. 
@@ -1235,8 +1227,14 @@ Natukupa pitxa watxa?
 # text = Kĩpuku: Apuumary, nytsyykywy, nytsyyĩthu txanu. 
 # gloss_pt = febre-N.POSSD 1SG-dor.de-cabeça.de 1SG-dor.de-corpo.de AUX-1SG.O
 # text_pt = ‘Sinto febre, dor de cabeça e dor no corpo.’Q
-# text_en = ‘‘
-Apuumary, nytsyykywy, nytsyyĩthu txanu.
+# text_en = There was fever, I had a headache and my body ached.
+1	Apuumary	Apuumary	NOUN	_	_	_	_	_	_
+2	,	_	PUNCT	_	_	_	_	_	_
+3	nytsyykywy	tsyykywy	NOUN	_	_	_	_	_	_
+4	,	_	PUNCT	_	_	_	_	_	_
+5	nytsyyĩthu	tsyyĩthu	NOUN	_	_	_	_	_	_
+6	txanu	txa	AUX	_	_	_	_	_	_
+7	.	_	PUNCT	_	_	_	_	_	_
 
 # sent_id = FernandaM2017:TextsII-7-24
 # text_orig = Inhinhiã uwa, Mirĩeru, syka-ry amiiana-ry pinhi. 

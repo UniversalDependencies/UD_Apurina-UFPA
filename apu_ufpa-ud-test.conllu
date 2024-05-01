@@ -2082,3 +2082,28 @@
 3	katarukyry	katarukyry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
+# sent_id =  FernandaM2017:TextsII-7-19
+# text_orig = Mirĩeru: Natuku-pa i-txa p-amiiana-re puturi-k-inhi? 
+# text = Natukupa itxa pamiianare puturikinhi?
+# gloss_pt = como-INTERR 3SG.M-AUX 2SG-doença-POSSD ?trabalhar-PRED-GER
+# text_pt = Como começou a tua doença?
+# text_en = How did your illness begin?
+1	Natukupa	natuku	ADV	Adv	PronType=Int	4	advmod	_	GTtags=Interr
+2	itxa	txa	AUX	_	Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	4	aux	_	GTtags=ScSg3M
+3	pamiianare	amianary	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Possessed=Yes	4	nsubj	_	GTtags=Msc,Sg,PxSg2,Possd,Nom
+4	puturikinhi	puturĩ	VERB	V	Case=Nom|Gender=Masc|Possessed=No|VerbForm=Vnoun	0	root	_	GTtags=Pred,Der/NomAct,N,Msc,Sg,NPossd,Nom|SpaceAfter=No
+5	?	_	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-7-25
+# text_orig = Ipi ũty atuku apuuma-ry kuna awa-ika. 
+# text = Ipi ũty atuku apuumary kuna awaika.
+# gloss_pt = dois dia depois febre-N.POSSD não existir-não.mais
+# text_pt = ‘Dois dias depois, não havia mais febre.
+1	Ipi	epi	NUM	Num	Case=Nom	2	nummod	_	GTtags=Nom
+2	ũty	ũty	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	nmod	_	GTtags=Msc,Sg,NPossd,Nom
+3	atuku	atuku	ADV	Adv	_	6	advmod:tmod	_	_
+4	apuumary	apuumary	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	6	nsubj	_	GTtags=Msc,Sg,NPossd,Nom
+5	kuna	kuna	PART	Pcle	Polarity=Neg	6	advmod	_	GTtags=Neg
+6	awaika	waika	VERB	V	Number[subj]=Plur|Person[subj]=1|VerbType=Vido	0	root	_	GTtags=Vido,ScPl1|SpaceAfter=No
+7	.	_	PUNCT	PUNCT	_	6	punct	_	_
+
