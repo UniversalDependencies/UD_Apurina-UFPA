@@ -227,7 +227,7 @@ Texto 15 (colaboradora: Seb)
 # text_orig = Ny-kama-ã ĩarĩã i pathery-kata nhi-nhi-ka ĩarĩã. 
 # text = Nykamaã ĩarĩã i patherykata nhinhika ĩarĩã. 
 # gloss_pt = 1SG-fazer-?PROGR vinho e galinha-ASSOC 1SG-comer-PRED vinho
-# text_pt = ‘Eu faço vinho e galinha pra comer com o vinho’Q
+# text_pt = Eu faço vinho e galinha pra comer com o vinho.
 # text_en =
 1	Nykamaã	kama	VERB	XPOS=1SG-fazer-?PROGR	_	0	root	_	gloss[pt]=1SG-fazer-?PROGR
 2	ĩarĩã	ĩarĩã	NOUN	XPOS=vinho	_	1	obj	_	gloss[pt]=vinho

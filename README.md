@@ -28,6 +28,8 @@ Finite-State Transistor development:
 
 # Changelog
 
+* 2024-04-29
+  * Continue adding
 * 2023-10-30
   * Research input
 * 2023-04-29
