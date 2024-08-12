@@ -1244,13 +1244,6 @@ Natukupa pitxa watxa?
 # text_en = ‘‘
 Inhinhiã uwa, Mirĩeru, sykary amiianary pinhi.
 
-# sent_id = FernandaM2017:TextsII-7-25
-# text_orig = Ipi ũty atuku apuuma-ry kuna awa-ika. 
-# text = Ipi ũty atuku apuumary kuna awaika. 
-# gloss_pt = dois dia depois febre-N.POSSD não existir-não.mais
-# text_pt = ‘Dois dias depois, não havia mais febre. 
-Ipi ũty atuku apuumary kuna awaika.
-
 # sent_id = FernandaM2017:TextsII-8-1
 # text_orig = Lição 8: Kyynyry (xingané ‘festa tradicional dos Apurinã’)
 
