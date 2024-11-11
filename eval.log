@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Apurina-UFPA:
-commit 393ea3bc6d7ea87dac3eb58e1f0a4e94c00bb572
-Merge: 6343d5e cee00e1
+commit 63890874c6ee81c28a8bcaff6e4302d7e401396d
+Merge: 0b6b7c7 02c14dc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 981 of 981 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
@@ -15,7 +15,7 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 402 out of 981 total words have one or more features.
+Features: 421 out of 981 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
