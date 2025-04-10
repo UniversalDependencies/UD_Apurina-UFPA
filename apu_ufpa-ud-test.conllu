@@ -6,7 +6,7 @@
 # text_pt = ‘O índio tava andando na mata e viu um rastro de sangue.’ Lit.: ‘Quando deu (chegou) na mata, o índio viu sangue.’
 # text_en = When he came to the forest, the Indian saw blood.
 1	Pupỹkary	pupỹkary	NOUN	N	Case=Nom|Gender=Masc	4	nsubj	_	gloss_pt=apurinã
-2	ithupa	ĩthupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
+2	ĩthupa	ĩthupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
 3	sykasaaky	syka	VERB	_	Case=Tem|VerbForm=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
 4	atamatary	atama	VERB	_	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss_pt=ver-VBLZ-3SG.M.O
 5	erẽkatxi	herẽkatxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	4	obj	_	gloss_pt=sangue.de-N.POSSD|SpaceAfter=No
