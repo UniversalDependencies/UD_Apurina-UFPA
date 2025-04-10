@@ -1,13 +1,13 @@
 # -*- coding : UTF-8 -*-
 # sent_id = FernandaM2017:Texto-1-1
 # text_orig = Pupỹkary ithupa sika-saaky atama-ta-ry erẽka-txi
-# text = Pupỹkary ithupa sikasaaky atamatary erẽkatxi.
+# text = Pupỹkary ĩthupa sykasaaky atamatary erẽkatxi.
 # gloss_pt = apurinã mata dar-TEMP ver-VBLZ-3SG.M.O sangue.de-N.POSSD
 # text_pt = ‘O índio tava andando na mata e viu um rastro de sangue.’ Lit.: ‘Quando deu (chegou) na mata, o índio viu sangue.’
 # text_en = When he came to the forest, the Indian saw blood.
 1	Pupỹkary	pupỹkary	NOUN	N	Case=Nom|Gender=Masc	4	nsubj	_	gloss_pt=apurinã
-2	ithupa	ithupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
-3	sikasaaky	sika	VERB	_	Case=Tem|VerbForm=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
+2	ithupa	ĩthupa	NOUN	N	Case=Nom|Gender=Masc	3	obj	_	gloss_pt=mata
+3	sykasaaky	syka	VERB	_	Case=Tem|VerbForm=Conv	4	advcl:tcl	_	gloss_pt=dar-TEMP
 4	atamatary	atama	VERB	_	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss_pt=ver-VBLZ-3SG.M.O
 5	erẽkatxi	herẽkatxi	NOUN	N	Case=Nom|Gender=Masc|Possessed=No	4	obj	_	gloss_pt=sangue.de-N.POSSD|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -17,7 +17,7 @@
 # text = Yẽrẽkatikinhi iãkynytikinhi sããputa apukary apy.
 # gloss_pt = 3SG.M-sangue.de-atrás 3SG.M-rastro.de-atrás ir-ALEAT-VBLZ achar-3SG.M.O 3SG.M-osso
 # text_pt = Ele seguiu o rastro e encontrou um osso.
-# text_en = Goig after the blood, after the trail he found a bone.
+# text_en = Going after the blood, after the trail he found a bone.
 1	Yẽrẽkatikinhi	herẽkatikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	3	obj	_	gloss[pt]=3SG.M-sangue.de-atrás
 2	iãkynytikinhi	iãkynytikinhi	NOUN	N	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Possessed=Yes	1	conj	_	gloss[pt]=3SG.M-rastro.de-atrás
 3	sããputa	sa	VERB	_	_	0	root	_	gloss[pt]=ir-ALEAT-VBLZ
@@ -546,11 +546,11 @@
 
 # sent_id = FernandaM2017:Texto-4-1
 # text_orig = Pupĩkary sa-ry tapaua maky i-vinit-inhi ĩkapanhi.
-# text = Pupĩkary sary Tapaua maky ivinitinhi ĩkapanhi.
+# text = Pupỹkary sary Tapaua maky ivinitinhi ĩkapanhi.
 # gloss_pt = índio ir-3SG.M.O Tapauá castanha 3SG.M-vender-GER com.o.propósito.de
 # text_pt = ‘O índio foi pra Tapauá porque ele tinha muita castanha pra vender.’ Lit.: ‘O índio foi em Tapauá pra vender castanha’Q.
 # text_en =
-1	Pupĩkary	pupĩkary	NOUN	N	Gender=Masc	2	nsubj	_	gloss[pt]=índio
+1	Pupỹkary	pupỹkary	NOUN	N	Gender=Masc	2	nsubj	_	gloss[pt]=índio
 2	sary	sa	VERB	V	Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	0	root	_	gloss[pt]=ir-3SG.M.O
 3	Tapaua	Tapaua	PROPN	XPOS=Tapauá	_	2	obl:lmod	_	gloss[pt]=Tapauá
 4	maky	maky	NOUN	N	Gender=Fem	5	obl	_	gloss[pt]=castanha
@@ -560,13 +560,13 @@
 
 # sent_id = FernandaM2017:Texto-4-2
 # text_orig = Inhinhiã maky y-sika-a natuku apaka-pa-ry dinhẽru, inhinhiã kaiãa-puku-ry tee-txi amuta-ry ereka
-# text = Inhinhiã maky ysikaa natuku apakapary dinhẽru, inhinhiã kaiãapukury teetxi amutary ereka.
+# text = Inhinhiã maky ysykaa natuku apakapary dinhẽru, inhinhiã kaiãapukury teetxi amutary ereka.
 # gloss_pt = então castanha 3sg.m-vender-? como também-?-3sg.m.o dinheiro então muito-DISTR-M coisa.de-N.POSSD comprar-3SG.M.O ser.bom
 # text_pt = ‘Ele vendeu a castanha e com o dinheiro ele comprou muitas coisas.’Q
 # text_en =
 1	Inhinhiã	inhinhiã	ADV	Adv	_	3	advmod:tmod	_	gloss[pt]=então
 2	maky	maky	NOUN	N	Gender=Fem	3	obj	_	gloss[pt]=castanha
-3	ysikaa	sika	VERB	XPOS=3sg.m-vender-?	_	0	root	_	gloss[pt]=3sg.m-vender-?
+3	ysykaa	syka	VERB	XPOS=3sg.m-vender-?	_	0	root	_	gloss[pt]=3sg.m-vender-?
 4	natuku	natuku	ADV	XPOS=como	_	5	advmod	_	gloss[pt]=como
 5	apakapary	apaka	ADV	XPOS=também-?-3sg.m.o	_	3	conj	_	gloss[pt]=também-?-3sg.m.o
 6	dinhẽru	dinhẽru	NOUN	XPOS=dinheiro	_	5	nsubj	_	gloss[pt]=dinheiro|SpaceAfter=No
@@ -1259,11 +1259,11 @@
 
 # sent_id = FernandaM2017:Texto-9-1
 # text_orig = Pupĩkary-ny awa y-kyynyry-te-na i-serẽka-na mitxi-ry.
-# text = Pupĩkaryny awa ykyynyrytena iserẽkana mitxiry.
+# text = Pupỹkaryny awa ykyynyrytena iserẽkana mitxiry.
 # gloss_pt = índio-PL ter 3PL.M-xingané-POSSD-3PL.M 3PL.M-dança-3PL.M ser.primeiro-3SG.M.O
 # text_pt = ‘Os Apurinã têm a festa deles, as primeiras danças deles (as danças tradicionais).’Q
 # text_en = The Apurinã have their Kyynyry Feast, their first dance.
-1	Pupĩkaryny	pupĩkary	NOUN	XPOS=índio-PL	Number=Plur	2	nsubj	_	gloss[pt]=índio-PL
+1	Pupỹkaryny	pupỹkary	NOUN	XPOS=índio-PL	Number=Plur	2	nsubj	_	gloss[pt]=índio-PL
 2	awa	awa	VERB	XPOS=ter	_	0	root	_	gloss[pt]=ter
 3	ykyynyrytena	kyynyry	NOUN	XPOS=xingané	Gender=Masc|Gender[psor]=Masc|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	2	obj	_	gloss[pt]=3PL.M-xingané-POSSD-3PL.M
 4	iserẽkana	serẽka	NOUN	XPOS=3PL.M-dança-3PL.M	Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Plur|Person[psor]=3|Possessed=Yes	5	nsubj	_	gloss[pt]=3PL.M-dança-3PL.M
@@ -1419,7 +1419,6 @@
 # gloss_pt = não=existir.um-3SG.F.O mulher filho.de-PL
 # text_pt = ‘A mulher tinha muitos filhos’ Lit.: ‘Os filhos da mulher eram muitos.’
 # text_en = 'The woman had many children.'
-# text_en =
 1	Naãtyru	na=hãty	VERB	XPOS=não=existir.um-3SG.F.O	Gender[subj]=Fem|Number[subj]=Sing|Person[subj]=3|VerbType=Vido	0	root	_	gloss[pt]=não=existir.um-3SG.F.O
 2	sytu	sytu	NOUN	XPOS=mulher	_	1	obj	_	gloss[pt]=mulher
 3	anaakury	ana	NOUN	XPOS=filho.de-PL	_	1	nsubj	_	gloss[pt]=filho.de-PL|SpaceAfter=No
