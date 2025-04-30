@@ -27,7 +27,11 @@ Finite-State Transistor development:
 
 
 # Changelog
-
+* 2025-04-30
+  * Add Tense to verbs and some adverbs Fut vs Past,Pres, for lack of NonFut
+  * txa AUX work txamary > txa
+  * remove :tcl, :neg
+  * adjust :lmod, tmod (remove if indicated by affix)
 * 2024-10-31
   * Corrections to features
 * 2024-04-29

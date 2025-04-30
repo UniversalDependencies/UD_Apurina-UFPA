@@ -26,14 +26,6 @@ Ary. Waikaranu.
 # gloss_pt = sim
 # text_pt = ‘Tá bom.’ Lit.: ‘Sim.’Q
 
-# sent_id = FernandaM2017:TextsII-1-6
-# text_orig = Kamasaru: Natuku y-txa? 
-# text = Natuku ytxa? 
-# gloss_pt = como 3SG.M-ser
-# text_pt = ‘Como está?’Q
-# text_en = How is he?
-Natuku ytxa?
-
 # sent_id = FernandaM2017:TextsII-1-7
 # text_orig = Aramakary: Kuna. Ere-ka-txi-ry. 
 # text = Kuna. Erekatxiry. 
@@ -47,14 +39,6 @@ Natuku ytxa?
 # gloss_pt = tá.certo
 # text_pt = ‘Tá certo então.’Q
 # text_en = ‘‘
-
-# sent_id = FernandaM2017:TextsII-1-9
-# text_orig = Kiripa py-kama? 
-# text = Kiripa pykama? 
-# gloss_pt = o.quê 2SG-fazer 
-# text_pt = ‘O que você tá fazendo?’Q
-# text_en = ‘‘
-Kiripa pykama?
 
 # sent_id = FernandaM2017:TextsII-1-10
 # text_orig = Aramakary: N-ukatsaã-nã-ta. 
@@ -789,21 +773,6 @@ Uwa kaikutaka apaka.
 # text_pt = ‘Kasãtumary conta sobre a caçada dele para o Xirikary.’Q
 # text_en = ‘‘
 Kasãtumary sãpiratary aiatinhi pirana Xirikarymunhi.
-
-# sent_id = FernandaM2017:TextsII-6-3
-# text_orig = Kasãtumary: Nuta, Kasãtumary, ny-sãpirata-i-ku n-aiat-inhi pirana. 
-# text = Nuta, Kasãtumary, nysãpirataiku naiatinhi pirana. 
-# gloss_pt = 1SG N.PROP 1SG-contar-2SG.O-FUT 1SG-caçar-GER história
-# text_pt = ‘Eu, Kasãtumary, vou lhe contar sobre a minha caçada.’Q
-# text_en = ‘‘
-1	Nuta	nuta	Pron	_	Pers|Sg1|Nom|@X	5	nsubj	_	_
-2	,	,	CLB	_	_	3	punct	_	_
-3	Kasãtumary	Kasãtumary	N	_	Prop|Msc|Sg|NPossd|Nom	1	appos	_	_
-4	,	,	CLB	_	_	3	punct	_	_
-5	nysãpirataiku	sãpirata	V	_	TV|ScSg1|OcSg2|Fut	0	root	_	_
-6	naiatinhi	aiata	V	_	Der|Der/NomAct|N|Msc|Sg|PxSg1|Possd|Nom	7	advcl	_	_
-7	pirana	pirana	N	_	Fem|Sg|NPossd|Nom	5	obj	_	_
-8	.	.	CLB	_	_	5	punct	_	_
 
 # sent_id = FernandaM2017:TextsII-6-4
 # text_orig = Nuta kyta aiata. 
