@@ -1,12 +1,12 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Apurina-UFPA:
-commit 63890874c6ee81c28a8bcaff6e4302d7e401396d
-Merge: 0b6b7c7 02c14dc
+commit 7fb0c619cd6d72becd016246fc629466663d3744
+Merge: bdcf637 9b5de17
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 981 of 981 words (nodes).
+Size: counted 995 of 995 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
@@ -15,26 +15,26 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 421 out of 981 total words have one or more features.
+Features: 437 out of 995 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        244
-Udapi: found 244 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 981 words.
-Genres: found 2 out of 17 known.
+               TOTAL        246
+Udapi: found 246 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 995 words.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang apu --max-err=10 UD_Apurina-UFPA/apu_ufpa-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0) = 0
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.209435408258938) * (availability=1) * (validity=1) = 0.209435408258938
+(TOTAL score=0.20893264305029) * (availability=1) * (validity=1) = 0.20893264305029
 STARS = 1
-UD_Apurina-UFPA	0.209435408258938	1
+UD_Apurina-UFPA	0.20893264305029	1
