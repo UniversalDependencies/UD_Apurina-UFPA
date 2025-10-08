@@ -27,6 +27,8 @@ Finite-State Transistor development:
 
 
 # Changelog
+* 2025-10-30
+  * Validate PronType for DET and PRON
 * 2025-04-30
   * Add Tense to verbs and some adverbs Fut vs Past,Pres, for lack of NonFut
   * txa AUX work txamary > txa
