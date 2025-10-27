@@ -224,14 +224,6 @@ Txiiupyryỹry nywãka.
 # text_en = ‘‘
 Ary, awapytyka.
 
-# sent_id = FernandaM2017:TextsII-3-8
-# text_orig = Kuriiaty: Ki-nha-kary-pa parĩka-txi awa hĩtha-munhi? 
-# text = Kinhakarypa parĩkatxi awa hĩthamunhi? 
-# gloss_pt = INTERR-ser-REL.S.M-INTERR trabalho.de-N.POSSD existir 2PL-DAT
-# text_pt = ‘Que tipo de trabalho vocês fazem?’ Lit.: ‘Que tipo de trabalho tem pra vocês?’Q
-# text_en = ‘‘
-Kinhakarypa parĩkatxi awa hĩthamunhi?
-
 # sent_id = FernandaM2017:TextsII-3-9
 # text_orig = Kutxi atha kyky-ãkinhi a-kama-ry tukury, kumyry amapuruka, katarukyry a-kama, a-ũkatsaãta, ã-aiata, a-txa atha wai. 
 # text = Kutxi atha kykyãkinhi akamary tukury, kumyry amapuruka, katarukyry akama, aũkatsaãta, ãaiata, atxa atha wai. 
@@ -318,20 +310,27 @@ Kytsyna ykymatakane.
 Kytypyryky apaka ykymatakane.
 
 # sent_id = FernandaM2017:TextsII-3-19
-# text_orig = Ama-ry-ny-ky sytu-waku-ru inha-kany-wa muiana-ta-ru u-nyru-ne. 
-# text = Amarynyky sytuwakuru inhakanywa muianataru unyrune. 
+# text_orig = Ama-ry-ny-ky sytu-waku-ru inha-kany-wa muiana-ta-ru u-nyru-ne.
+# text = Amarynyky sytuwakuru inhakanywa muianataru unyrune.
 # gloss_pt = criança-M-PL-NC.pequeno mulher-PL-F ser-REL.PL-REFL acompanhar-VBLZ-3SG.F.O 3PL.F-mãe.de-3PL.F
-# text_pt = ‘As meninas acompanham as mães.’Q
-# text_en = ‘‘
-Amarynyky sytuwakuru inhakanywa muianataru unyrune.
+# text_pt = As meninas acompanham as mães.
+# text_en = The girls accompany the mothers.
+1	Amarynyky	ama	ADJ	_	_	2	amod	_	CGdephead=#1-&gt;1|CGdeprel=@X|CGdephead=#1-&gt;1|CGdeprel=@X|GTtags=?
+2	sytuwakuru	sytu	NOUN	N	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	CGdephead=#2-&gt;0|CGdeprel=@HNOUN|CGdephead=#2-&gt;0|CGdeprel=@HNOUN|GTtags=Fem,Pl,Nom
+3	inhakanywa	inha	VERB	_	_	0	root	_	CGdephead=#3-&gt;3|CGdeprel=@X|CGdephead=#3-&gt;3|CGdeprel=@X|GTtags=?
+4	muianataru	muiana	VERB	_	_	3	ccomp	_	CGdephead=#4-&gt;4|CGdeprel=@X|CGdephead=#4-&gt;4|CGdeprel=@X|GTtags=?
+5	unyrune	nyru	NOUN	_	_	3	obj	_	CGdephead=#5-&gt;5|CGdeprel=@X|CGdephead=#5-&gt;5|CGdeprel=@X|GTtags=?|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	3	punct	_	CGdephead=#6-&gt;2|CGdeprel=punct|CGdephead=#6-&gt;2|CGdeprel=punct|GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-3-20
-# text_orig = Mãka-txi u-weruk-inhi ama-ry-ny 
-# text = Mãkatxi uwerukinhi amaryny 
+# text_orig = Mãka-txi u-weruk-inhi ama-ry-ny
+# text = Mãkatxi uwerukinhi amaryny
 # gloss_pt = roupa.de-N.POSSD 3SG.F-ajudar-GER criança-M-PL
 # text_pt = ‘As crianças ajudam com a roupa’Q
-# text_en = ‘‘
-Mãkatxi uwerukinhi amaryny
+# text_en = The children help with the clothes.
+1	Mãkatxi	mãkatxi	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	nsubj	_	CGdephead=#1-&gt;0|CGdeprel=@SUBJ&gt;|CGdephead=#1-&gt;0|CGdeprel=@SUBJ&gt;|GTtags=Msc,Sg,NPossd,Nom
+2	uwerukinhi	eruka	VERB	V	Case=Nom|Gender=Masc|Number=Sing|Possessed=No|Valency=2|VerbForm=VNoun	1	dep	_	CGdephead=#2-&gt;1|CGdeprel=@HNOUN|CGdephead=#2-&gt;1|CGdeprel=@HNOUN|GTtags=TV,Der,Der/NomAct,N,Msc,Sg,NPossd,Nom
+3	amaryny	amaryny	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	nsubj	_	CGdephead=#3-&gt;0|CGdeprel=@&lt;SUBJ|CGdephead=#3-&gt;0|CGdeprel=@&lt;SUBJ|GTtags=Msc,Sg,NPossd,Nom
 
 # sent_id = FernandaM2017:TextsII-3-21
 # text_orig = u-inhĩkat-inhi tui-txi ũ-weruk-inhi. 
@@ -366,20 +365,26 @@ Katarukyry a-kama
 Kirama ĩkanũkapanhika ũkytykawa kumyry imapikinhi ĩkapane.
 
 # sent_id = FernandaM2017:TextsII-4-3
-# text_orig = Akiritha-ru Kamĩkiu ĩ-tanyru. 
-# text = Akiritharu Kamĩkiu ĩtanyru. 
+# text_orig = Akiritha-ru Kamĩkiu ĩ-tanyru.
+# text = Akiritharu Kamĩkiu ĩtanyru.
 # gloss_pt = chamar-3SG.F N.PROP 3SG.M-esposa.de
 # text_pt = ‘Ele chamou Kamĩkiu, a sua esposa.’Q
-# text_en = ‘‘
-Akiritharu Kamĩkiu ĩtanyru.
+# text_en = He called Kamĩkiu, his spouse.
+1	Akiritharu	akiritha	VERB	V	Gender[obj]=Fem|NFut|Person[obj]=3	0	root	_	CGdephead=#4-&gt;0|CGdeprel=@X|CGdephead=#4-&gt;0|CGdeprel=@X|GTtags=Oc3F,NFut
+2	Kamĩkiu	Kamĩkiu	PROPN	N	Case=Nom|Gender=Fem|Number=Sing|Possessed=No	1	obj	_	CGdephead=#5-&gt;3|CGdeprel=@HNOUN|CGdephead=#5-&gt;3|CGdeprel=@HNOUN|GTtags=Prop,Fem,Sg,NPossd,Nom
+3	ĩtanyru	ĩtanyru	_	_	_	2	appos	_	CGdephead=#6-&gt;6|CGdeprel=@X|CGdephead=#6-&gt;6|CGdeprel=@X|GTtags=?|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	1	punct	_	CGdephead=#7-&gt;1|CGdeprel=punct|CGdephead=#7-&gt;1|CGdeprel=punct|GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-4
-# text_orig = Kirama: Kiripa a-kama watxa? 
-# text = Kiripa akama watxa? 
+# text_orig = Kirama: Kiripa a-kama watxa?
+# text = Kiripa akama watxa?
 # gloss_pt = o.quê 1PL-fazer hoje
 # text_pt = ‘O que é que nós vamos fazer hoje?’Q
-# text_en = ‘‘
-Kiripa akama watxa?
+# text_en = What is it we are going to do today?
+1	Kiripa	kiripa	PRON	Pron	Case=Nom|Gender=Masc|PronType=Int	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Interr,Msc,Nom
+2	akama	kama	VERB	V	Number[subj]=Plur|NFut|Person[subj]=1	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=ScPl1,NFut
+3	watxa	watxa	ADV	Adv	Case=Tem	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Temp|SpaceAfter=No
+4	?	?	PUNCT	CLB	_	0	punct	_	CGdephead=#4-&gt;0|CGdeprel=@X|CGdephead=#4-&gt;0|CGdeprel=@X|GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-5
 # text_orig = Kamĩkiiu: Kumyry a-mapika.
@@ -421,28 +426,42 @@ Kiripa ãanhika?
 Kutary ãanhika.
 
 # sent_id = FernandaM2017:TextsII-4-10
-# text_orig = Ximaky ã-anhika apaka ywaã a-nhi-ka-kyty ĩkapane. 
-# text = Ximaky ãanhika apaka ywaã anhikakyty ĩkapane. 
-# gloss_pt = peixe 1PL-levar também lá 1PL-comer-pred-REL.O.M com.o.propósito.de 
+# text_orig = Ximaky ã-anhika apaka ywaã a-nhi-ka-kyty ĩkapane.
+# text = Ximaky ãanhika apaka ywaã anhikakyty ĩkapane.
+# gloss_pt = peixe 1PL-levar também lá 1PL-comer-pred-REL.O.M com.o.propósito.de
 # text_pt = ‘Também levamos peixe para comer lá.’Q
-# text_en = ‘‘
-Ximaky ãanhika apaka ywaã anhikakyty ĩkapane.
+# text_en = We also took fish to eat there.
+1	Ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@HNOUN|CGdephead=#1-&gt;0|CGdeprel=@HNOUN|GTtags=Msc,Sg,NPossd,Nom
+2	ãanhika	anhika	VERB	V	Number[subj]=Plur|NFut|Person[subj]=1	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=ScPl1,NFut
+3	apaka	apa	VERB	V	Caus|NFut|Valency=2	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=TV,Caus,NFut
+4	ywaã	ywa	PRON	Pron	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@X|CGdephead=#4-&gt;0|CGdeprel=@X|GTtags=Pers,Sg3,Msc,Loc
+5	anhikakyty	anhikakyty	_	_	_	5	dep	_	CGdephead=#5-&gt;5|CGdeprel=@X|CGdephead=#5-&gt;5|CGdeprel=@X|GTtags=?
+6	ĩkapane	ĩkapanhi	ADP	Po	AdpType=Post	1	case	_	CGdephead=#6-&gt;1|CGdeprel=@N&lt;|CGdephead=#6-&gt;1|CGdeprel=@N&lt;|GTtags=Po|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	1	punct	_	CGdephead=#7-&gt;1|CGdeprel=punct|CGdephead=#7-&gt;1|CGdeprel=punct|GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-11
-# text_orig = Inhinhiã sa i-txa-ne. 
-# text = Inhinhiã sa itxane. 
+# text_orig = Inhinhiã sa i-txa-ne.
+# text = Inhinhiã sa itxane.
 # gloss_pt = então ir 3PL.M-AUX-3PL.M
 # text_pt = ‘Aí eles saíram.’Q
 # text_en = ‘‘
-Inhinhiã sa itxane.
+1	Inhinhiã	inha	AUX	V	Case=Loc|Gender=Masc|Number=Sing|Possessed=No|VerbType=Aux|VerbForm=VNoun	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@HNOUN|CGdephead=#1-&gt;0|CGdeprel=@HNOUN|GTtags=Aux,Der,Der/NomAct,N,Msc,Sg,NPossd,Loc
+2	sa	sa	VERB	V	NFut	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=NFut
+3	itxane	txa	AUX	V	Gender[subj]=Masc|Number[subj]=Plur|NFut|Person[subj]=3|VerbType=Aux	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Aux,ScPl3M,NFut|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	1	punct	_	CGdephead=#4-&gt;1|CGdeprel=punct|CGdephead=#4-&gt;1|CGdeprel=punct|GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-12
-# text_orig = Ywaã apuka mapika i-txa-ry-na kumyry. 
-# text = Ywaã apuka mapika itxaryna kumyry. 
+# text_orig = Ywaã apuka mapika i-txa-ry-na kumyry.
+# text = Ywaã apuka mapika itxaryna kumyry.
 # gloss_pt = lá chegar descascar 3PL.M-AUX-3SG.M.O-3PL.M mandioca
 # text_pt = ‘Chegaram e descascaram a mandioca.’Q
 # text_en = ‘‘
-Ywaã apuka mapika itxaryna kumyry.
+1	Ywaã	ywa	PRON	Pron	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Pers,Sg3,Msc,Loc
+2	apuka	apuka	VERB	V	Caus|NFut	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Caus,NFut
+3	mapika	mapika	VERB	V	NFut|Valency=2	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=TV,NFut
+4	itxaryna	txa	AUX	V	Gender[subj]=Masc|Gender[obj]=Masc|Number[subj]=Plur|NFut|Person[obj]=3|Person[subj]=3|VerbType=Aux	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@X|CGdephead=#4-&gt;0|CGdeprel=@X|GTtags=Aux,ScPl3M,Oc3M,NFut
+5	kumyry	kumyry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	dep	_	CGdephead=#5-&gt;0|CGdeprel=@HNOUN|CGdephead=#5-&gt;0|CGdeprel=@HNOUN|GTtags=Msc,Sg,NPossd,Nom|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=punct|CGdephead=#6-&gt;5|CGdeprel=punct|GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-13
 # text_orig = Ypusatuku ø-anhika i-txa-ry kumyry-pe y-katsuna-k-iku-munhi.
@@ -450,7 +469,12 @@ Ywaã apuka mapika itxaryna kumyry.
 # gloss_pt = depois 3SG.M-levar 3SG.M-AUX-3SG.M.O mandioca-NC.massa, polpa 3SG.M-espremer-PRED-NMLZ-DAT
 # text_pt = ‘Depois disso, ele levou a massa lá para a prensa.’Q
 # text_en = ‘‘
-Ypusatuku øanhika itxary kumyrype ykatsunakikumunhi.
+1	Ypusatuku	Ypusatuku	_	_	_	1	dep	_	CGdephead=#1-&gt;1|CGdeprel=@X|CGdephead=#1-&gt;1|CGdeprel=@X|GTtags=?
+2	anhika	anhika	VERB	V	NFut	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=NFut
+3	itxary	txa	AUX	V	Gender[subj]=Masc|Gender[obj]=Masc|Number[subj]=Sing|NFut|Person[obj]=3|Person[subj]=3|VerbType=Aux	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Aux,ScSg3M,Oc3M,NFut
+4	kumyrype	kumyrype	_	_	_	4	dep	_	CGdephead=#4-&gt;4|CGdeprel=@X|CGdephead=#4-&gt;4|CGdeprel=@X|GTtags=?
+5	ykatsunakikumunhi	ykatsunakikumunhi	_	_	_	5	dep	_	CGdephead=#5-&gt;5|CGdeprel=@X|CGdephead=#5-&gt;5|CGdeprel=@X|GTtags=?|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	6	punct	_	CGdephead=#6-&gt;6|CGdeprel=punct|CGdephead=#6-&gt;6|CGdeprel=punct|GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-14
 # text_orig = Ypusatuku xamyna i-txirata kumyry-pe y-kuky-t-inhi ĩkapane. 
