@@ -2153,3 +2153,62 @@
 6	awaika	waika	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Past,Pres|VerbForm=Fin|VerbType=Vido	0	root	_	GTtags=Vido,ScPl1|SpaceAfter=No
 7	.	_	PUNCT	PUNCT	_	6	punct	_	_
 
+# sent_id = FernandaM2017:TextsII-4-12
+# text_orig = Ywaã apuka mapika i-txa-ry-na kumyry.
+# text = Ywaã apuka mapika itxaryna kumyry.
+# gloss_pt = lá chegar descascar 3PL.M-AUX-3SG.M.O-3PL.M mandioca
+# text_pt = ‘Chegaram e descascaram a mandioca.’Q
+# text_en = ‘‘
+1	Ywaã	ywa	PRON	Pron	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	GTtags=Pers,Sg3,Msc,Loc
+2	apuka	apuka	VERB	V	Tense=Past,Pres	0	root	_	GTtags=Caus,NFut
+3	mapika	mapika	VERB	V	Tense=Past,Pres	2	xcomp	_	GTtags=TV,NFut
+4	itxaryna	txa	AUX	V	Gender[obj]=Masc|Gender[subj]=Masc|Mood=Ind|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Past,Pres|VerbForm=Fin	3	aux	_	GTtags=Aux,ScPl3M,Oc3M,NFut
+5	kumyry	kumyry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	3	obj	_	GTtags=Msc,Sg,NPossd,Nom|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	GTtags=CLB
+
+# sent_id = FernandaM2017:TextsII-4-13
+# text_orig = Ypusatuku ø-anhika i-txa-ry kumyry-pe y-katsuna-k-iku-munhi.
+# text = Ypusatuku anhika itxary kumyrype ykatsunakikumunhi.
+# gloss_pt = depois 3SG.M-levar 3SG.M-AUX-3SG.M.O mandioca-NC.massa, polpa 3SG.M-espremer-PRED-NMLZ-DAT
+# text_pt = ‘Depois disso, ele levou a massa lá para a prensa.’Q
+# text_en = ‘After that, he took the dough to his press.‘
+1	Ypusatuku	ypusatuku	ADV	Adv	_	2	advmod	_	_
+2	anhika	anhika	VERB	V	Tense=Past,Pres	0	root	_	GTtags=NFut
+3	itxary	txa	AUX	V	Gender[obj]=Masc|Gender[subj]=Masc|Mood=Ind|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past,Pres|VerbForm=Fin	2	aux	_	GTtags=Aux,ScSg3M,Oc3M,NFut
+4	kumyrype	kumyrype	NOUN	N	_	2	obj	_	_
+5	ykatsunakikumunhi	katsunakiku	NOUN	N	Case=Dat|Gender[psor]=Masc|Number[psor]=Sing|Person[psor]=3	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	GTtags=CLB
+
+# sent_id = FernandaM2017:TextsII-4-11
+# text_orig = Inhinhiã sa i-txa-ne.
+# text = Inhinhiã sa itxane.
+# gloss_pt = então ir 3PL.M-AUX-3PL.M
+# text_pt = ‘Aí eles saíram.’
+# text_en = ‘Then they left.‘
+1	Inhinhiã	inhinhiã	ADV	Adv	AdvType=Tim	2	advmod	_	GTtags=Aux,Der,Der/NomAct,N,Msc,Sg,NPossd,Loc
+2	sa	sa	VERB	V	Tense=Past,Pres	0	root	_	GTtags=NFut
+3	itxane	txa	AUX	V	Gender[subj]=Masc|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Past,Pres|VerbForm=Fin	2	aux	_	SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	GTtags=CLB
+
+# sent_id = FernandaM2017:TextsII-4-17
+# text_orig = Kirama: Ximaky p-axitha mitxi.
+# text = Ximaky paxitha mitxi.
+# gloss_pt = peixe 2SG-cozinhar primeiro
+# text_pt = Primeiro cozinha o peixe (antes da primeira fornada de farinha).
+# text_en = First, you cook the fish.
+1	Ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	2	obj	_	_
+2	paxitha	axitha	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Past,Pres|VerbForm=Fin	0	root	_	_
+3	mitxi	mitxi	ADV	Adv	AdvType=Tim	2	advmod:tmod	_	SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = FernandaM2017:TextsII-4-16
+# text_orig = Kirama akiritha-ru Kamĩkiu:
+# text = Kirama akiritharu Kamĩkiu:
+# gloss_pt = N.PROP chamar-3SG.F.O N.PROP
+# text_pt = ‘Kirama chamou Kamĩkiu.’Q
+# text_en = ‘Kirima called Kamĩkiu‘
+1	Kirama	Kirama	PROPN	N	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	akiritharu	akiritha	VERB	V	Gender[obj]=Fem|Gender[subj]=Masc|Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Past,Pres|VerbForm=Fin	0	root	_	_
+3	Kamĩkiu	Kamĩkiu	PROPN	N	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	CLB	_	2	punct	_	_
+

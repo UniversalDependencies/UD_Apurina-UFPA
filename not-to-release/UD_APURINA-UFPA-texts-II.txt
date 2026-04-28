@@ -431,13 +431,13 @@ Kutary ãanhika.
 # gloss_pt = peixe 1PL-levar também lá 1PL-comer-pred-REL.O.M com.o.propósito.de
 # text_pt = ‘Também levamos peixe para comer lá.’Q
 # text_en = We also took fish to eat there.
-1	Ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@HNOUN|CGdephead=#1-&gt;0|CGdeprel=@HNOUN|GTtags=Msc,Sg,NPossd,Nom
-2	ãanhika	anhika	VERB	V	Number[subj]=Plur|NFut|Person[subj]=1	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=ScPl1,NFut
-3	apaka	apa	VERB	V	Caus|NFut|Valency=2	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=TV,Caus,NFut
-4	ywaã	ywa	PRON	Pron	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@X|CGdephead=#4-&gt;0|CGdeprel=@X|GTtags=Pers,Sg3,Msc,Loc
-5	anhikakyty	anhikakyty	_	_	_	5	dep	_	CGdephead=#5-&gt;5|CGdeprel=@X|CGdephead=#5-&gt;5|CGdeprel=@X|GTtags=?
-6	ĩkapane	ĩkapanhi	ADP	Po	AdpType=Post	1	case	_	CGdephead=#6-&gt;1|CGdeprel=@N&lt;|CGdephead=#6-&gt;1|CGdeprel=@N&lt;|GTtags=Po|SpaceAfter=No
-7	.	.	PUNCT	CLB	_	1	punct	_	CGdephead=#7-&gt;1|CGdeprel=punct|CGdephead=#7-&gt;1|CGdeprel=punct|GTtags=CLB
+1	Ximaky	ximaky	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	dep	_	GTtags=Msc,Sg,NPossd,Nom
+2	ãanhika	anhika	VERB	V	Number[subj]=Plur|Person[subj]=1|Tense=Prs,Pst	0	dep	_	GTtags=ScPl1,NFut
+3	apaka	apa	VERB	V	Tense=Prs,Pst|Valency=2	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=TV,Caus,NFut
+4	ywaã	ywa	PRON	Pron	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	dep	_	GTtags=Pers,Sg3,Msc,Loc
+5	anhikakyty	anhikakyty	_	_	_	5	dep	_	_
+6	ĩkapane	ĩkapanhi	ADP	Po	AdpType=Post	1	case	_	GTtags=Po|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	1	punct	_	GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-11
 # text_orig = Inhinhiã sa i-txa-ne.
@@ -445,36 +445,10 @@ Kutary ãanhika.
 # gloss_pt = então ir 3PL.M-AUX-3PL.M
 # text_pt = ‘Aí eles saíram.’Q
 # text_en = ‘‘
-1	Inhinhiã	inha	AUX	V	Case=Loc|Gender=Masc|Number=Sing|Possessed=No|VerbType=Aux|VerbForm=VNoun	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@HNOUN|CGdephead=#1-&gt;0|CGdeprel=@HNOUN|GTtags=Aux,Der,Der/NomAct,N,Msc,Sg,NPossd,Loc
-2	sa	sa	VERB	V	NFut	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=NFut
-3	itxane	txa	AUX	V	Gender[subj]=Masc|Number[subj]=Plur|NFut|Person[subj]=3|VerbType=Aux	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Aux,ScPl3M,NFut|SpaceAfter=No
-4	.	.	PUNCT	CLB	_	1	punct	_	CGdephead=#4-&gt;1|CGdeprel=punct|CGdephead=#4-&gt;1|CGdeprel=punct|GTtags=CLB
-
-# sent_id = FernandaM2017:TextsII-4-12
-# text_orig = Ywaã apuka mapika i-txa-ry-na kumyry.
-# text = Ywaã apuka mapika itxaryna kumyry.
-# gloss_pt = lá chegar descascar 3PL.M-AUX-3SG.M.O-3PL.M mandioca
-# text_pt = ‘Chegaram e descascaram a mandioca.’Q
-# text_en = ‘‘
-1	Ywaã	ywa	PRON	Pron	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	dep	_	CGdephead=#1-&gt;0|CGdeprel=@X|CGdephead=#1-&gt;0|CGdeprel=@X|GTtags=Pers,Sg3,Msc,Loc
-2	apuka	apuka	VERB	V	Caus|NFut	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=Caus,NFut
-3	mapika	mapika	VERB	V	NFut|Valency=2	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=TV,NFut
-4	itxaryna	txa	AUX	V	Gender[subj]=Masc|Gender[obj]=Masc|Number[subj]=Plur|NFut|Person[obj]=3|Person[subj]=3|VerbType=Aux	0	dep	_	CGdephead=#4-&gt;0|CGdeprel=@X|CGdephead=#4-&gt;0|CGdeprel=@X|GTtags=Aux,ScPl3M,Oc3M,NFut
-5	kumyry	kumyry	NOUN	N	Case=Nom|Gender=Masc|Number=Sing|Possessed=No	0	dep	_	CGdephead=#5-&gt;0|CGdeprel=@HNOUN|CGdephead=#5-&gt;0|CGdeprel=@HNOUN|GTtags=Msc,Sg,NPossd,Nom|SpaceAfter=No
-6	.	.	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=punct|CGdephead=#6-&gt;5|CGdeprel=punct|GTtags=CLB
-
-# sent_id = FernandaM2017:TextsII-4-13
-# text_orig = Ypusatuku ø-anhika i-txa-ry kumyry-pe y-katsuna-k-iku-munhi.
-# text = Ypusatuku øanhika itxary kumyrype ykatsunakikumunhi.
-# gloss_pt = depois 3SG.M-levar 3SG.M-AUX-3SG.M.O mandioca-NC.massa, polpa 3SG.M-espremer-PRED-NMLZ-DAT
-# text_pt = ‘Depois disso, ele levou a massa lá para a prensa.’Q
-# text_en = ‘‘
-1	Ypusatuku	Ypusatuku	_	_	_	1	dep	_	CGdephead=#1-&gt;1|CGdeprel=@X|CGdephead=#1-&gt;1|CGdeprel=@X|GTtags=?
-2	anhika	anhika	VERB	V	NFut	0	dep	_	CGdephead=#2-&gt;0|CGdeprel=@X|CGdephead=#2-&gt;0|CGdeprel=@X|GTtags=NFut
-3	itxary	txa	AUX	V	Gender[subj]=Masc|Gender[obj]=Masc|Number[subj]=Sing|NFut|Person[obj]=3|Person[subj]=3|VerbType=Aux	0	dep	_	CGdephead=#3-&gt;0|CGdeprel=@X|CGdephead=#3-&gt;0|CGdeprel=@X|GTtags=Aux,ScSg3M,Oc3M,NFut
-4	kumyrype	kumyrype	_	_	_	4	dep	_	CGdephead=#4-&gt;4|CGdeprel=@X|CGdephead=#4-&gt;4|CGdeprel=@X|GTtags=?
-5	ykatsunakikumunhi	ykatsunakikumunhi	_	_	_	5	dep	_	CGdephead=#5-&gt;5|CGdeprel=@X|CGdephead=#5-&gt;5|CGdeprel=@X|GTtags=?|SpaceAfter=No
-6	.	.	PUNCT	CLB	_	6	punct	_	CGdephead=#6-&gt;6|CGdeprel=punct|CGdephead=#6-&gt;6|CGdeprel=punct|GTtags=CLB
+1	Inhinhiã	inha	AUX	V	Case=Loc|Gender=Masc|Number=Sing|Possessed=No|VerbType=Aux|VerbForm=VNoun	0	dep	_	GTtags=Aux,Der,Der/NomAct,N,Msc,Sg,NPossd,Loc
+2	sa	sa	VERB	V	NFut	0	dep	_	GTtags=NFut
+3	itxane	txa	AUX	V	Gender[subj]=Masc|Number[subj]=Plur|NFut|Person[subj]=3|VerbType=Aux	0	dep	_	SpaceAfter=No
+4	.	.	PUNCT	CLB	_	1	punct	_	GTtags=CLB
 
 # sent_id = FernandaM2017:TextsII-4-14
 # text_orig = Ypusatuku xamyna i-txirata kumyry-pe y-kuky-t-inhi ĩkapane. 
