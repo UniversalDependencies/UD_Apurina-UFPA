@@ -28,7 +28,7 @@ Finite-State Transistor development:
 
 # Changelog
 * 2026-04-29
-  * Add 5 trees
+  * Add 14 trees
 * 2025-10-30
   * Validate PronType for DET and PRON
   * Add Mood=Ind (no moods are recognized), VerbForm=Fin
