@@ -27,6 +27,8 @@ Finite-State Transistor development:
 
 
 # Changelog
+* 2026-10-31
+  * Cleansing and testing new tools
 * 2026-04-29
   * Add 14 trees
 * 2025-10-30
