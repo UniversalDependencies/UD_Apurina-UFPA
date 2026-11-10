@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Apurina-UFPA:
-commit d115b8a01297e999ec32fa46356da0c5aba5383e
+commit d609407cada1fc4d7deb989e84ffdcb34a1983b4
+Merge: 1d539a4 7dea612
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed May 6 12:05:05 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'apu_ufpa'
 Language code (from CoNLL-U file name) = 'apu'
